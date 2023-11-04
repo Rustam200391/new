@@ -1,0 +1,22 @@
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height:178px;
+    
+}
+
+.header__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__info-mobile {
+    margin: 0 0 0 0;
+    font-family: ;
+
+}
