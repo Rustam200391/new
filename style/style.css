@@ -5,18 +5,172 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: Geist;
+    src: url("../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
+}
+
 .header {
     min-height:178px;
-    
 }
 
 .header__info {
     display: flex;
     justify-content: space-between;
+    margin: 5px;
+    min-height: 26px;
+    padding:10px 40px 10px 40px;
 }
 
 .header__info-mobile {
-    margin: 0 0 0 0;
-    font-family: ;
-
+    margin: 0 0 0 10px;
+    font-family: Geist;
+    color: #CAD4C4;
 }
+
+.header__info-lang {
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px 40px 10px 40px; */
+    gap:10px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.header__info-lang li {
+    padding-right: 25px;
+    margin-right: 5px;
+    color: #CAD4C4;
+}
+
+.header__info-lang li:not(:last-of-type) {
+    border-right: 1px solid #CAD4C4;
+}
+
+.header__navigate {
+    height: 85px;
+    padding: 0px, 40px, 0px, 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navigate__label {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.label {
+    background-image: url("../assets/img/logo-1637743798\ 1.png  ");
+    background-size: contain;
+    width: 133px;
+    height: 50.28px;
+    margin-left: 55px;
+}
+
+.navigate__search {
+    width: 400px;
+    height: 43px;
+    border: 0px 1px 0px 0px;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin: 0 0 0 80px;
+}
+
+.search {
+    background-image: url("../assets/img/search.png");
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    padding: 3.5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.search__title {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search__title p {
+    font-family: Geist;
+    font-size: 14px;
+    font-weight: 84;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #999999;
+}
+
+.navigate__icons {
+    width: 400px;
+    height: 28px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons-bag {
+    background-image: url("../assets/img/bag-shopping.png");
+    background-size: cover;
+    width: 18.67px;
+    height: 21px;
+    top: 3.5px;
+    left: 4.67px;
+    border: 2px;
+}
+
+.icons-heart {
+    background-image: url("../assets/img/heart.png");
+    background-size: cover;
+    width: 21px;
+    height: 18.63px;
+    top: 4.7px;
+    left: 3.5px;
+    border: 2px;
+}
+
+.icons-user {
+    background-image: url("../assets/img/user-alt-1.png");
+    background-size: cover;
+    width: 16.33px;
+    height: 21px;
+    top: 3.5px;
+    left: 5.83px;
+    border: 2px;
+}
+
+.header__links {
+    height: 67px;
+    padding: 20px 16px 20px 16px;
+    border-radius: 7px;
+    background-color: #F2F4F0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links-img {
+    background-image: url("../assets/img//header__links/Frame\ \(1\).png");
+    width: 20px;
+    height: 20px;
+}
+
+.links-title {
+    width: 209.6px;
+    height: 20px;
+    font-family: Geist;
+    font-size: 16px;
+    font-weight: 84;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
