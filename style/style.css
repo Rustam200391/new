@@ -217,7 +217,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #4A5841;
-    padding: 8px 16px 8px 84px;
+        padding: 8px 16px 8px 84px;
 };
 
 .lead__title {
@@ -256,8 +256,224 @@
     height: 150px;
 }
 
-.main__content-carusel {
+
+
+.content__carusel-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 384px;
+    height: 384px;
+    padding: 28px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #4A5841;
+}
+
+.content__carusel-hair {
+
+}
+
+.category_section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+.category_card {
+    width: 32%;
+    max-width: 384px;
+    height: 385px;
+    position: relative;
+    margin-right: 24px;
+}
+
+.img_child_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.img_child_container >  a  {
+    position: absolute;
+    bottom:22px ;
+}
+
+.img_child_container > button {
+    position: absolute;
+    bottom: 22px;
+}
+
+.img_child_container >  img  {
+     width: 100%;
+    height: 100%;
+}
+
+.green_child_container {
+    position:absolute; 
+    top: 0;
+    left:0 ;
+    background-color: #4A5841;
+    width: 100%;
+    height: 100%;
+    transition: all .7s;
+}
+
+.green_child_container > p {
+    color: #fff;
+}
+
+.green_child_container:hover ,  .category_card:hover .green_child_container  {
+    display: none;
+    opacity: 0;
+}
+
+.btn btn-primary {
+    background-color: ;
+    color: #A8B79E;
+}
+
+.category__card-btn {
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    width: 328px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 38px;
+    border: 2px;
+    gap: 8px;
+}
+
+.category_card-btn  {
+    margin-top: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.category__card-inner,.category__card-img  {
+    margin: 10px;
+    color:#A8B79E;  
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
+
+.category__sellers {
+    min-width: 1032px;
+    min-height: 91px;
+    padding: 20px 28px 20px 28px;
+    border-radius: 7px;
+    background-color: #F2F4F0;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+    flex-direction: row;
+    align-items: center;
+    color:#A8B79E;  
+    font-family: Geist;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.category__sellers-arrow > img{
+    margin: 1px 1px -3px 10px;
+}
+
+/* .card1 {
+    width: 282px;
+    height: 368px;
+    border-radius: 10px;
+    border: 1px;
+} */
+
+.main__content1 {
+    flex: 1;
+}
+
+.cards__items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    row-gap: 34px;
+    /* margin: 0 -10px; */
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+.card1 {
+    width: 21.5%;
+    padding: 0 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 1px solid #E5E9E2
+
+}
+
+.card__inner-name {
+    
+}
+
+.card__inner {
+    display: flex;
+    justify-content: space-start;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.card1 .card__img {
+    width: 100%;
+}
+
+.card__inner-pic {
+    margin: 1px 10px 1px 1px;
+}
+
+
+.main__content-down {
+    min-width: 1200px;
+    min-height: 622px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    border-radius: 10px;
+}
+
+.main__content-left {
+    width: 588px;
+    height: 544px;
+    border: 1px;
+    background-image: url("../assets/img/Rectangle\ 11.png");
+    border: 1px solid #CAD4C4
+    
+}
+
+.main__content-right {
+    width: 588px;
+    height: 544px;
+    border: 1px;
+    background-image: url("../assets/img/Rectangle\ 12.png");
+    border: 1px solid #CAD4C4;
+}
+
 
