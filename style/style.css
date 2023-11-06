@@ -454,25 +454,29 @@
     margin-right: 50px;
     margin-left: 50px;
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
+    justify-content: space-between;    
     border-radius: 10px;
+    padding: 25px;
+    flex-direction: row;
+    gap: 24px
+
 }
 
 .main__content-left {
-    width: 588px;
+    min-width: 588px;
     height: 544px;
     border: 1px;
     background-image: url("../assets/img/Rectangle\ 11.png");
-    border: 1px solid #CAD4C4
-    
+    border: 1px solid #CAD4C4;
+    background-size: cover;
 }
 
 .main__content-right {
-    width: 588px;
+    min-width: 588px;
     height: 544px;
     border: 1px;
     background-image: url("../assets/img/Rectangle\ 12.png");
+    background-size: cover;
     border: 1px solid #CAD4C4;
 }
 
