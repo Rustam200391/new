@@ -12,6 +12,8 @@
 
 .header {
     min-height:178px;
+    padding:25px;
+
 }
 
 .header__info {
@@ -19,7 +21,7 @@
     justify-content: space-between;
     margin: 5px;
     min-height: 26px;
-    padding:10px 40px 10px 40px;
+    padding:10px 40px 25px 40px;
 }
 
 .header__info-mobile {
@@ -48,8 +50,10 @@
 }
 
 .header__navigate {
-    height: 85px;
-    padding: 0px, 40px, 0px, 40px;
+    min-height: 67px;
+    /* min-width: 1200px; */
+    margin: 5px;
+    padding: 10px 40px 25px 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -146,10 +150,13 @@
 }
 
 .header__links {
-    height: 67px;
+    min-height: 67px;
+    min-width: 1200px;
     padding: 20px 16px 20px 16px;
     border-radius: 7px;
     background-color: #F2F4F0;
+    margin-right: 50px;
+    margin-left: 50px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -173,4 +180,84 @@
     text-align: center;
 }
 
+
+/* content */
+
+.main {
+    /* width: 1200px; */
+    padding:25px;
+    top: 194px;
+    left: 40px;
+}
+.main__content-lead {
+    min-width: 1200px;
+    min-height: 622px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-image: url("../assets/img/under__navigator.png" )  ;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.content__lead-empty {
+    min-height: 584px;
+}
+
+.content__lead-title {
+    width: 1144px;
+    height: 136px;
+    top: 403px;
+    left: 28px;
+    gap: 20px;
+    
+    font-family: Geist;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4A5841;
+    padding: 8px 16px 8px 84px;
+};
+
+.lead__title {
+    width: 491px;
+    height: 76px;
+}
+
+.lead__title-span {
+   margin: 20px 20px 20px 0px;
+}
+
+.lead__button {
+    width: 182px;
+    height: 40px;
+    padding: 8px 16px 18px 12px;
+    opacity: 2px;
+    border-radius: 38px;
+    border: 2px;
+    gap: 8px;
+    border: 2px solid #4A5841;
+    background-color: rgba(28,28,28,0);
+    font-family: Geist;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content__lead-down {
+    height: 150px;
+}
+
+.main__content-carusel {
+    display: flex;
+    flex-direction: row;
+}
 
