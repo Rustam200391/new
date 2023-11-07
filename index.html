@@ -16,7 +16,7 @@
       <!-- site header -->
       <header class="header">
         <div class="header__info">
-          <div class="header__info-mobile">(+994) 00 000 00 00</div>
+          <div class="header__info-mobile"><a href="#">(+994) 00 000 00 00</a></div>
           <ul class="header__info-lang">
             <li class="info-lang">AZ</li>
             <li class="info-lang">EN</li>
@@ -28,30 +28,36 @@
             <div class="label"></div>
           </div>
           <div class="navigate__search">
-            <div class="search"></div>
+            <!-- <a href="#"> <div class="search"></div></a>
             <div class="search__title">
-              <p>Axtar...</p>
+              <p>Axtar...</p> -->
+              <i class="fa fa-address-book-o" aria-hidden="true"></i>
+              <input type="text" placeholder="Axtar...">
             </div>
           </div>
           <div class="navigate__icons">
-            <div class="icons-bag"></div>
-            <div class="icons-heart"></div>
-            <div class="icons-user"></div>
+            <a href="#"><div class="icons-bag"></div></a>
+            <a href="#"><div class="icons-heart"></div></a>
+            <a href="#"><div class="icons-user"></div></a>
           </div>
         </div>
-        <div class="header__links">
-          <div class="links-img"></div>
-          <div class="links-title">Best sellers</div>
-          <div class="links-img"></div>
-          <div class="links-title">Categories</div>
-          <div class="links-img"></div>
-          <div class="links-title">About Us</div>
-          <div class="links-img"></div>
-          <div class="links-title">Blogs</div>
-          <div class="links-img"></div>
-          <div class="links-title">Contact</div>
-          <div class="links-img"></div>
-        </div>
+
+          <!-- nav header links -->
+        <nav class="header__links">
+            <ul class="links">
+              <li class="links-img"><a href="#"></a></li>
+              <li class="links-title"><a href="#">Best sellers</a></li>
+              <li class="links-img"><a href="#"></a></li>
+              <li class="links-title"><a href="#">Categories</a></li>
+              <li class="links-img"><a href="#"></a></li>
+              <li class="links-title"><a href="#">About Us</a></li>
+              <li class="links-img"></li>
+              <li class="links-title"><a href="#">Blogs</a></li>
+              <li class="links-img"><a href="#"></a></li>
+              <li class="links-title"><a href="#">Contact</a></li>
+              <li class="links-img"><a href="#"></a></li>
+          </ul>
+        </nav>
       </header>
       <!-- main content -->
       <main class="main">
@@ -69,6 +75,7 @@
           <section class="content__lead-down"></section>
         </section>
 
+        <!-- Body cream cards -->
         <div class="category_section">
           <!-- card 1 -->
           <div class="category_card">
@@ -80,7 +87,7 @@
               <button class="category__card-btn">
                 <div class="category__card-inner">View product</div>
                 <div class="category__card-inner">
-                  <img src="./assets//img/arrow-sm-left.png" alt="arrow" />
+                  <img src="./assets/img/arrow-sm-left.png" alt="arrow" />
                 </div>
               </button>
             </div>
@@ -99,7 +106,7 @@
               <button class="category__card-btn">
                 <div class="category__card-inner">View product</div>
                 <div class="category__card-inner">
-                  <img src="./assets//img/arrow-sm-left.png" alt="arrow" />
+                  <img src="./assets/img/arrow-sm-left.png" alt="arrow" />
                 </div>
               </button>
             </div>
@@ -118,7 +125,7 @@
               <button class="category__card-btn">
                 <div class="category__card-inner">View product</div>
                 <div class="category__card-img">
-                  <a href="#"><img src="./assets//img/arrow-sm-left.png" /></a>
+                  <a href="#"><img src="./assets/img/arrow-sm-left.png" /></a>
                 </div>
               </button>
             </div>
@@ -128,20 +135,22 @@
           </div>
         </div>
 
-
+        <!-- Best Sellers block -->
         <div class="category__sellers">
           <div>Best Sellers</div>
           <div class="category__sellers-arrow">
             <a href="#">see more </a>
-            <img src="../afrodita/assets/img/arrow_down.png" alt="arrow_down" />
+            <img src="./assets/img/arrow_down.png" alt="arrow_down" />
           </div>
         </div>
 
+
+     <!-- Olif Oil crem cards-->
       <div class="main__content1">
         <div class="cards__items">
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -162,7 +171,7 @@
           </div>
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -183,7 +192,7 @@
           </div>
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -204,7 +213,7 @@
           </div>
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -227,19 +236,22 @@
         </div>
       </div>
 
+      <!-- Gifting block -->
       <div class="category__sellers">
         <div>Gifting</div>
         <div class="category__sellers-arrow">
           <a href="#">see more </a>
-          <img src="../afrodita/assets/img/arrow_down.png" alt="arrow_down" />
+          <img src="./assets/img/arrow_down.png" alt="arrow_down" />
+        
         </div>
       </div>
 
+      <!-- Olif Oil crem cards-->
       <div class="main__content1">
         <div class="cards__items">
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -260,7 +272,7 @@
           </div>
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -281,7 +293,7 @@
           </div>
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -302,7 +314,7 @@
           </div>
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -325,19 +337,21 @@
         </div>
       </div>
 
+      <!-- offers block -->
       <div class="category__sellers">
         <div>Offers</div>
         <div class="category__sellers-arrow">
           <a href="#">see more </a>
-          <img src="../afrodita/assets/img/arrow_down.png" alt="arrow_down" />
+          <img src="./assets/img/arrow_down.png" alt="arrow_down" />
         </div>
       </div>
 
+      <!-- Olif Oil crem cards-->
       <div class="main__content1">
         <div class="cards__items">
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -358,7 +372,7 @@
           </div>
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -379,7 +393,7 @@
           </div>
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -400,7 +414,7 @@
           </div>
           <div class="card1">
             <img
-              src="../afrodita/assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+              src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
               alt="elixir"
               class="card__img"
             />
@@ -424,36 +438,71 @@
  
         </div>
 
-        <div class="category__sellers">
+        <section class="category__sellers">
           <div>Blogs</div>
           <div class="category__sellers-arrow">
             <a href="#">see more </a>
-            <img src="../afrodita/assets/img/arrow_down.png" alt="arrow_down" />
+            <img src="./assets/img/arrow_down.png" alt="arrow_down" />
           </div>
-        </div>
+        </section>
+
+        <section class="main__content-down">
+          <div class="main__content-left">
+            <div class="content-pic"></div>
+            <div class="content-pic"></div>
+            <div class="content-pic"> </div>
+            <div class="content-pic"> 
+             
+              <div class="view">
+                <div class="content-pic-text">
+                  4 Facts about olive oil
+                </div> 
+                <div class="more">
+                  <p>View more</p>
+                  <a href="#"><img src="./assets/img/Icon.png" alt="right"/></a>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          <div class="main__content-right">
+            <div class="content-pic"></div>
+            <div class="content-pic"></div>
+            <div class="content-pic"> </div>
+            <div class="content-pic"> 
+             
+              <div class="view">
+                <div class="content-pic-text">
+                  4 Facts about olive oil
+                </div> 
+                <div class="more">
+                
+                    <p>View more</p>
+                   <a href="#"><img src="./assets/img/Icon.png" alt="right"/></a> 
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </div>
 
-      <section class="main__content-down">
-        <div class="main__content-left"></div>
-        <div class="main__content-right"></div>
-      </section>
+      <!-- empty block under "Blogs" -->
+      <div class="main__location">
+        <div></div>
+        
+      </div>
 
 
       
       </main>
     </div>
     <!-- footer -->
-    <footer class="main__footer">
-      <section class="footer__wrapper">
-        <section class="footer__wrapper-contact"></section>
-        <section class="footer__wrapper-mail"></section>
-      </section>
-
-      <section class="footer__wrapper">
-        <section class="wrapper-label"></section>
-        <section class="wrapper-label"></section>
-        <section class="wrapper-label"></section>
-      </section>
+    <footer class="footer">
+      <div class="block1">Блок 1</div>
+      <div class="block2">Блок 2</div>
+      <div class="block3">Блок 3</div>
     </footer>
   </body>
 </html>
