@@ -50,11 +50,9 @@
 }
 
 .header__navigate {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
-    min-height: 67px;
-    width: 100;
+    display: flex;
+    justify-content: center;
+    
     /* margin: 5px;
     padding: 10px 40px 25px 40px; */
 }
