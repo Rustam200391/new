@@ -10,6 +10,10 @@
     src: url("../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
+body {
+    min-height: 4681px;
+}
+
 .header {
     min-height:178px;
     padding:25px;
@@ -69,8 +73,8 @@
 .label {
     background-image: url("../assets/img/logo-1637743798\ 1.png  ");
     background-size: contain;
-    width: 133px;
-    height: 50.28px;
+    min-width: 133px;
+    min-height: 50.28px;
     margin-left: 55px;
 }
 
@@ -82,7 +86,7 @@
     display: flex;
     align-items: center;
     border-radius: 4px;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 256px;
 }
 
 .navigate__search input {
@@ -113,8 +117,8 @@
 /* .label:empty {none} */
 
 .navigate__icons {
-    width: 400px;
-    height: 28px;
+    min-width: 400px;
+    min-height: 28px;
     gap: 24px;
     display: flex;
     flex-direction: row;
@@ -168,12 +172,12 @@ ul li{
 .header__links {
     min-height: 67px;
     min-width: 1200px;
-    padding: 20px 16px 20px 16px;
+    padding: 6px 1px 12px 0px;
     border-radius: 7px;
     background-color: #F2F4F0;
-    margin-right: 16px;
+    margin-right: 41px;
     /* 55 */
-    margin-left: 2px;
+    margin-left: 43px;
     /* 46 */
     display: flex;
     align-items: center;
@@ -182,7 +186,7 @@ ul li{
 }
 
 .links {
-    margin: 0;
+    margin: 2px;
     padding: 4px;
     list-style-type: none;
     display: inline-block;
@@ -190,12 +194,14 @@ ul li{
 
 .links > li {
     display:inline-block;
+    margin: 1px 1px 1px -6px;
 }
 
 .links-img {
     background-image: url("../assets/img//header__links/Frame\ \(1\).png");
-    width: 20px;
-    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+\
 }
 
 .links-title {
@@ -214,7 +220,7 @@ ul li{
 /* content */
 
 .main {
-    /* width: 1200px; */
+    min-width: 1200px;
     padding:50px;
     top: 194px;
     left: 40px;
@@ -310,7 +316,7 @@ ul li{
     align-items: center;
     /* background-color: red; */
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 80px;
     margin-top: 50px;
 
 }
@@ -444,15 +450,15 @@ ul li{
     align-items: stretch;
     row-gap: 34px;
     /* margin: 0 -10px; */
-    margin-right: -14px;
-    margin-left: -25px;
+    margin-right: -6px;
+    margin-left: -16px;
     margin-top: 30px;
     border-radius: 40px;
 }
 
 
 .card1 {
-    width: 21.5%;
+    min-width: 21.5%;
     padding: 0 10px;
     margin-left: 10px;
     margin-top: 5px;
@@ -525,7 +531,7 @@ ul li{
 }
 
 .content-pic:last-child {
-    height: 138px;
+    height: 140px;
     background: linear-gradient(180deg, rgba(150, 168, 138, 0) 0%, #96A88A 100%);
 }
 
@@ -583,6 +589,7 @@ ul li{
   grid-gap: 10px; /* Расстояние между блоками на первой строке */
   margin-left: 50px;
   margin-right: 50px;
+  min-width: 1280px;
   /* align-items: end; */
 }
 
@@ -752,12 +759,13 @@ ul li{
   display: flex;
   justify-content: space-between;
   background-color: #F2F4F0;
-  margin-bottom: 20px;
+  margin: 0 24px 12px 23px;
   height: 55px;
   padding: 0px 28px 0px 28px;
   border-radius: 7px;
   align-items: center;
   color:#637557;
+  min-width: 1200px;
 }
 
 .block__3-inner {
@@ -792,7 +800,28 @@ ul li{
     /* color active link */
 }
 
-/* @media screen and (max-width:{
+@media screen and (max-width: 430px ){
+    .header {
+        min-height: 217px;
+    }
+    
+    .header__info{
+        display:none;
+    }
 
-} */
+
+    .navigate__search {
+        min-width: 328px;
+    }
+
+    .header__links {
+        display: none;
+    }
+    
+    .label {
+        min-height: 39px;
+        min-width: 103px;
+    }
+}
+
 
