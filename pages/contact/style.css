@@ -10,9 +10,7 @@
     src: url("../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
-body {
-    /* min-height: 4681px; */
-}
+
 
 .header {
     min-height:178px;
@@ -164,18 +162,7 @@ body {
     border: 2px;
 }
 
-/* ul{
-    font-size:0;
-    }
 
-
-
-ul li{
-    font-size:14px;
-    width:20%;
-    margin:0;
-    padding:0;
-} */
 
 .header__links {
     min-height: 67px;
@@ -245,6 +232,15 @@ ul li{
     border-right: 1px solid #CAD4C4;
 }
 
+.header__under-links a {
+    color: #637557;
+    ; /* Цвет текста по умолчанию */  
+  }
+
+  .header__under-links:hover a{
+    color: #A8B79E;
+  }
+
 
 .info-links a {
     text-decoration: none;
@@ -258,7 +254,8 @@ ul li{
 }
 
 .category__sellers {
-    min-width: 1032px;
+
+    min-width: 1200px;
     min-height: 91px;
     padding: 20px 28px 20px 28px;
     border-radius: 7px;
@@ -290,54 +287,160 @@ ul li{
     border: 1px;
 } */
 
+
+
+
+
 .main__content1 {
-    
-    flex: 1;
 }
 
-.cards__items {
-    min-height: 368px;
+.main__inner {
+    margin-top: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 1200px;
+    min-height: 465px;
+    background-color: #F2F4F0;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    display: flex;
+}
+
+.inner {
+    min-width: 690px;
+    min-height: 346px;
+    gap: 16px;
+    display:inline;
+    padding-top:10px;
+}
+
+.main__inner-container:first-child {
+    min-width:690px;
+    min-height: 72px;
+    gap: 24px;
+    margin-bottom: 1px;
+}
+
+.inner__container-child {
+    min-width: 690px;
+    min-height: 72px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 10px;
+}
+
+.container__child {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
+
+.container__child label {
+    font-family: Geist;
+    font-size: 16px;
+    font-weight: 84;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #637557; 
+    margin-bottom: 10px;
+}
+
+.inner__container-child input {
+    
+    min-width: 333px;
+    min-height: 40px;
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 4px;
+    border: 1px;
+
+}
+
+#datasend::-webkit-input-placeholder {
+    color: #B0BEA7;
+    font-family: Geist;
+    font-size: 14px;
+    font-weight: 84;
+    line-height: 18px;
+    position: relative;
+    left: 20px;
+}
+
+
+.container__child-text {
+
+}
+.main__inner-container:nth-child(2) {
+    min-width: 690px;
+    min-height: 258px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 10px; */
+}
+
+.main__inner-container label {
+    font-family: Geist;
+    font-size: 16px;
+    font-weight: 84;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #637557;
+}
+
+.inner__container-rewies {
+    width: 690px;
+    height: 226px;
+    border-radius: 4px;
+    border: 1.67px;
+}
+
+.inner__container-rewies::placeholder {
+    font-family: Geist;
+    font-size: 16px;
+    font-weight: 84;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B0BEA7;
+}
+   
+
+.main__inner-container:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+    width: 690px;
+    height: 40px;
+    gap: 10px;
+}
+
+
+.inner__container-button {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: stretch;
-    row-gap: 34px;
-    /* margin: 0 -10px; */
-    /* margin-right: -6px; */
-    margin-left: -16px;
-    margin-top: 30px;
-    border-radius: 40px;
+    min-width: 185px;
+    min-height:40px ;
+    border-radius:38px;
+    background-color:#4A5841;
+    border: 2px solid #4A5841;
+    color: #F7F6EE;
+    text-align: center;
+    font-family: Geist;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    margin-top: 10px;
 }
 
-
-.card1 {
-    min-width: 21.5%;
-    padding: 0 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    border: 1px solid #E5E9E2;
-    border-radius: 13px;
-}
-
-.card__inner-name {
-
-}
-
-.card__inner {
-    display: flex;
-    justify-content: space-start;
-}
-
-.card_img {
-    width: 100%;
-}
-
-.card1 .card__img {
-    width: 100%;
-}
-
-.card__inner-pic {
-    margin: 1px 10px 1px 1px;
+.inner__container-button p {
+    padding-right: 10px;
 }
 
 
