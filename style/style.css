@@ -228,6 +228,10 @@ ul li{
 
 /* content */
 
+
+.category__sellers-arrow a {
+    text-decoration: none;
+}
 .main {
     min-width: 1200px;
     padding:50px;

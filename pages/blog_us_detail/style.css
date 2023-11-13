@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: Geist;
-    src: url("../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
+    src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
 body {
@@ -255,6 +255,19 @@ ul li{
 .info-links a.text {
   text-decoration: none;
   color: #7f3434;
+}
+
+
+.links-img a, .links-title a {
+    text-decoration: none;
+}
+
+
+/* content */
+
+
+.category__sellers-arrow a {
+    text-decoration: none;
 }
 
 .category__sellers {
@@ -542,6 +555,10 @@ ul li{
     margin: 2px;
 }
 
+.block__3-inner a {
+    text-decoration: none;
+}
+
 .inner-privacy, .inner-privacy-ul li {
     margin-right: 25px;
     font-family: Geist;
@@ -561,13 +578,11 @@ ul li{
     text-decoration: none;
 }
 
-.flegri-label a:visited {
+.flegri-label a:visited,.inner-privacy a:visited {
     color: #637557;
-    ;
      /* color visited link */
 }
-.flegri-label a:active {
+.flegri-label  a:active,.inner-privacy a:active,.inner-privacy-ul a {
     color: #637557;
     /* color active link */
 }
-

@@ -7,11 +7,10 @@
 
 @font-face {
     font-family: Geist;
-    src: url("../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
+    src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
 body {
-    /* min-height: 4681px; */
 }
 
 .header {
@@ -122,7 +121,6 @@ body {
 }
 
 
-/* .label:empty {none} */
 
 .navigate__icons {
     min-width: 400px;
@@ -164,18 +162,6 @@ body {
     border: 2px;
 }
 
-/* ul{
-    font-size:0;
-    }
-
-
-
-ul li{
-    font-size:14px;
-    width:20%;
-    margin:0;
-    padding:0;
-} */
 
 .header__links {
     min-height: 67px;
@@ -251,6 +237,19 @@ ul li{
 }
 
 
+
+.links-img a, .links-title a {
+    text-decoration: none;
+}
+
+
+/* content */
+
+
+.category__sellers-arrow a {
+    text-decoration: none;
+}
+
 .info-links a {
     text-decoration: none;
 }
@@ -261,6 +260,8 @@ ul li{
   text-decoration: none;
   color: #7f3434;
 }
+
+
 
 .category__sellers {
     min-width: 1032px;
@@ -543,6 +544,7 @@ ul li{
     display: inline-flex;
     margin: 2px;
 }
+
 
 .block__3-inner a {
     text-decoration: none;
