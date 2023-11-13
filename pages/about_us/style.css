@@ -220,6 +220,11 @@ ul li{
     text-align: center;
 }
 
+.links-img a, .links-title a {
+    text-decoration: none;
+}
+
+
 .header__under {
     min-height: 65px;
     min-width: 128px;
@@ -343,15 +348,14 @@ ul li{
 
 /* styles for footer */
 
+
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px; /* Расстояние между блоками на первой строке */
-  margin-left: 8px;
-  margin-right: 15px;
-  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
   min-width: 1280px;
-  min-height: 454px;
   /* align-items: end; */
 }
 
@@ -432,21 +436,19 @@ ul li{
   border-radius: 8px;
   gap: 4px;
   margin-right: 25px;
+  
 }
 
 /* form on right block in footer */
 .footer__block-2 > form {
-    display:grid;
-    min-width: 532px;
-    min-height: 246px;
-    grid-template-rows: 24px;
-    justify-content: end;
-    align-content: normal;
-    align-items: end;
-    justify-items: end;
-    min-width: 532px;
-    min-height: 246px;
-    grid-template-rows: 24px;
+  display:grid;
+  min-width: 532px;
+  min-height: 246px;
+  grid-template-rows: 24px;
+  justify-content: end;
+  align-content: normal;
+  align-items: end;
+  justify-items: end;
 }
 
 .footer__inner-button {
@@ -542,6 +544,10 @@ ul li{
     margin: 2px;
 }
 
+.block__3-inner a {
+    text-decoration: none;
+}
+
 .inner-privacy, .inner-privacy-ul li {
     margin-right: 25px;
     font-family: Geist;
@@ -561,12 +567,13 @@ ul li{
     text-decoration: none;
 }
 
-.flegri-label a:visited {
-    color: #900060;
+.flegri-label a:visited,.inner-privacy a:visited {
+    color: #637557;
      /* color visited link */
 }
-.flegri-label a:active {
-    color: #f00;
+.flegri-label  a:active,.inner-privacy a:active,.inner-privacy-ul a {
+    color: #637557;
     /* color active link */
 }
+
 
