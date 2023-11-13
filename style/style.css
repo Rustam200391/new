@@ -240,12 +240,12 @@ ul li{
 }
 
 .content__lead-title {
-    width: 1144px;
-    height: 136px;
+    min-width: 1144px;
+    min-height: 148px;
     top: 403px;
     left: 28px;
     gap: 20px;
-
+    
     font-family: Geist;
     font-size: 34px;
     font-weight: 500;
@@ -253,7 +253,7 @@ ul li{
     letter-spacing: 0em;
     text-align: left;
     color: #4A5841;
-        padding: 8px 16px 8px 84px;
+    padding: 68px 16px 8px 84px;
 };
 
 .lead__title {
@@ -778,6 +778,10 @@ ul li{
     margin: 2px;
 }
 
+.block__3-inner a {
+    text-decoration: none;
+}
+
 .inner-privacy, .inner-privacy-ul li {
     margin-right: 25px;
     font-family: Geist;
@@ -794,6 +798,7 @@ ul li{
     font-weight: 84;
     line-height: 18px;
     letter-spacing: 0em;
+    text-decoration: none;
 }
 
 .flegri-label a:visited {
