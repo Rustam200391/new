@@ -433,10 +433,17 @@ ul li{
 
 /* form on right block in footer */
 .footer__block-2 > form {
-  display:grid;
-  min-width: 532px;
-  min-height: 246px;
-  grid-template-rows: 24px;
+    display:grid;
+    min-width: 532px;
+    min-height: 246px;
+    grid-template-rows: 24px;
+    justify-content: end;
+    align-content: normal;
+    align-items: end;
+    justify-items: end;
+    min-width: 532px;
+    min-height: 246px;
+    grid-template-rows: 24px;
 }
 
 .footer__inner-button {
