@@ -315,15 +315,95 @@ ul li{
     border: 1px;
 } */
 
-.column__img-block_1,
-.column__img-block_2,
-.column__img-block_3 {
+.column__img-inner_1,
+.column__img-inner_2,
+.column__img-inner_3,
+.column__img-inner_4,
+.column__img-inner_5,
+.column__img-inner_6 {
   min-width: 588px;
   min-height: 544px;
+  border-radius: 8px;
   border: 1px;
   background: linear-gradient(0deg, #cad4c4, #cad4c4),
     linear-gradient(0deg, #f5f5f5, #f5f5f5);
- border: 1px solid #CAD4C4
+  border: 1px solid #cad4c4;
+}
+
+.column__img-inner_1 {
+  background-image: url("../../assets/img/Rectangle\ 11.png");
+  background-size: cover;
+}
+
+
+.content-pic {
+    height: 147px;
+    border-radius: 20px;
+}
+
+.content-pic:last-child {
+    height: 140px;
+    background: linear-gradient(180deg, rgba(150, 168, 138, 0) 0%, #96A88A 100%);
+}
+
+.content-pic-text {
+    font-family: Geist;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 400px;
+    color: #E6E5CC;
+}
+
+.view {
+    margin: 127px 137px 17px 21px;
+    min-width: 292px;
+    min-height: 35px;
+    padding: 8px 0px 8px 0px;
+    border-radius: 39px;
+    gap: 8px;
+}
+
+.more {
+    min-width: 400px;
+    display: inline-flex;
+    margin: 0px 12px 2px 1px;
+    color: #E6E5CC;
+}
+
+.more img {
+    margin: 1px 1px 1px 22px;
+}
+
+#my-image {
+    filter: invert(94%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
+
+.column__img-inner_2 {
+  background-image: url("../../assets/img/about_us-block-down-img.png");
+  background-size: cover;
+}
+
+.column__img-inner_3 {
+  background-image: url("../../assets/img/blogs-patches.png");
+  background-size: cover;
+}
+
+.column__img-inner_4 {
+  background-image: url("../../assets/img/Rectangle\ 12.png");
+  background-size: cover;
+}
+
+.column__img-inner_5 {
+  background-image: url("../../assets/img/blogs_glass-pic.png");
+  background-size: cover;
+}
+
+.column__img-inner_6 {
+  background-image: url("../../assets/img/blogs-into-the-water.png");
+  background-size: cover;
 }
 
 /* styles for footer */
@@ -552,10 +632,26 @@ ul li{
   color: #637557;
   /* color visited link */
 }
+
+
+.header__info-mobile a,
+.header__info-mobile a:hover,
+.flegri-label a:hover,
 .flegri-label a:active,
 .inner-privacy a:active,
 .inner-privacy-ul a,
+.inner-privacy-ul a:hover,
 .header__info-mobile a {
   color: #637557;
   /* color active link */
+  text-decoration: none;
+}
+
+.inner-privacy-ul a {
+  font-family: Geist;
+  font-size: 14px;
+  font-weight: 84;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
 }
