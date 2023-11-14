@@ -39,6 +39,11 @@ body {
     color: #CAD4C4;
 }
 
+.header__info-mobile a {
+    text-decoration: none;
+    color: #4A5841;
+}
+
 .header__info-lang {
     display: flex;
     flex-direction: row;

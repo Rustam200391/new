@@ -38,6 +38,10 @@ body {
     color: #CAD4C4;
 }
 
+.header__info-mobile a {
+    text-decoration: none;
+}
+
 .header__info-lang {
     display: flex;
     flex-direction: row;
@@ -472,7 +476,7 @@ ul li{
   min-height: 246px;
   grid-template-rows: 24px;
   justify-content: end;
-  align-content: normal;
+  align-content: flex-start;
   align-items: end;
   justify-items: end;
   min-width: 532px;
@@ -489,8 +493,8 @@ ul li{
 
 
 .footer__form-input {
-    width: 398px;
-    height: 58px;
+    min-width: 398px;
+    min-height: 58px;
     border: 1px solid #CAD4C4;
     border-radius: 4px;
 }
@@ -512,8 +516,8 @@ ul li{
 .footer__form-button {
     background-color: #A8B79E;
     border: none;
-    width: 134px;
-    height: 59px;
+    min-width: 134px;
+    min-height: 59px;
     gap: 10px;
     color: #E6E5CC;
     font-family: Geist;
@@ -549,7 +553,7 @@ ul li{
     text-align: right;
     width: 532px;
     height: 36px;
-    margin: -6px 0px 0px 48px;
+    margin: 23px 0px 0px 48px;
 
 }
 
@@ -596,11 +600,11 @@ ul li{
     text-decoration: none;
 }
 
-.flegri-label a:visited,.inner-privacy a:visited {
+.flegri-label a:visited,.inner-privacy a:visited,.header__info-mobile a {
     color: #637557;
      /* color visited link */
 }
-.flegri-label  a:active,.inner-privacy a:active,.inner-privacy-ul a {
+.flegri-label  a:active,.inner-privacy a:active,.inner-privacy-ul a,.header__info-mobile a {
     color: #637557;
     /* color active link */
 }
