@@ -263,6 +263,13 @@ ul li{
     text-decoration: none;
 }
 
+.links-title a {
+    color: #637557;
+}
+
+.links-title :hover {
+    color: #637557;
+}
 
 /* content */
 

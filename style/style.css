@@ -223,6 +223,11 @@ ul li{
 
 .links-img a, .links-title a {
     text-decoration: none;
+    color: #637557;
+}
+
+.links-title :hover {
+    color: #637557;
 }
 
 
@@ -818,7 +823,7 @@ ul li{
     color: #637557;
      /* color visited link */
 }
-.flegri-label  a:active,.inner-privacy a:active,.inner-privacy-ul a {
+.flegri-label  a:active,.inner-privacy a:active,.inner-privacy-ul a,.category__sellers-arrow a {
     color: #637557;
     /* color active link */
 }

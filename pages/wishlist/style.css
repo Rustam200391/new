@@ -221,6 +221,15 @@ ul li{
     text-align: center;
 }
 
+.links-img a, .links-title a {
+    text-decoration: none;
+    color: #637557;
+}
+
+.links-title :hover {
+    color: #637557;
+}
+
 .header__under {
     min-height: 65px;
     min-width: 128px;
@@ -245,6 +254,16 @@ ul li{
 .header__under-links li:not(:last-of-type) {
     border-right: 1px solid #CAD4C4;
 }
+
+
+.header__under-links a {
+    color: #637557;
+    ; /* Цвет текста по умолчанию */  
+  }
+
+  .header__under-links:hover a{
+    color: #A8B79E;
+  }
 
 
 .info-links a {

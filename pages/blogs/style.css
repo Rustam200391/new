@@ -245,6 +245,24 @@ ul li{
     border-right: 1px solid #CAD4C4;
 }
 
+.header__under-links a {
+    color: #637557;
+    ; /* Цвет текста по умолчанию */  
+  }
+
+  .header__under-links:hover a{
+    color: #A8B79E;
+  }
+
+
+  .links-title a {
+    color: #637557;
+}
+
+.links-title :hover {
+    color: #637557;
+}
+
 
 .info-links a {
     text-decoration: none;

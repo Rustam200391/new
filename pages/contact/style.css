@@ -256,8 +256,12 @@
 
 .links-img a, .links-title a {
     text-decoration: none;
+    color: #637557;
 }
 
+.links-title :hover {
+    color: #637557;
+}
 
 /* content */
 
