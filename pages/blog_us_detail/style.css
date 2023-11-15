@@ -277,12 +277,11 @@ ul li{
     border-radius: 7px;
     background-color: #FBFBFB;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     margin-right: 25px;
     margin-left: 25px;
     margin-top: 50px;
-    flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     color:#A8B79E;
     font-family: Geist;
     font-size: 24px;
@@ -296,6 +295,16 @@ ul li{
     margin: 1px 1px -3px 10px;
 }
 
+
+.category__sellers > div:first-child {
+    color: #637557;
+    font-family: Geist;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 /* .card1 {
     width: 282px;
     height: 368px;
@@ -303,57 +312,48 @@ ul li{
     border: 1px;
 } */
 
-.main__content1 {
-    
-    flex: 1;
+.row__block-upper {
+    min-width: 1200px;
+    border: 1px ;
+    min-height: 594px;
+    top: -1836px;
+    left: 18497px;
+    background-image: url("../../assets/img/about__us-main.png") ;
+    background-size: cover;  
 }
 
-.cards__items {
-    min-height: 368px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: stretch;
-    row-gap: 34px;
-    /* margin: 0 -10px; */
-    /* margin-right: -6px; */
-    margin-left: -16px;
-    margin-top: 30px;
-    border-radius: 40px;
+.row__block-down {
+   min-width: 1200px;
+   min-height: 985px;
+   top: 973px;
+   left: 40px;
+   gap: 24px;
 }
 
-
-.card1 {
-    min-width: 21.5%;
-    padding: 0 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    border: 1px solid #E5E9E2;
-    border-radius: 13px;
-}
-
-.card__inner-name {
-
-}
-
-.card__inner {
-    display: flex;
-    justify-content: space-start;
-}
-
-.card_img {
-    width: 100%;
-}
-
-.card1 .card__img {
-    width: 100%;
-}
-
-.card__inner-pic {
-    margin: 1px 10px 1px 1px;
+.col-left {
+    background-color: #D9D9D9;
+    min-width: 384px;
+    min-height: 978px;
+    gap: 24px;
+    border: #1f1d1d 1px solid;
 }
 
 
+
+
+
+
+.col-right {
+    min-width:792px;
+    min-height: 985px;
+    gap: 32px;
+    border: #111111 1px solid;
+}
+
+.col__under-text {
+    min-width: 792px;
+    min-height: 628px;
+}
 /* styles for footer */
 
 .footer {
