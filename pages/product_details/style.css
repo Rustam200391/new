@@ -286,7 +286,7 @@ ul li{
 .info-links a.text:hover,  /* при наведении */
 .info-links a.text {
   text-decoration: none;
-  color: #7f3434;
+  color: #637557;
 }
 
 .links-img a,
@@ -368,8 +368,8 @@ ul li{
 }
 
 .title__heart img {
-  min-width: 30px;
-  min-height: 26.61px;
+  min-width: 40px;
+  min-height: 40px;
   top: 6.72px;
   left: 5px;
   border: 2px;
@@ -739,16 +739,21 @@ ul li{
   line-height: 18px;
   letter-spacing: 0em;
   text-decoration: none;
+  color: #637557
 }
 
-.flegri-label a:visited,
+.flegri-label a:visited,a,
 .inner-privacy a:visited {
   color: #637557;
+    text-decoration: none;
   /* color visited link */
 }
-.flegri-label a:active,
+
+a,a:hover,.flegri-label a:active,
+.flegri-label a:hover,
 .inner-privacy a:active,
 .inner-privacy-ul a {
   color: #637557;
+  text-decoration: none;
   /* color active link */
 }
