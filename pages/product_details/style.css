@@ -301,7 +301,7 @@ ul li{
 }
 
 .category__sellers {
-  min-width: 1200px;
+  min-width: 21.5%;
   min-height: 91px;
   padding: 20px 28px 20px 28px;
   border-radius: 7px;
@@ -397,8 +397,8 @@ ul li{
 } */
 
 .content__title-r {
-    color: #4a5841;
-    margin-left: 5px;
+  color: #4a5841;
+  margin-left: 5px;
 }
 .content__title-price {
   display: flex;
@@ -483,7 +483,6 @@ ul li{
 
 .button-buy {
   font-size: 16px;
-  
 }
 
 .content__iterrator {
@@ -514,11 +513,98 @@ ul li{
 }
 
 .row__inner {
-  width: 1200px;
-  height: 91px;
+  min-width: 1200px;
+  min-height: 91px;
   padding: 20px 28px 20px 28px;
   border-radius: 7px;
+  background-color: #f2f4f0;
 }
+ 
+/* menu accordion */
+.accordion input[type="checkbox"] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.accordion label {
+  display: block;
+  cursor: pointer;
+  font-family: Geist;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #637557;
+}
+
+.accordion .content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+}
+
+.accordion input[type="checkbox"]:checked ~ .content {
+  height: auto;
+}
+
+.accordion a {
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 84;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+
+
+
+.cards__items {
+    min-height: 368px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 34px;
+    /* margin: 0 -10px; */
+    /* margin-right: -6px; */
+    margin-left: -16px;
+    margin-top: 30px;
+    border-radius: 40px;
+}
+
+
+.card1 {
+    min-width: 21.5%;
+    padding: 0 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 1px solid #E5E9E2;
+    border-radius: 13px;
+}
+
+.card__inner-name {
+
+}
+
+.card__inner {
+    display: flex;
+    justify-content: space-start;
+}
+
+.card_img {
+    width: 100%;
+}
+
+.card1 .card__img {
+    width: 100%;
+}
+
+.card__inner-pic {
+    margin: 1px 10px 1px 1px;
+}
+
 
 /* styles for footer */
 
@@ -739,17 +825,20 @@ ul li{
   line-height: 18px;
   letter-spacing: 0em;
   text-decoration: none;
-  color: #637557
+  color: #637557;
 }
 
-.flegri-label a:visited,a,
+.flegri-label a:visited,
+a,
 .inner-privacy a:visited {
   color: #637557;
-    text-decoration: none;
+  text-decoration: none;
   /* color visited link */
 }
 
-a,a:hover,.flegri-label a:active,
+a,
+a:hover,
+.flegri-label a:active,
 .flegri-label a:hover,
 .inner-privacy a:active,
 .inner-privacy-ul a {
