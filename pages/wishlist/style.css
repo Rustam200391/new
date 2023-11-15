@@ -270,11 +270,14 @@ ul li{
     text-decoration: none;
 }
 
+
+
+.header__info-mobile a,
 .info-links a.text:active, /* активная/посещенная ссылка */
 .info-links a.text:hover,  /* при наведении */
 .info-links a.text {
   text-decoration: none;
-  color: #7f3434;
+  color: #A8B79E;
 }
 
 

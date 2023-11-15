@@ -282,6 +282,7 @@ ul li{
   text-decoration: none;
 }
 
+
 .info-links a.text:active, /* активная/посещенная ссылка */
 .info-links a.text:hover,  /* при наведении */
 .info-links a.text {
