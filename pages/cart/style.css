@@ -36,12 +36,10 @@ body {
 }
 
 .header__info-mobile a,
-.header__info-mobile a:hover
-{
-color:#a8b79e;
-text-decoration: none;
+.header__info-mobile a:hover {
+  color: #a8b79e;
+  text-decoration: none;
 }
-
 
 .header__info-lang {
   display: flex;
@@ -251,7 +249,6 @@ ul li{
   text-decoration: none;
 }
 
-
 .header__under-links li:not(:last-of-type) {
   border-right: 1px solid #cad4c4;
 }
@@ -264,8 +261,7 @@ ul li{
 .info-links a.text:hover,  /* при наведении */
 .info-links a.text,
 .links-img a, .links-title a, 
-.links-title a:hover,.links-title a.text:active
-{
+.links-title a:hover,.links-title a.text:active {
   text-decoration: none;
   color: #637557;
 }
@@ -336,6 +332,55 @@ ul li{
   border-radius: 10px;
   background-color: #637557;
   float: right;
+}
+
+.block-green {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100%;
+  min-height: 44px;
+  gap: 10px;
+}
+
+.block-green p:first-child {
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e6e5cc;
+}
+
+.block-green p:nth-child(2) {
+  font-family: Geist;
+  font-size: 14px;
+  font-weight: 84;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #e6e5cc;
+}
+
+.block__green-button {
+  min-width: 100%;
+  min-height: 40px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 38px;
+  border: 2px;
+  gap: 8px;
+  border: 2px solid #f7f6ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green__button-inner {
+  color: #b0bea7;
+}
+
+.green__button-inner img {
+  color: #b0bea7;
 }
 
 .main {
@@ -584,7 +629,7 @@ ul li{
 }
 
 .block__3-inner {
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 2px;
@@ -594,12 +639,14 @@ ul li{
   text-decoration: none;
 }
 
-dl, ol, ul {
-    margin-bottom: 0;
+dl,
+ol,
+ul {
+  margin-bottom: 0;
 }
 
 .inner-privacy,
-.inner-privacy-ul li {  
+.inner-privacy-ul li {
   display: flex;
   margin-right: 25px;
   font-family: Geist;
@@ -623,19 +670,17 @@ dl, ol, ul {
   text-decoration: none;
 }
 
-
 .list {
-  margin-bottom: 0rem!important;
+  margin-bottom: 0rem !important;
 }
 
-
-.list a:hover,.list a,
+.list a:hover,
+.list a,
 .flegri-label a:visited,
 .flegri-label a:hover,
-.inner-privacy a:visited
- {
+.inner-privacy a:visited {
   color: #637557;
-  
+
   /* color visited link */
   text-decoration: none;
 }
