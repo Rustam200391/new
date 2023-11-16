@@ -624,6 +624,7 @@ ul li{
   line-height: 18px;
   letter-spacing: 0em;
   text-decoration: none;
+  color: #637557;
 }
 
 .flegri-label a:visited,
@@ -635,7 +636,8 @@ ul li{
 
 
 .header__info-mobile a,
-.header__info-mobile a:hover,
+.header__info-mobile a:hover, 
+.flegri-label a,
 .flegri-label a:hover,
 .flegri-label a:active,
 .inner-privacy a:active,

@@ -12,6 +12,10 @@
 body {
 }
 
+a, a:hover {
+  text-decoration: none;
+}
+
 .header {
   min-height: 178px;
   padding: 25px;
@@ -231,14 +235,17 @@ body {
   color: #637557; /* Цвет текста по умолчанию */
 }
 
-.header__under-links:hover a {
+.header__under-links:hover a,
+.header__links a:hover {
   color: #a8b79e;
+  text-decoration: none;
 }
 
 .links-img a,
 .links-title a {
   text-decoration: none;
 }
+
 
 .links-title a {
   color: #637557;
@@ -247,6 +254,8 @@ body {
 .links-title :hover {
   color: #637557;
 }
+
+
 
 /* content */
 
@@ -616,6 +625,10 @@ body {
   text-decoration: none;
 }
 
+.list {
+  margin-bottom: 0rem!important;
+}
+
 .block__3-inner div {
     display: flex;
     justify-content: center;
@@ -653,9 +666,23 @@ body {
   text-decoration: none;
 }
 
+.list {
+  margin-bottom: 0rem!important;
+} 
+
+.header__info-mobile a,.header__info-mobile a:hover,
+.header__info-mobile a:active {
+  color: #cad4c4;
+  text-decoration: none;
+
+}
+
 .flegri-label a:visited,
+.flegri-label a:hover,
 .inner-privacy a:visited,
-.header__info-mobile a,.header__info-mobile a:hover {
+.inner-privacy a:hover,
+.list a,.list a:hover
+ {
   color: #637557;
   text-decoration: none;
   /* color visited link */

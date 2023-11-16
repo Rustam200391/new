@@ -41,7 +41,7 @@ body {
 
 .header__info-mobile a {
     text-decoration: none;
-    color: #4A5841;
+    color: #CAD4C4;
 }
 
 .header__info-lang {
@@ -82,7 +82,7 @@ body {
 }
 
 .label {
-    background-image: url("../../assets/img/logo-1637743798\ 1.png  ");
+    background-image: url("../assets/img/logo-1637743798\ 1.png ");
     background-size: contain;
     min-width: 133px;
     min-height: 50.28px;
@@ -141,7 +141,7 @@ body {
 }
 
 .icons-bag {
-    background-image: url("../../assets/img/bag-shopping.png");
+    background-image: url("../assets/img/bag-shopping.png");
     background-size: cover;
     width: 18.67px;
     height: 21px;
@@ -151,7 +151,7 @@ body {
 }
 
 .icons-heart {
-    background-image: url("../../assets/img/heart.png");
+    background-image: url("../assets/img/heart.png");
     background-size: cover;
     width: 21px;
     height: 18.63px;
@@ -161,7 +161,7 @@ body {
 }
 
 .icons-user {
-    background-image: url("../../assets/img/user-alt-1.png");
+    background-image: url("../assets/img/user-alt-1.png");
     background-size: cover;
     width: 16.33px;
     height: 21px;
@@ -210,7 +210,7 @@ ul li{
 }
 
 .links-img {
-    background-image: url("../../assets/img//header__links/Frame\ \(1\).png");
+    background-image: url("../assets/img//header__links/Frame\ \(1\).png");
     min-width: 20px;
     min-height: 20px;
 }
@@ -490,8 +490,14 @@ ul li{
 }
 
 .card__inner-name {
-
+    color: #637557;
 }
+
+p {
+  color: #637557
+}
+
+
 
 .card__inner {
     display: flex;
@@ -822,13 +828,20 @@ ul li{
     line-height: 18px;
     letter-spacing: 0em;
     text-decoration: none;
+    color: #637557;
 }
 
 .flegri-label a:visited,.inner-privacy a:visited {
     color: #637557;
      /* color visited link */
 }
-.flegri-label  a:active,.inner-privacy a:active,.inner-privacy-ul a,.category__sellers-arrow a {
+
+
+.flegri-label  a:active,
+.inner-privacy a,
+.inner-privacy a:active,
+.inner-privacy-ul a,.inner-privacy a,
+.category__sellers-arrow a {
     color: #637557;
     /* color active link */
 }
