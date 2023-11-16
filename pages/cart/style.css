@@ -57,6 +57,10 @@ body {
     border-right: 1px solid #CAD4C4;
 }
 
+.header__under-links a {
+    color: #637557;
+}
+
 .header__navigate {
     min-width: 1280px;
     display: flex;
@@ -252,10 +256,12 @@ ul li{
 
 .info-links a.text:active, /* активная/посещенная ссылка */
 .info-links a.text:hover,  /* при наведении */
-.info-links a.text {
+.info-links a.text,
+.links-img a, .links-title a  {
   text-decoration: none;
-  color: #7f3434;
+  color: #637557;
 }
+
 
 .category__sellers {
     min-width: 1032px;
@@ -566,9 +572,10 @@ ul li{
     text-decoration: none;
 }
 
-.flegri-label a:visited,.inner-privacy a:visited {
+.flegri-label a:visited,.inner-privacy a:visited,.header__info-mobile a, .header__info-mobile a:hover  {
     color: #637557;
      /* color visited link */
+     text-decoration: none;
 }
 .flegri-label  a:active,.inner-privacy a:active,.inner-privacy-ul a {
     color: #637557;

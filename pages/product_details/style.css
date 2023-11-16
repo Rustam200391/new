@@ -521,14 +521,10 @@ ul li{
   background-color: #f2f4f0;
 }
  
-/* menu accordion */
-.accordion input[type="checkbox"] {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-}
+/* menu dropdown */
 
-.accordion label {
+
+.item1 {
   display: block;
   cursor: pointer;
   font-family: Geist;
@@ -538,25 +534,6 @@ ul li{
   letter-spacing: 0em;
   text-align: left;
   color: #637557;
-}
-
-.accordion .content {
-  height: 0;
-  overflow: hidden;
-  transition: height 0.3s ease-in-out;
-}
-
-.accordion input[type="checkbox"]:checked ~ .content {
-  height: auto;
-}
-
-.accordion a {
-  font-family: Geist;
-  font-size: 16px;
-  font-weight: 84;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: right;
 }
 
 
