@@ -283,15 +283,17 @@ ul li{
 }
 
 
-.info-links a.text:active, /* активная/посещенная ссылка */
-.info-links a.text:hover,  /* при наведении */
-.info-links a.text {
+.info-links a:active, /* активная/посещенная ссылка */
+.info-links a:hover,  /* при наведении */
+.info-links a {
   text-decoration: none;
   color: #637557;
 }
 
 .links-img a,
-.links-title a {
+.links-title a,
+.links-img a:hover,
+.links-title a:hover {
   text-decoration: none;
 }
 
@@ -702,6 +704,10 @@ ul li{
   height: 58px;
   border: 1px solid #cad4c4;
   border-radius: 4px;
+} 
+
+.send, .list {
+  margin-bottom:0 !important;
 }
 
 /* placeholder in input for footer__block-1 */
