@@ -433,7 +433,8 @@ ul li{
   letter-spacing: 0em;
   text-align: left;
   color: #637557;
-  
+  min-width: 525px;
+  min-height: 36px;
 }
 
 .content__title-volume {
