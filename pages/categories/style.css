@@ -208,7 +208,8 @@ body {
   color: #637557;
 }
 
-.links-title :hover {
+.links-title a:hover {
+  text-decoration: none;
   color: #637557;
 }
 
@@ -249,10 +250,10 @@ body {
   text-decoration: none;
 }
 
-.header__info-mobile a,
-.info-links a.text:active, /* активная/посещенная ссылка */
-.info-links a.text:hover,  /* при наведении */
-.info-links a.text {
+.header__info-mobile a,.header__info-mobile a:hover,
+.info-links a:active, /* активная/посещенная ссылка */
+.info-links a:hover,  /* при наведении */
+.info-links:nth-child(2)  a.text{
   text-decoration: none;
   color: #a8b79e;
 }
@@ -295,6 +296,9 @@ body {
 }
 
 .main__content1 {
+  width: 100%;
+  display: flex;
+
 }
 
 /* aside */
@@ -373,6 +377,7 @@ body {
 .aside__section-price {
 }
 .cards__items {
+  min-width: 894px;
   min-height: 368px;
   display: flex;
   justify-content: center;
@@ -381,16 +386,15 @@ body {
   row-gap: 34px;
   /* margin: 0 -10px; */
   /* margin-right: -6px; */
-  margin-left: -16px;
-  margin-top: 30px;
+  /* margin-left: -16px; */
   border-radius: 40px;
 }
 
 .card1 {
   min-width: 21.5%;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   margin-left: 10px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   border: 1px solid #e5e9e2;
   border-radius: 13px;
 }
@@ -407,12 +411,18 @@ body {
   width: 100%;
 }
 
-.card1 .card__img {
-  width: 100%;
-}
 
 .card__inner-pic {
   margin: 1px 10px 1px 1px;
+}
+
+.cards-number {
+  display: flex;
+  justify-content: space-around;
+  min-width: 274px;
+  min-height: 42px;
+  gap: 16px;
+
 }
 
 /* styles for footer */
@@ -627,6 +637,26 @@ body {
   text-align: left;
 }
 
+.list,.send, .card__inner p, .card__inner-name p {
+  margin-bottom: 0rem !important;
+}
+
+.card__inner div:last-child {
+  display: flex;
+  min-width: 25px;
+  min-height: 16px;
+
+}
+
+
+.list a:hover,
+.list a {
+  color: #637557;
+
+  /* color visited link */
+  text-decoration: none;
+}
+
 .flegri-label a {
   font-family: Geist;
   font-size: 14px;
@@ -637,9 +667,11 @@ body {
 }
 
 .flegri-label a:visited,
+.flegri-label a:hover,
 .inner-privacy a:visited {
   color: #637557;
   /* color visited link */
+  text-decoration: none;
 }
 .flegri-label a:active,
 .inner-privacy a:active,

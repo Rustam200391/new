@@ -239,8 +239,11 @@ ul Ol li {
 }
 
 .header__under-links:hover a {
-  color: #a8b79e;
+  text-decoration: none;
+  color: #637557;
 }
+
+
 
 .info-links a {
   text-decoration: none;
@@ -250,7 +253,7 @@ ul Ol li {
 .info-links a.text:hover,  /* при наведении */
 .info-links a.text {
   text-decoration: none;
-  color: #7f3434;
+  color: #637557;
 }
 
 .links-img a,
