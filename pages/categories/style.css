@@ -253,7 +253,7 @@ body {
 .header__info-mobile a,.header__info-mobile a:hover,
 .info-links a:active, /* активная/посещенная ссылка */
 .info-links a:hover,  /* при наведении */
-.info-links:nth-child(2)  a.text{
+.info-links:nth-child(2)  a.text {
   text-decoration: none;
   color: #a8b79e;
 }
@@ -298,7 +298,6 @@ body {
 .main__content1 {
   width: 100%;
   display: flex;
-
 }
 
 /* aside */
@@ -411,9 +410,30 @@ body {
   width: 100%;
 }
 
-
 .card__inner-pic {
   margin: 1px 10px 1px 1px;
+}
+
+.card__inner-p:first-child {
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 84;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #637557;
+}
+
+.card__inner-p:last-child {
+font-family: Geist;
+font-size: 12px;
+font-weight: 84;
+line-height: 16px;
+letter-spacing: 0em;
+color:  #637557;
+}
+
+.card__inner-rank {
+  color: #637557;
 }
 
 .cards-number {
@@ -422,7 +442,6 @@ body {
   min-width: 274px;
   min-height: 42px;
   gap: 16px;
-
 }
 
 /* styles for footer */
@@ -637,7 +656,10 @@ body {
   text-align: left;
 }
 
-.list,.send, .card__inner p, .card__inner-name p {
+.list,
+.send,
+.card__inner p,
+.card__inner-name p {
   margin-bottom: 0rem !important;
 }
 
@@ -645,9 +667,7 @@ body {
   display: flex;
   min-width: 25px;
   min-height: 16px;
-
 }
-
 
 .list a:hover,
 .list a {
