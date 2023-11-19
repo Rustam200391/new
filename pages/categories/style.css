@@ -462,6 +462,7 @@ body {
   height: 42px;
   padding: 8px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .cards__number-inner div {
