@@ -324,7 +324,12 @@ ul li{
   text-align: left;
 }
 
-.accordion-button:not(.collapsed)
+.accordion-button:not(.collapsed) .myrow {
+  background: #f2f4f0;
+  padding: 0 !important;
+}
+
+
 
 .category__sellers-arrow > img {
   margin: 1px 1px -3px 10px;
@@ -435,6 +440,10 @@ ul li{
   color: #637557;
   min-width: 525px;
   min-height: 36px;
+}
+
+.content__title-text p:last-child {
+  border-bottom: none;
 }
 
 .content__title-volume {
@@ -607,7 +616,6 @@ ul li{
   width: 100%;
   height: 100%;
   background-color: #96a88a important!;
-
 }
 
 .accordeon1-inner img {
@@ -627,7 +635,7 @@ ul li{
 }
 
 .dropdown__menu-list {
-  width:100%;
+  width: 100%;
   min-height: 325px;
   padding: 16px;
   border-radius: 10px;
@@ -650,7 +658,7 @@ ul li{
   /* min-width:  1200px;
   min-height:  518px; */
   /* border-radius: 10px; */
-  background: #F2F4F0;
+  background: #f2f4f0;
 }
 
 /* .menu-reviews:last-child {
@@ -668,20 +676,42 @@ ul li{
   gap: 16px;
 }
 
+.content__title-text:last-child {
+  border-bottom: none;
+}
+
+.list-inner p {
+  margin-bottom: 0 !important;
+}
+
+.list-inner {
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #637557;
+  border-bottom: 2px solid #e5e9e2;
+}
+
+.list-inner :last-child {
+  border-bottom: none;
+}
+
+
 .reviewsbutton {
   min-height: 40px;
   gap: 10px;
   display: flex;
   justify-content: flex-end;
   border: none;
-  background-color: #F2F4F0;
+  background-color: #f2f4f0;
 }
 
 .menu-reviews {
   display: flex;
   justify-content: flex-end;
 }
-
 
 .content__title-text2 {
   font-family: Geist;
@@ -705,7 +735,7 @@ ul li{
   height: 40px;
   padding: 8px 16px 8px 16px;
   border-radius: 38px;
-  border: 2px solid #4A5841;
+  border: 2px solid #4a5841;
   gap: 8px;
 }
 
