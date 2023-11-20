@@ -140,11 +140,11 @@
 
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingThree">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                         <p class="accordion-button-title">Genre</p> 
                       </button>
                     </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                       <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                     </div>
                   </div>
@@ -159,8 +159,8 @@
                       <div class="accordion-body">
                         <label for="customRange2" class="form-label">
                         <div class="form__label-input">
-                          <input title="min"/>
-                          <input title="max"/>
+                          <div class="input__min">min ₼</div>
+                          <div class="input__max"> max ₼</div>
                         </div>
                         </label>
                         <input type="range" class="form-range" min="0" max="5" id="customRange2"></div>
@@ -324,13 +324,23 @@
               </div>
             <div class="main__under-content1">
             <section class="cards__number">
-              <div class="cards__number-inner">
-                <div><</div>
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>></div>
-              </div>
+              <nav aria-label="Example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Предыдущая">
+                      <span aria-hidden="true" style="color:#A8B79E;">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#" style="color:#A8B79E;" >1</a></li>
+                  <li class="page-item"><a class="page-link" href="#" style="color:#A8B79E;">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#" style="color:#A8B79E;">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Следующая">
+                      <span aria-hidden="true" style="color:#A8B79E;">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </section>
           </div>
         </div>
