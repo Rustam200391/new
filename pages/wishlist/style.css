@@ -335,7 +335,7 @@ ul li{
     min-height: 368px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: stretch;
     row-gap: 34px;
     /* margin: 0 -10px; */
@@ -355,13 +355,17 @@ ul li{
     border-radius: 13px;
 }
 
-.card__inner-name {
-
+.card__inner-name p {
+    color: #637557;
 }
 
 .card__inner {
     display: flex;
     justify-content: space-start;
+}
+
+.card__inner p {
+    color: #637557;
 }
 
 .card_img {
