@@ -340,6 +340,14 @@
   text-align: left;
 }
 
+.form__label-input {
+  min-width: 250px;
+  min-height: 31px;
+  gap: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .accordion-button-title {
   font-family: Geist;
   font-size: 16px;
