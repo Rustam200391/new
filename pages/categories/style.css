@@ -363,7 +363,7 @@
   height: 31px;
   padding: 4px 8px 4px 8px;
   border-radius: 4px;
-  border: 1px solid #E5E9E2;
+  border: 1px solid #e5e9e2;
   display: flex;
   justify-content: center;
   color: #999999;
@@ -374,7 +374,7 @@
   height: 31px;
   padding: 4px 8px 4px 8px;
   border-radius: 4px;
-  border: 1px solid #E5E9E2;
+  border: 1px solid #e5e9e2;
   display: flex;
   justify-content: center;
   color: #999999;
@@ -386,6 +386,16 @@
   padding: 4px 8px 4px 8px;
   border-radius: 4px;
   border: 1px;
+}
+
+.form-check-p {
+  font-family: Geist;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4a5841;
 }
 
 .accordion-button-title {

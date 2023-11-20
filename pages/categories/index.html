@@ -114,7 +114,7 @@
                 <p>Filter</p>
                 <p>reset</p>
               </section>
-
+              <!-- dropdowns with checkbox & range inner -->
               <section class="aside__section-genre">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                   <div class="accordion-item">
@@ -124,7 +124,36 @@
                       </button>
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" >
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      <div class="accordion-body">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Lorem ipsum                        
+                          </label>
+                          
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Lorem ipsum                        
+                          </label>
+                          
+                        </div>
+                       
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Lorem ipsum
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Lorem ipsum
+                          </label>
+                        </div>
+                        <div class="form-check-p mt-2">View All (100)</div>
+                      </div>
                     </div>
                   </div>
                   <div class="accordion-item">
@@ -134,7 +163,37 @@
                       </button>
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      <div class="accordion-body">
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Lorem ipsum                        
+                        </label>
+                        
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Lorem ipsum                        
+                        </label>
+                        
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Lorem ipsum                        
+                        </label>
+                        
+                      </div>
+                     
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Lorem ipsum
+                        </label>
+                      </div>
+                      <div class="form-check-p mt-2">View All (100)</div>
+                    </div>
                     </div>
                   </div>
 
@@ -145,7 +204,37 @@
                       </button>
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      <div class="accordion-body">
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Lorem ipsum                        
+                        </label>
+                        
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Lorem ipsum                        
+                        </label>
+                        
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Lorem ipsum                        
+                        </label>
+                        
+                      </div>
+                     
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Lorem ipsum
+                        </label>
+                      </div>
+                      <div class="form-check-p mt-2">View All (100)</div>
+                    </div>
                     </div>
                   </div>
                   
@@ -163,6 +252,7 @@
                           <div class="input__max"> max ₼</div>
                         </div>
                         </label>
+                        <div id="double-slider"></div>
                         <input type="range" class="form-range" min="0" max="5" id="customRange2"></div>
                     </div>
                     
@@ -325,7 +415,7 @@
             <div class="main__under-content1">
             <section class="cards__number">
               <nav aria-label="Example">
-                <ul class="pagination">
+                <ul class=" pagination d-flex justify-content-between">
                   <li class="page-item">
                     <a class="page-link" href="#" aria-label="Предыдущая">
                       <span aria-hidden="true" style="color:#A8B79E;">&laquo;</span>
@@ -422,5 +512,17 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"
   ></script>
+  <script>
+   var slider = document.getElementById('customRange2');
+
+noUiSlider.create(slider, {
+    start: [20, 80],
+    connect: true,
+    range: {
+        'min': 0,
+        'max': 100
+    }
+});
+  </script>
   </body>
 </html>
