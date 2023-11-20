@@ -324,6 +324,10 @@ ul li{
   text-align: left;
 }
 
+#my__accordion:focus {
+  border-color: #637557 !important;
+}
+
 .accordion-button:not(.collapsed),
 #my__accordion,.accordion-button:not(.collapsed):hover {
   background: #f2f4f0 !important;

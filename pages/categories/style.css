@@ -9,10 +9,6 @@
   src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
-body {
-  /* min-height: 4681px; */
-}
-
 .header {
   min-height: 178px;
   padding: 25px;
@@ -304,11 +300,11 @@ body {
 .aside {
   float: left;
   width: 282px;
-  height: 760px;
+  /* height: 760px; */
   top: 255px;
   left: 40px;
   border-radius: 7px;
-  background: #fbfbfb;
+  /* background: #fbfbfb; */
 }
 
 .aside__section-filter {
@@ -344,37 +340,16 @@ body {
   text-align: left;
 }
 
-.aside__section-genre:nth-child(1) {
-  min-width: 230px;
-  min-height: 20px;
-  border-radius: 2px 2px 0px 0px;
-  border: 0px 0px 1px 0px;
+.accordion-button-title {
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4a5841;
 }
 
-.aside__section-genre:nth-child(2) {
-  min-width: 250px;
-  min-height: 201px;
-  border: 0px 0px 1px 0px;
-  gap: 16px;
-}
-
-.aside__section-genre:nth-child(3) {
-  min-width: 250px;
-  min-height: 201px;
-  border: 0px 0px 1px 0px;
-  gap: 16px;
-}
-
-.aside__section-price {
-  border-bottom: 1px solid #e6e6e6;
-  min-width: 250px;
-  min-height: 139px;
-  border: 0px 0px 1px 0px;
-  gap: 16px;
-}
-
-.aside__section-price {
-}
 .cards__items {
   min-width: 894px;
   min-height: 368px;
@@ -396,9 +371,6 @@ body {
   /* margin-top: 5px; */
   border: 1px solid #e5e9e2;
   border-radius: 13px;
-}
-
-.card__inner-name {
 }
 
 .card__inner {
