@@ -252,15 +252,55 @@
                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" >
                       <div class="accordion-body">
                         <label for="customRange2" class="form-label">
-                        <div class="form__label-input">
+                        <div class="form__label-input mr-2">
                           <div class="input__min">min ₼</div>
                           <div class="input__max"> max ₼</div>
                         </div>
                         </label>
-                        <div id="double-slider"></div>
-                        <input type="range" id="form-range" class="form-range" min="0" max="5" id="customRange2"></div>
+                         <!-- slider type 1 -->
+                        <!-- <div class="range__wrapper mt-2">
+                          <input type="range" min="12" max="2175" value="12" class="slider" id="lower">
+                          <input type="range" min="12" max="2175" value="2175" class="slider" id="higher">
+                        </div> -->
+                       
+
+                        <!-- slider type 2 -->
+                        <!-- <div id="double-slider"></div>
+                        <input type="range" id="form-range" class="form-range" min="0" max="5" id="customRange2"></div> -->
                         <!-- <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/>  -->
-                        
+                           
+
+
+                           <!-- slider type 3 -->
+                          <!-- <div class="wrapper">
+                            <div class="values">
+                              <span id="range1">0</span>
+                              <span>&dash;</span>
+                              <span id="range2">100</span>
+                            </div>
+                             <div class="container">
+                                <div class="slider-track"></div>
+                                <input type="range" min="0" max="100" value="0" id="slider-1" oninput="sliderOne()" >
+                                <input type="range" min="0" max="100" value="100" id="slider-2" oninput="sliderTwo()" >
+                            </div>
+                               
+
+                          </div> -->
+                          <div class="range">
+                            <div class="range-slider">
+                              <span class="range-selected"></span>
+                            </div>
+                            <div class="range-input">
+                              <input type="range" class="min" min="0" max="1000" value="300" step="10">
+                              <input type="range" class="max" min="0" max="1000" value="700" step="10">
+                            </div>
+                            <div class="range-price">      
+                              <label for="min"></label>
+                              <input type="number" name="min" value="300">      
+                              <label for="max"></label>
+                              <input type="number" name="max" value="700">      
+                            </div>
+                          </div> 
                     </div>
                     
                   </div>
@@ -519,6 +559,10 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"
   ></script>
+  <script src="js/range-slider.js"></script>
+  <script src="libs/nouislider.min.js"></script>
+  <script src="../../js/slider.js"></script>
+
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

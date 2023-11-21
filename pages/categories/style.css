@@ -8,6 +8,9 @@
   font-family: Geist;
   src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
+body {
+  display: grid;
+}
 
 .header {
   min-height: 178px;
@@ -351,7 +354,7 @@
 .form__label-input {
   min-width: 113px;
   min-height: 31px;
-  padding: 4px 8px 4px 8px;
+  padding: 4px 0px 21px 0px;
   border-radius: 4px;
   border: 1px;
   display: flex;
@@ -512,7 +515,235 @@
 input[type="range"],#form-range {
   color: #4a5841 !important ;
 }
+/* 
+.wrapper {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 50px 40px 20px 40px;
+}
 
+.container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none ;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  outline: none;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.slider-track {
+  width: 94%;
+  height: 5px;
+  background-color: #d5d5d5;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  height: 5px;
+}
+
+input[type="range"]::-moz-range-track {
+  -moz-appearance:none ;
+  height: 5px;
+}
+
+input[type="range"]::-ms-track {
+  appearance:none ;
+  height: 5px;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 1.7rem;
+  width: 1.7rem;
+  background-color: #3264fe;
+  cursor: pointer;
+  border-radius:10px ;
+  pointer-events: auto;
+  margin-top: -9px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 1.7rem;
+  width: 1.7rem;
+  cursor: pointer;
+  border-radius:50% ;
+  background-color: #3264fe;
+  pointer-events: auto;
+
+}
+
+
+input[type="range"]::-ms-thumb {
+  appearance:none ;
+  height: 1.7rem;
+  width: 1.7rem;
+  cursor: pointer;
+  border-radius:50% ;
+  background-color: #3264fe;
+  pointer-events: auto;
+}
+
+input[type="range"]:active::-webkit-slider-thumb {
+  background-color: #ffffff;
+  border: 3px solid #3264fe;
+} */
+
+.range-slider {
+  height: 5px;
+  position: relative;
+  background-color: #e1e9f6;
+  border-radius: 2px;
+}
+.range-selected {
+  height: 100%;
+  left: 30%;
+  right: 30%;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #4a5841;
+}
+
+.range-input {
+  position: relative;
+}
+.range-input input {
+  position: absolute;
+  width: 105%;
+  height: 5px;
+  top: -7px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.range-input input::-webkit-slider-thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 3px solid #4a5841;
+  background-color: #fff;
+  pointer-events: auto;
+  -webkit-appearance: none;
+}
+.range-input input::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 3px solid #1b53c0;
+  background-color: #fff;
+  pointer-events: auto;
+  -moz-appearance: none;
+}
+
+.range-price {
+  margin: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.range-price label {
+  margin-right: 5px;
+}
+.range-price input {
+  width: 40px;
+  padding: 5px;
+}
+.range-price input:first-of-type {
+  margin-right: 15px;
+}
+
+
+/* 
+.slider {
+  -webkit-appearance: none;
+  width: 26%;
+  height: 3px;
+  position: absolute;
+  background: #96A88A;
+  outline: none;
+}
+
+.slider input {
+  pointer-events: none;
+  position: absolute;
+  overflow: hidden;
+  left: 25%;
+  top: 15px;
+  width: 50%;
+  outline: none;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  cursor: pointer;
+  border-radius: 45px;
+  border:3.33px solid #96A88A;
+  
+  pointer-events: all;
+  position: relative;
+  z-index: 1;
+  outline: 0;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #ea4550;
+  cursor: pointer;
+
+  pointer-events: all;
+  position: relative;
+  z-index: 10;
+  -moz-appearance: none;
+  width: 9px;
+}
+
+.slider input::-moz-range-track {
+  position: relative;
+  z-index: -1;
+  border: 0;
+}
+.slider input:last-of-type::-moz-range-track {
+  -moz-appearance: none;
+  background: none transparent;
+  border: 0;
+
+}
+.slider input[type=range]::-moz-focus-outer {
+border: 0;
+} */
 /* styles for footer */
 
 .footer {
