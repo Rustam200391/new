@@ -299,6 +299,31 @@ body {
   display: flex;
 }
 
+.upper__cards-item {
+  width: 894px;
+  min-height: 40px;
+  top: 255px;
+  margin-left: 15px;
+  margin-bottom: 2px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  border: 2px solid #e5e9e2;
+  background-color: #fbfbfb !important;
+}
+
+.upper__cards-button {
+  background-color: none !important;
+  border: none;
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 84;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b0bea7 !important;
+  background-color: #fbfbfb !important;
+}
+
 /* aside */
 .aside {
   float: left;
@@ -401,7 +426,20 @@ body {
   color: #4a5841;
 }
 
-#my__accordion:focus, #my__accordion:hover,#my__accordion:active,#my__accordion {
+.form-check-label {
+  font-family: Geist;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4a5841;
+}
+
+#my__accordion:focus,
+#my__accordion:hover,
+#my__accordion:active,
+#my__accordion {
   border-color: #637557 !important;
 }
 
@@ -512,7 +550,8 @@ body {
   text-align: center;
 }
 
-input[type="range"],#form-range {
+input[type="range"],
+#form-range {
   color: #4a5841 !important ;
 }
 /* 
@@ -675,7 +714,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 .range-price input:first-of-type {
   margin-right: 15px;
 }
-
 
 /* 
 .slider {
