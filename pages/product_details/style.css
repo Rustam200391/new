@@ -770,6 +770,10 @@ ul li{
   padding-top: none !important;
 }
 
+.modal .fade .show {
+  backdrop-filter: blur(10px) #63755742 !important;
+}
+
 .mofo {
   display: none !important;
 }
@@ -851,28 +855,42 @@ ul li{
   color: #637557;
 }
 
-.modal__body-content textarea {
+.body__content-place {
   min-width: 469px;
   min-height: 123px;
   border-radius: 4px;
   border: none !important;
-  margin-left: 2px !important;
   outline: none;
-  border: 1px solid black;
+  color: #b0bea7;
+  padding:10px ;
+}
+
+.body__content-place::placeholder {
+  font-family: 'Geist';
+  font-size: 14px;
+  font-weight: 84;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b0bea7 !important;
+  margin-top: 5px !important;
+}
+
+.placeholder_color::placeholder {
+  color: #b0bea7 !important;
+}
+
+.modal__body-content .body__content-place::placeholder {
+  color: #63755742; /* Замените на нужный вам цвет */
 }
 
 .modal__body-content:hover {
   border: none !important;
 }
 
-.modal__body-content textarea p {
-  color: #4a5841;
-}
-
 .modal__body-button {
   border: 2px solid #4a5841;
   background-color: #4a5841;
-  width: 100%;
   min-height: 40px;
   padding: 6px 15px 6px 11px;
   border-radius: 38px;
@@ -884,34 +902,26 @@ ul li{
   align-content: space-betwen;
   align-items: center;
   color: #f7f6ee;
-  margin-right: 5px;
+  margin-right: 15px;
+  cursor: pointer;
 }
 
 #arrowImage {
   color: #ffffff;
 }
 
-
-
 .modent {
   border-radius: 10px;
+  box-shadow: 0.1px 0.1px 0.1px 0.1px #F2F4F0;
 }
 
-/* .mody__header-place {
-  width: 480px;
-  height: 40px;
-  padding: 8px 16px 8px 16px;
-  border-radius: 4px;
-  border: 1px;
-} */
 .mody__header-place::placeholder {
-  color: #4a5841 !important;
+  color: #b0bea7 !important;
   margin-left: 5px !important;
 }
 
-.mody__header-place
-{
-outline: none;
+.mody__header-place {
+  outline: none;
   border: 1px solid black;
   border-radius: 5px;
 }
