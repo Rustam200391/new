@@ -201,7 +201,7 @@ ul li{
     margin: 2px;
     padding: 4px;
     list-style-type: none;
-    display: inline-block;
+    display: flex;
 }
 
 .links > li {

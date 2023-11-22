@@ -212,7 +212,7 @@ ul li{
   margin: 2px;
   padding: 4px;
   list-style-type: none;
-  display: inline-block;
+  display: flex;
 }
 
 .links > li {
@@ -552,6 +552,26 @@ ul li{
   align-items: center;
   align-self: center;
   align-content: center;
+}
+
+.accordion-button,.accordion-item,
+.accordion-button:not(.collapsed),
+#my__accordion:focus,
+#my__accordion:hover,
+#my__accordion:active,
+
+.accordion-button:focus ,
+.accordion-collapse .collapse .show,
+.accordion-button {
+  border-color: #FBFBFB  !important;
+  /* background-color:  #FBFBFB  !important; */
+  outline: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0,0,0,.125);
+  outline: none;
 }
 
 .item1 {
