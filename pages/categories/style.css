@@ -387,13 +387,15 @@ body {
 }
 
 .form-check-input, .form-check-input:checked {
-  background-color: #637557
-  !important;
+  background-color: #637557 !important;
+ 
 }
 
-.checkbox:checked:before{
-  
-  }
+.form-check-input:checked {
+   border-color: none !important;
+   border: none !important;
+ 
+}
 
 .input__min {
   width: 113px;

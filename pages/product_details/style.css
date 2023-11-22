@@ -328,6 +328,10 @@ ul li{
   border-color: #637557 !important;
 }
 
+.accordion-button:focus{
+  box-shadow: none !important; 
+}
+
 .accordion-button:not(.collapsed),
 #my__accordion,
 .accordion-button:not(.collapsed):hover {
@@ -1132,7 +1136,7 @@ ul li{
 
 .send,
 .list {
-  margin-bottom: 0 !important;
+  margin-bottom: 1 !important;
 }
 
 /* placeholder in input for footer__block-1 */
