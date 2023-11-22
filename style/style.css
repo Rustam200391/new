@@ -186,7 +186,6 @@ ul li{
 .header__links {
     min-height: 67px;
     min-width: 1280px;
-    padding: 6px 1px 12px 0px;
     border-radius: 7px;
     background-color: #F2F4F0;
     display: flex;
@@ -863,6 +862,7 @@ input {
 @media screen and (max-width: 430px ){
     .header {
         min-height: 217px;
+        min-width: 430px;
     }
     
     .header__info{
