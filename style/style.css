@@ -725,7 +725,7 @@ p {
 .footer__form-input {
     width: 398px;
     height: 58px;
-    border: 1px solid #CAD4C4;
+    /* border: 1px solid #CAD4C4; */
     border-radius: 4px;
 }
 
@@ -740,6 +740,14 @@ p {
     letter-spacing: 0em;
     position: relative;
     right: 10px;
+    outline: none;
+    border: none;
+}
+
+#datepicker,
+#datepicker:hover {
+    outline: none;
+    border: none;
 }
 
 /* button for input type email */
