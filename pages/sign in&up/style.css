@@ -788,6 +788,17 @@ p {
 
 }
 
+#datepicker,
+#datepicker:hover {
+    outline: none;
+    border: none;
+}
+
+input {
+    outline:none;
+}
+
+
 /* style for under footer block */
 .footer__block-3 {
   grid-column: 1 / span 2; /* Block 3 occupies two cells on the next line */

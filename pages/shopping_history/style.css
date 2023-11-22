@@ -499,6 +499,17 @@ ul li{
   right: 10px;
 }
 
+#datepicker,
+#datepicker:hover {
+    outline: none;
+    border: none;
+}
+
+input {
+    outline:none;
+}
+
+
 /* button for input type email */
 .footer__form-button {
   background-color: #a8b79e;

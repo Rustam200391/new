@@ -62,7 +62,7 @@ ul Ol li {
 }
 
 .header__navigate {
-  min-width: 1280px;
+  /* min-width: 1280px; */
   display: flex;
   justify-content: space-between;
   margin: 12.5px 49px 12.5px 44px;
@@ -587,6 +587,17 @@ ul Ol li {
   position: relative;
   right: 10px;
 }
+
+#datepicker,
+#datepicker:hover {
+    outline: none;
+    border: none;
+}
+
+input {
+    outline:none;
+}
+
 
 /* button for input type email */
 .footer__form-button {
