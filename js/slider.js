@@ -7,6 +7,7 @@ const rangeInput = document.querySelectorAll(".range-input input");
 const rangePrice = document.querySelectorAll(".range-price input");
 // A collection of DOM elements with an <input> tag that have the class "range-price".
 
+
 // Event handler for rangeInput elements
 rangeInput.forEach((input) => {
   input.addEventListener("input", (e) => {
