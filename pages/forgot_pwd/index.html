@@ -135,13 +135,14 @@
                          
   
                           
-                              <button class="btn btn-outline-secondary toggle-password eye" type="button" onclick="togglePasswordVisibility('password2', 'togglePassword2')"></button>
+                              <!-- <button class="btn btn-outline-secondary toggle-password eye" type="button" onclick="togglePasswordVisibility('password2', 'togglePassword2')"></button> -->
+                              <div class="mb-3 form-check down-color">
+  
+                                <button class="form-check-label" for="exampleCheck1">Checkout <i class="bi bi-arrow-right"></i></button>
+                              </div>
                             </div>
                           </div>
-                           <div class="mb-3 form-check down-color">
-  
-                            <button class="form-check-label" for="exampleCheck1">Checkout <i class="bi bi-arrow-right"></i></button>
-                          </div>
+                           
                        
                         </form>
                       </div>
@@ -184,7 +185,7 @@
       </div>
       <div class="footer__block-2">
         <form method="Get" class="footer__form">
-          <label for="Name">Send an E-mail Us</label>
+          <label for="Name" class="send-email">Send an E-mail Us</label>
           <div class="footer__inner-button">
             <div>
               <input
@@ -195,7 +196,7 @@
                 placeholder="yourname@email.com"
               />
               <button type="button" class="footer__form-button">
-                <p>send an e-mail</p>
+                <p class="send">send an e-mail</p>
               </button>
             </div>
           </div>
@@ -210,7 +211,7 @@
           <div class="inner-privacy">Privacy</div>
 
           <div class="inner-privacy-ul">
-            <ul>
+            <ul class="list">
               <li><a href="#">Terms</a></li>
             </ul>
           </div>

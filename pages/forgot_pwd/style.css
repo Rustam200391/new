@@ -381,12 +381,12 @@ input:-internal-autofill-selected {
     margin: 10px !important
 }
 .down-color {
-    margin-left: 0 !important;
+    margin-left: -15px !important;
     background-color: #f2f4f0 !important;
 }
 
 .content-position {
-    
+
 }
 
 .btn .btn-primary {
@@ -506,8 +506,10 @@ input:-internal-autofill-selected {
   padding: 68px 16px 8px 84px;
 }
 
+
+/* подкласс аккардеона чей бордер надо отключить */
 .border {
-  border-color: transparent !important;
+  border-color: red !important;
 }
 
 .lead__title {
@@ -984,6 +986,11 @@ p {
   width: 532px;
   height: 36px;
   margin: 10px 0px 0px 48px;
+  
+}
+
+.send-email {
+    margin: 10px 0px -13px 48px !important;
 }
 
 /* style for text in right block in upper footer */
@@ -1195,7 +1202,7 @@ input {
   text-align: right;
   width: 532px;
   height: 36px;
-  margin: 10px 0px 0px 48px;
+  margin: 10px 4px -14px 48px;
 }
 
 /* style for text in right block in upper footer */
@@ -1210,6 +1217,10 @@ input {
   width: 532px;
   height: 36px;
   margin: -6px 0px 0px 48px;
+}
+
+dl,ol,ul {
+    margin-bottom: 0 !important;
 }
 
 /* style for under footer block */
@@ -1254,6 +1265,7 @@ input {
   line-height: 18px;
   letter-spacing: 0em;
   text-decoration: none;
+  color:#637557;
 }
 
 .flegri-label a:visited,
@@ -1266,6 +1278,10 @@ input {
 .inner-privacy-ul a {
   color: #637557;
   /* color active link */
+}
+
+.send {
+    margin-bottom: 0 !important;
 }
 
 @media screen and (max-width: 430px) {
