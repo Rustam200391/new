@@ -399,6 +399,7 @@ ul li{
   box-shadow: none !important;
 }
 
+.noneborder,.noneborder:focus,.noneborder:active,
 .accordion-button:not(.collapsed),
 #my__accordion,
 .accordion-item:first-of-type .accordion-button,
@@ -409,10 +410,8 @@ ul li{
   width: 100%;
   height: 45px;
   padding: 20px 28px 20px 28px;
-  border-top: none !important;
-  border-right: none !important;
-  border-left: none !important;
-  border-bottom: 4px solid #f2f4f0;
+  border: none !important;
+  
 }
 
 /* content */
@@ -456,6 +455,10 @@ ul li{
   text-align: left;
   color: #4a5841;
   padding: 68px 16px 8px 84px;
+}
+
+.border {
+  border-color: transparent!important;
 }
 
 .lead__title {
