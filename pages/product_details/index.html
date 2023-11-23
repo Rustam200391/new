@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./reset.css" /> -->
     <link rel="stylesheet" href="./style.css" />
     <!-- font awesome icons -->
     <link
@@ -53,9 +54,15 @@
           </form>
         </div>
         <div class="navigate__icons">
-          <a href="#"><div class="icons-bag"></div></a>
-          <a href="#"><div class="icons-heart"></div></a>
-          <a href="#"><div class="icons-user"></div></a>
+          <a href="../shopping_history/index.html"
+            ><div class="icons-bag"></div
+          ></a>
+          <a href="../../pages/wishlist/index.html"
+            ><div class="icons-heart"></div
+          ></a>
+          <a href="../../pages/signIn/index.html"
+            ><div class="icons-user"></div
+          ></a>
         </div>
       </div>
 
@@ -180,7 +187,7 @@
                 </h2>
                 <div
                   id="collapseOne"
-                  class="accordion-collapse collapse "
+                  class="accordion-collapse collapse"
                   aria-labelledby="headingOne"
                 >
                   <div class="accordion-body accordion-flush empty">
@@ -240,9 +247,8 @@
                 </h2>
                 <div
                   id="collapseTwo"
-                  class="accordion-collapse collapse "
+                  class="accordion-collapse collapse"
                   aria-labelledby="headingTwo"
-                
                 >
                   <div class="accordion-body">
                     <div class="dropdown__menu-list">
@@ -288,17 +294,17 @@
                 </h2>
                 <div
                   id="collapseThree"
-                  class="accordion-collapse collapse "
+                  class="accordion-collapse collapse"
                   aria-labelledby="headingThree"
                 >
-                  <div class="accordion-body ">
+                  <div class="accordion-body">
                     <div class="menu-reviews">
                       <div class="reviews-list">
-                        <div class="reviews__list-inner ">
+                        <div class="reviews__list-inner">
                           <div class="list-inner mt-2">
                             <p>Customer Name</p>
 
-                            <div class="content__title-star ">
+                            <div class="content__title-star">
                               <div>
                                 <img
                                   src="../../assets/img/empty star.png"
@@ -413,7 +419,12 @@
                     </div>
                     <div class="menu-reviews">
                       <div class="reviewbutton">
-                        <button type="button" class=" button__inner" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <button
+                          type="button"
+                          class="button__inner"
+                          data-bs-toggle="modal"
+                          data-bs-target="#staticBackdrop"
+                        >
                           <p>Write a reviews</p>
                           <img
                             src="../../assets/img/arrow-sm-left.png"
@@ -421,60 +432,121 @@
                           />
                         </button>
 
-                        
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                          
-                          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable all">
+                        <div
+                          class="modal fade"
+                          id="staticBackdrop"
+                          data-bs-backdrop="static"
+                          data-bs-keyboard="false"
+                          tabindex="-1"
+                          aria-labelledby="staticBackdropLabel"
+                          aria-hidden="true"
+                        >
+                          <div
+                            class="modal-dialog modal-dialog-centered modal-dialog-scrollable all"
+                          >
                             <div class="modal-content modent">
                               <div class="modal-header moder">
-                                <h1 class="modal-title fs-5 " id="staticBackdropLabel"> </h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <h1
+                                  class="modal-title fs-5"
+                                  id="staticBackdropLabel"
+                                ></h1>
+                                <button
+                                  type="button"
+                                  class="btn-close"
+                                  data-bs-dismiss="modal"
+                                  aria-label="Close"
+                                ></button>
                               </div>
                               <div class="modal-body mody">
                                 <div class="reviews">Reviews this product</div>
                                 <div class="modal__inner">
-                                 
                                   <div class="modal__header">
                                     <div class="modl__header-rank mt-4 ml-3">
                                       <div class="rank__title">
-                                        Product rating <span>*</span> 
+                                        Product rating <span>*</span>
                                       </div>
                                       <div class="rank-star">
-                                        <img src="../../assets/img/empty star.png" alt="star" width="24px" height="22px">
-                                        <img src="../../assets/img/empty star.png" alt="star" width="24px" height="22px">
-                                        <img src="../../assets/img/free star.png" alt="star" width="24px" height="22px">
-                                        <img src="../../assets/img/free star.png" alt="star" width="24px" height="22px">
-                                        <img src="../../assets/img/free star.png" alt="star" width="24px" height="22px">
-                            
+                                        <img
+                                          src="../../assets/img/empty star.png"
+                                          alt="star"
+                                          width="24px"
+                                          height="22px"
+                                        />
+                                        <img
+                                          src="../../assets/img/empty star.png"
+                                          alt="star"
+                                          width="24px"
+                                          height="22px"
+                                        />
+                                        <img
+                                          src="../../assets/img/free star.png"
+                                          alt="star"
+                                          width="24px"
+                                          height="22px"
+                                        />
+                                        <img
+                                          src="../../assets/img/free star.png"
+                                          alt="star"
+                                          width="24px"
+                                          height="22px"
+                                        />
+                                        <img
+                                          src="../../assets/img/free star.png"
+                                          alt="star"
+                                          width="24px"
+                                          height="22px"
+                                        />
                                       </div>
-                                      <div class="modal__header-name mt-4 ">
-                                        <label for="text" class="mt-3">Name Surname</label>
-                                        <input type="text" placeholder="full name" class="mody__header-place">
+                                      <div class="modal__header-name mt-4">
+                                        <label for="text" class="mt-3"
+                                          >Name Surname</label
+                                        >
+                                        <input
+                                          type="text"
+                                          placeholder="full name"
+                                          class="mody__header-place"
+                                        />
                                       </div>
-
                                     </div>
                                   </div>
 
-                                  <div class="modal__body mt-5 ">
-                                    <div class="modal__body-title">Write a reviews</div>
-                                    <div class="modal__body-content mt-2">
-                                      <textarea  placeholder="placeholder"  class="body__content-place placeholder_color" ></textarea>
+                                  <div class="modal__body mt-5">
+                                    <div class="modal__body-title">
+                                      Write a reviews
                                     </div>
-                                    <button class="modal__body-button  mt-5 mr-2">
-                                        Sent
-                                        <img
+                                    <div class="modal__body-content mt-2">
+                                      <textarea
+                                        placeholder="placeholder"
+                                        class="body__content-place placeholder_color"
+                                      ></textarea>
+                                    </div>
+                                    <button
+                                      class="modal__body-button mt-5 mr-2"
+                                    >
+                                      Sent
+                                      <img
                                         src="../../assets/img/Icon_contact.png"
                                         alt="arrow"
                                         id="arrowImage"
                                       />
                                     </button>
-                                    </div>
                                   </div>
-                                
+                                </div>
                               </div>
-                              <div class="modal-footer modal-foot ">
-                                <button type="button" class="btn btn-secondary mofo" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary mofo">Understood</button>
+                              <div class="modal-footer modal-foot">
+                                <button
+                                  type="button"
+                                  class="btn btn-secondary mofo"
+                                  data-bs-dismiss="modal"
+                                >
+                                  Close
+                                </button>
+                                <button
+                                  type="button"
+                                  class="btn btn-primary mofo"
+                                >
+                                  Understood
+                                </button>
                               </div>
                             </div>
                           </div>

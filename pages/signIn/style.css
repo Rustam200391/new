@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: Geist;
-    src: url("../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
+    src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
 body {
@@ -82,7 +82,7 @@ body {
 }
 
 .label {
-    background-image: url("../assets/img/logo-1637743798\ 1.png ");
+    background-image: url("../../assets/img/logo-1637743798\ 1.png ");
     background-size: contain;
     min-width: 133px;
     min-height: 50.28px;
@@ -141,7 +141,7 @@ body {
 }
 
 .icons-bag {
-    background-image: url("../assets/img/bag-shopping.png");
+    background-image: url("../../assets/img/bag-shopping.png");
     background-size: cover;
     width: 18.67px;
     height: 21px;
@@ -151,7 +151,7 @@ body {
 }
 
 .icons-heart {
-    background-image: url("../assets/img/heart.png");
+    background-image: url("../../assets/img/heart.png");
     background-size: cover;
     width: 21px;
     height: 18.63px;
@@ -161,7 +161,7 @@ body {
 }
 
 .icons-user {
-    background-image: url("../assets/img/user-alt-1.png");
+    background-image: url("../../assets/img/user-alt-1.png");
     background-size: cover;
     width: 16.33px;
     height: 21px;
@@ -211,7 +211,7 @@ ul li{
 }
 
 .links-img {
-    background-image: url("../assets/img//header__links/Frame\ \(1\).png");
+    background-image: url("../../assets/img//header__links/Frame\ \(1\).png");
     min-width: 20px;
     min-height: 20px;
 }
@@ -254,7 +254,7 @@ ul li{
     min-height: 622px;
     margin-right: 10px;
     margin-left: 10px;
-    background-image: url("../assets/img/under__navigator.png" )  ;
+    background-image: url("../../assets/img/under__navigator.png" )  ;
     background-size: cover;
     border-radius: 10px;
 }
@@ -532,7 +532,7 @@ p {
     min-width: 588px;
     height: 630px;
     border: 1px;
-    background-image: url("../assets/img/Rectangle\ 11.png");
+    background-image: url("../../assets/img/Rectangle\ 11.png");
     border: 1px solid #CAD4C4;
     background-size: cover;
     background-position: center;
@@ -545,7 +545,7 @@ p {
     min-width: 588px;
     height: 630px;
     border: 1px;
-    background-image: url("../assets/img/Rectangle\ 12.png");
+    background-image: url("../../assets/img/Rectangle\ 12.png");
     border: 1px solid #CAD4C4;
     background-size: cover;
     object-fit: none;
