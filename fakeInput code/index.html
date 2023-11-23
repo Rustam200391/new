@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      input[type="checkbox"],
+      input[type="radio"] {
+        visibility: hidden;
+        position: absolute;
+        left: -99999px;
+      }
+
+      .input-button-wrapper label {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        cursor: pointer;
+      }
+
+      .input-button-wrapper .fake-radio-input {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        position: relative;
+        margin-right: 10px;
+      }
+
+      .input-button-wrapper .input:checked ~ .fake-radio-input:before,
+      .input-button-wrapper .input:checked ~ .fake-checkbox-input:before {
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: green;
+      }
+
+      /* // Checkboxes */
+      .input-button-wrapper .fake-checkbox-input {
+        height: 20px;
+        width: 20px;
+        border-radius: 6px;
+        border: 1px solid grey;
+        position: relative;
+        margin-right: 10px;
+      }
+
+      .input-button-wrapper .input:checked ~ .fake-checkbox-input:before {
+        display: none;
+      }
+
+      .input-button-wrapper .input:checked ~ .fake-checkbox-input {
+        background: green url() no-repeat center center;
+        background-size: 20px;
+        border: 1px solid green;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="input-button-wrapper">
+      <label>
+        <input type="checkbox" class="input" name="name" />
+        <div class="fake-checkbox-input"></div>
+        9 : 3 = ?
+      </label>
+    </div>
+  </body>
+</html>
