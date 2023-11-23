@@ -779,7 +779,7 @@ ul {
 }
 
 .list a:hover,
-.list a,
+.list a,.flegri-label a,
 .flegri-label a:visited,
 .flegri-label a:hover,
 .inner-privacy a:visited {
@@ -793,4 +793,14 @@ ul {
 .inner-privacy-ul a {
   color: #637557;
   /* color active link */
+}
+
+.inner-privacy-ul a {
+    margin-right: 25px;
+    font-family: Geist;
+    font-size: 14px;
+    font-weight: 84;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
 }
