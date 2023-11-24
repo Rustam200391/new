@@ -9,9 +9,6 @@
   src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
-body {
-  /* min-height: 4681px; */
-}
 
 .header {
   min-height: 178px;
@@ -164,18 +161,6 @@ body {
   border: 2px;
 }
 
-/* ul{
-    font-size:0;
-    }
-
-
-
-ul li{
-    font-size:14px;
-    width:20%;
-    margin:0;
-    padding:0;
-} */
 
 .header__links {
   min-height: 67px;
@@ -377,7 +362,7 @@ ul li{
 }
 
 #password1, #password2{
-  margin: 0px 0px 27px -12px !important;
+  margin: 0 0 26px -12px !important;
   color: #637557 !important;
 }
 
