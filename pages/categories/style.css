@@ -8,9 +8,6 @@
   font-family: Geist;
   src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
-body {
-  display: grid;
-}
 
 .header {
   min-height: 178px;
@@ -54,14 +51,12 @@ body {
 }
 
 .header__navigate {
-  /* min-width: 1280px; */
   display: flex;
   justify-content: space-between;
   margin: 12.5px 49px 12.5px 44px;
   margin-right: 5px;
   margin-left: -3px;
-  /* margin: 5px;
-    padding: 10px 40px 25px 40px; */
+ 
 }
 
 .navigate__label {
@@ -76,6 +71,7 @@ body {
   min-width: 133px;
   min-height: 50.28px;
   margin-left: 55px;
+  cursor: pointer;
 }
 
 .navigate__search {
@@ -95,6 +91,7 @@ body {
 .navigate__search input {
   min-width: 300px;
   border: 1px solid #e5e9e2;
+  outline: none;
 }
 
 #search::-webkit-input-placeholder {

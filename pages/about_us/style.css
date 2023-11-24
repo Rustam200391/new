@@ -9,12 +9,10 @@
   src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
-body {
-}
-
 a,
 a:hover {
   text-decoration: none;
+  color: #a8b79e;
 }
 
 .header {
@@ -27,7 +25,8 @@ a:hover {
   display: flex;
   justify-content: space-between;
   margin: 5px;
-
+  margin-right: 5px;
+  margin-left: -3px;
   min-height: 26px;
   padding: 10px 0px 21px 0px;
 }
@@ -60,9 +59,9 @@ a:hover {
 .header__navigate {
   display: flex;
   justify-content: space-between;
-  margin: 12.5px 0 12.5px 0;
-  /* margin: 5px;
-    padding: 10px 40px 25px 40px; */
+  margin: 12.5px 49px 12.5px 44px;
+  margin-right: 5px;
+  margin-left: -3px;
 }
 
 .navigate__label {
@@ -77,6 +76,7 @@ a:hover {
   min-width: 133px;
   min-height: 50.28px;
   margin-left: 55px;
+  cursor: pointer;
 }
 
 .navigate__search {
@@ -160,7 +160,7 @@ a:hover {
 
 .header__links {
   min-height: 67px;
-  min-width: 1200px;
+  min-width: 1280px;
   padding: 6px 1px 12px 0px;
   border-radius: 7px;
   background-color: #f2f4f0;
@@ -168,8 +168,8 @@ a:hover {
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  /* margin-right: 5px;
-  margin-left: -3px; */
+  margin-right: 5px;
+  margin-left: -3px;
 }
 
 
@@ -183,7 +183,7 @@ a:hover {
 
 .links > li {
   display: inline-block;
-  margin: 1px 1px 1px -14px;
+  margin: 1px 1px 1px -6px;
 }
 
 .links-img {
@@ -193,7 +193,7 @@ a:hover {
 }
 
 .links-title {
-  width: 233.6px;
+  min-width: 233.6px;
   height: 20px;
   font-family: Geist;
   font-size: 16px;
@@ -206,6 +206,12 @@ a:hover {
 .links-img a,
 .links-title a {
   text-decoration: none;
+  color: #637557;
+}
+
+.links-title a:hover {
+  text-decoration: none;
+  color: #637557;
 }
 
 .header__under {
@@ -237,10 +243,20 @@ a:hover {
   color: #637557; /* Цвет текста по умолчанию */
 }
 
-.header__under-links:hover a,
-.header__links a:hover {
+.header__under-links:hover a {
   color: #a8b79e;
+}
+
+.info-links a {
   text-decoration: none;
+}
+
+.header__info-mobile a,.header__info-mobile a:hover,
+.info-links a:active, /* активная/посещенная ссылка */
+.info-links a:hover,  /* при наведении */
+.info-links:nth-child(2)  a.text {
+  text-decoration: none;
+  color: #a8b79e;
 }
 
 .links-img a,
@@ -270,7 +286,7 @@ a:hover {
 .info-links a.text:hover,  /* при наведении */
 .info-links a.text {
   text-decoration: none;
-  color: #7f3434;
+  color: #a8b79e;
 }
 
 .category__sellers {
@@ -673,6 +689,7 @@ input {
   line-height: 18px;
   letter-spacing: 0em;
   text-decoration: none;
+  color: #4a5841;
 }
 
 .list {
@@ -690,6 +707,7 @@ input {
 .flegri-label a:hover,
 .inner-privacy a:visited,
 .inner-privacy a:hover,
+.inner-privacy a,
 .list a,
 .list a:hover {
   color: #637557;

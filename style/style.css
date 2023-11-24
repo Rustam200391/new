@@ -589,6 +589,11 @@ p {
 
 .more img {
   margin: 1px 1px 1px 22px;
+  
+}
+
+.more p {
+  color: #e6e5cc;
 }
 
 /* block upper footer */

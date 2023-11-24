@@ -884,6 +884,10 @@ p {
   justify-items: end;
 }
 
+.send {
+
+}
+
 .footer__inner-button {
   display: flex;
   justify-content: center;
@@ -959,6 +963,10 @@ p {
   border: none;
 }
 
+.list {
+  margin-bottom: 0 !important;
+}
+
 input {
   outline: none;
 }
@@ -989,7 +997,7 @@ input {
 
 .inner-privacy,
 .inner-privacy-ul li {
-  margin-right: 25px;
+  /* margin-right: 25px; */
   font-family: Geist;
   font-size: 14px;
   font-weight: 84;

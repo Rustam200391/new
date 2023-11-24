@@ -28,37 +28,35 @@
 
   <body>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-8">
-       <header class="header">
-        <div class="header__info">
-          <div class="header__info-mobile"><a href="#">(+994) 00 000 00 00</a></div>
-          <ul class="header__info-lang">
-            <li class="info-lang">AZ</li>
-            <li class="info-lang">EN</li>
-            <li class="info-lang">RU</li>
-          </ul>
-        </div>
-        <div class="header__navigate">
-          <div class="navigate__label">
-            <div class="label"></div>
-          </div>
-          <div class="navigate__search">
-            <form>
-              <i class="abc fa fa-search"></i>
-              <input type="text" id="search" class="navigate__search-input" placeholder="Axtar..." />
-            </form>
-          </div>
-          <div class="navigate__icons">
-          <a href="../shopping_history/index.html"><div class="icons-bag"></div></a>
-          <a href="../../pages/wishlist/index.html"
-            ><div class="icons-heart"></div
-          ></a>
-          
-          <div class="icons-user" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-            
-          </div>
+    
+          <header class="header">
+            <div class="header__info">
+              <div class="header__info-mobile"><a href="#">(+994) 00 000 00 00</a></div>
+              <ul class="header__info-lang">
+                <li class="info-lang">AZ</li>
+                <li class="info-lang">EN</li>
+                <li class="info-lang">RU</li>
+              </ul>
+            </div>
+            <div class="header__navigate">
+              <div class="navigate__label">
+              <a href="../../index.html"> <div class="label"></div></a> 
+              </div>
+              <div class="navigate__search">
+                <form>
+                  <i class="abc fa fa-search"></i>
+                  <input type="text" id="search" class="navigate__search-input" placeholder="Axtar..." />
+                </form>
+              </div>
+              <div class="navigate__icons">
+              <a href="../shopping_history/index.html"><div class="icons-bag"></div></a>
+              <a href="../../pages/wishlist/index.html"
+                ><div class="icons-heart"></div
+              ></a>
+              
+              <div class="icons-user" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                
+              </div>
           
                   </div>
                 </div>
@@ -73,7 +71,7 @@
         <nav class="header__links">
             <ul class="links">
               <li class="links-img"><a href="#"></a></li>
-              <li class="links-title"><a href="#">Best sellers</a></li>
+              <li class="links-title"><a href="#">All products</a></li>
               <li class="links-img"><a href="#"></a></li>
               <li class="links-title"><a href="../../pages/categories/index.html">Categories</a></li>
               <li class="links-img"><a href="#"></a></li>
@@ -85,8 +83,11 @@
               <li class="links-img"><a href="#"></a></li>
           </ul>
         </nav>
-        </header>
+    </header>
         <!-- main content -->
+        <main class="main">
+          <div class="conteiner">
+            <div class="row">
        <main class="main">
          <!-- secret of natural beauty olive picture -->
           <section class="main__content-lead">
@@ -148,13 +149,10 @@
                           <button class="form-check-label" for="exampleCheck1">Checkout <i class="bi bi-arrow-right"></i> </button>
                         </div>
                         
-                        <!-- <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
-                          <!-- <button class="form-check-label" for="exampleCheck1">Check out <i class="bi bi-arrow-right"></i></и>
-                        </div> --> 
+                         
 
                         <div class="form-label remember">
-                         <a href="#"><span>forget password?</span></a> 
+                         <a href="../forgot_pwd/index.html"><span>forget password?</span></a> 
                         </div>
                       </form>
                     </div>
@@ -192,7 +190,7 @@
 
                           <button class="form-check-label" for="exampleCheck1">Checkout <i class="bi bi-arrow-right"></i></button>
                         </div>
-                     
+                    
                       </form>
                     </div>
                   </div>
@@ -205,11 +203,74 @@
 
 
         
-     </main>
+        </main>
+
+
         
-      
+        <div class="footer">
+          <div class="footer__block-1">
+            <div class="block_1">
+              Contact
+              <ul class="block__1-title">
+                <li>a: Azerbaijan, Baku street 123</li>
+                <li>t: (+994) 00 000 00</li>
+                <li>e:aphrodite<a>@</a>gmail.com.com</li>
+              </ul>
+            </div>
+            <div class="block_2">
+              Social media
+              <ul class="block__2-title">
+                <li>instagram</li>
+                <li>Facebook</li>
+                <li>Youtube</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__block-2">
+            <form method="Get" class="footer__form">
+              <label for="Name" class="send-email">Send an E-mail Us</label>
+              <div class="footer__inner-button">
+                <div>
+                  <input
+                    type="email"
+                    name="email"
+                    id="datepicker"
+                    class="footer__form-input"
+                    placeholder="yourname@email.com"
+                  />
+                  <button type="button" class="footer__form-button">
+                    <p class="send">send an e-mail</p>
+                  </button>
+                </div>
+              </div>
+              <label for="email"
+                >It is a long established fact that a reader will be distracted by
+                the readable content of a page when</label
+              >
+            </form>
+          </div>
+          <div class="footer__block-3">
+            <div class="block__3-inner">
+              <div class="inner-privacy">Privacy</div>
+    
+              <div class="inner-privacy-ul">
+                <ul class="list">
+                  <li><a href="#">Terms</a></li>
+                </ul>
+              </div>
+            </div>
+    
+            <div class="flegri-label">
+              <a href="#">Flegri web studio. All rights reserved</a>
+            </div>
+          </div>
+        </div>
+
+
     </div>
   </div>
+
+    
   <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

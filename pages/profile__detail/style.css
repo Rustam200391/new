@@ -382,6 +382,7 @@ input:-internal-autofill-selected {
 .down-color {
   margin-left: -15px !important;
   background-color: #f2f4f0 !important;
+  border: none !important;
 }
 
 .content-position {
@@ -423,16 +424,7 @@ input:-internal-autofill-selected {
   /* position: inherit !important; */
 }
 
-.title {
-  font-family: Geist;
-  font-size: 12px;
-  font-weight: 84;
-  line-height: 16px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #96a88a;
-  margin-left: 150px;
-}
+
 
 .main__block-four {
   min-width: 378px;
@@ -464,6 +456,7 @@ input:-internal-autofill-selected {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
 
 .block__four img {
@@ -476,7 +469,16 @@ input:-internal-autofill-selected {
   margin: 0px 0px 27px -12px !important;
   color: #637557 !important;
 }
-
+.title {
+  font-family: Geist;
+  font-size: 12px;
+  font-weight: 84;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #96a88a;
+  margin-left: 140px;
+}
 .eye {
   border: none !important;
 }
@@ -553,8 +555,23 @@ input:-internal-autofill-selected {
 }
 
 /* подкласс аккардеона чей бордер надо отключить */
+.out {
+  border: red !important; 
+}
+
 .border {
-  border-color: red !important;
+  border: red !important; 
+
+}
+
+.surname {
+  color: #637557;
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .lead__title {

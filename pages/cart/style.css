@@ -9,9 +9,6 @@
   src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
-body {
-  /* min-height: 4681px; */
-}
 
 .header {
   min-height: 178px;

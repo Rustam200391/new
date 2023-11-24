@@ -9,10 +9,6 @@
   src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
-body {
-  /* min-height: 4681px; */
-}
-
 .header {
   min-height: 178px;
   padding: 25px;
@@ -244,7 +240,9 @@ ul li{
   align-items: center;
 }
 
-.header__under-links a, .header__under-links a:hover, .header__under-links a:active {
+.header__under-links a,
+.header__under-links a:hover,
+.header__under-links a:active {
   padding-right: 21px;
   margin-right: 12px;
   text-decoration: none;
@@ -253,12 +251,11 @@ ul li{
 
 .header__under-links a:not(:last-of-type) {
   border-right: 1px solid #cad4c4;
-} 
+}
 
 .header__under-links a {
   color: #637557; /* Цвет текста по умолчанию */
 }
-
 
 .links-title a,
 .links-title a:hover,
@@ -317,6 +314,7 @@ ul li{
     border-radius: 10px;
     border: 1px;
 } */
+
 
 .column__img-inner_1,
 .column__img-inner_2,
@@ -407,6 +405,14 @@ ul li{
 .column__img-inner_6 {
   background-image: url("../../assets/img/blogs-into-the-water.png");
   background-size: cover;
+}
+
+
+.card__img {
+  width: 95px;
+  height: 93px;
+  border-radius: 4px;
+  border: 1px;
 }
 
 /* styles for footer */
@@ -522,9 +528,10 @@ ul li{
   margin-top: 40px;
 }
 
-.send,.list {
+.send,
+.list {
   margin-bottom: 0 !important;
-  margin-bottom: 0r!important;
+  margin-bottom: 0r !important;
 }
 
 .footer__form-input {
@@ -549,14 +556,13 @@ ul li{
 
 #datepicker,
 #datepicker:hover {
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
 }
 
 input {
-    outline:none;
+  outline: none;
 }
-
 
 /* button for input type email */
 .footer__form-button {

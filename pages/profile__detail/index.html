@@ -31,7 +31,9 @@
           <div class="col-8">
          <header class="header">
           <div class="header__info">
-            <div class="header__info-mobile"><a href="#">(+994) 00 000 00 00</a></div>
+            <div class="header__info-mobile">
+              <a href="#">(+994) 00 000 00 00</a>
+            </div>
             <ul class="header__info-lang">
               <li class="info-lang">AZ</li>
               <li class="info-lang">EN</li>
@@ -40,7 +42,9 @@
           </div>
           <div class="header__navigate">
             <div class="navigate__label">
+            <a href="../../index.html"> 
               <div class="label"></div>
+            </a> 
             </div>
             <div class="navigate__search">
               <form>
@@ -71,7 +75,7 @@
           <nav class="header__links">
               <ul class="links">
                 <li class="links-img"><a href="#"></a></li>
-                <li class="links-title"><a href="#">Best sellers</a></li>
+                <li class="links-title"><a href="#">All products</a></li>
                 <li class="links-img"><a href="#"></a></li>
                 <li class="links-title"><a href="../../pages/categories/index.html">Categories</a></li>
                 <li class="links-img"><a href="#"></a></li>
@@ -114,9 +118,9 @@
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body canvas-body content-position">
-                <div class="accordion border" id="accordionExample">
+                <div class="accordion border out" id="accordionExample">
                   <div class="accordion-item down-color">
-                    <h2 class="accordion-header" id="headingOne" style="text-align: center;">Name Surname
+                    <h2 class="accordion-header surname" id="headingOne" style="text-align: center;">Name Surname
                       <button class="accordion-button block-p" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <p class="accordion-title title " > name@gmail.com</p>
                       </button>
@@ -130,21 +134,21 @@
                             <div class="main__block-four">
                               <div class="container__block-four">
                                 <div class="row-block">
-                                  <div class="block__four">
+                                  <div class="block__four" id="myDiv">
                                     <img src="../../assets/img/header__links/Frame (1).png" alt="chevron"/>
                                     <p>Orders</p>
                                   </div>
-                                  <div class="block__four">
+                                  <div class="block__four" id="wishlist" >
                                     <img src="../../assets/img/header__links/Frame (1).png" alt="chevron"/>
                                     <p>Wishlist</p>
                                   </div>
                                 </div>  
-                                <div class="row-block ">
+                                <div class="row-block " id="history">
                                   <div class="block__four">
                                     <img src="../../assets/img/header__links/Frame (1).png" alt="chevron"/>
                                     <p>Shopping history</p>
                                   </div>
-                                  <div class="block__four">
+                                  <div class="block__four" id="log">
                                     <img src="../../assets/img/header__links/Frame (1).png" alt="chevron"/>
                                     <p>Log out</p>
                                   </div>  
@@ -255,5 +259,6 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"
       ></script>
+      <script src="../../js/div-link/index.js"></script>
   </body>
 </html>
