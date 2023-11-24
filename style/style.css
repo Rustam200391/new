@@ -320,6 +320,9 @@
   margin-left: -10px !important;
 }
 
+.var-width {
+    width: 100% !important;
+}
 .offcanvas__title-cart {
   display: flex;
   justify-content: space-between;
@@ -342,7 +345,7 @@
   /* Выравнивание по верхнему краю */
   justify-content: space-between;
   background-color: #f2f4f0;
-  min-width: 1200px;
+  min-width: 697px;
   min-height: 156px;
   padding: 20px 28px 20px 28px;
   border-radius: 10px;
@@ -357,7 +360,7 @@
   justify-content: space-between;
 }
 
-.card__img {
+.card__img-elixir {
   min-width: 95px;
   min-height: 93px;
   border-radius: 4px;

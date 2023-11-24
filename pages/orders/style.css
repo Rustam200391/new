@@ -341,7 +341,7 @@
   outline: none;
 }
 
-.card__left {
+.card__left-img {
     display: flex;
   /* Размещаем контейнеры в строку */
   vertical-align: top;
@@ -385,7 +385,7 @@
   color: #637557;
 }
 
-.card__content-price {
+.card__content-price₼ {
   display: flex;
   justify-content: center;
   align-self: center;
