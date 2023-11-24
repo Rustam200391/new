@@ -175,18 +175,6 @@ body {
   border: 2px;
 }
 
-/* ul{
-    font-size:0;
-    }
-
-
-
-ul li{
-    font-size:14px;
-    width:20%;
-    margin:0;
-    padding:0;
-} */
 
 .header__links {
   min-height: 67px;
@@ -253,7 +241,8 @@ ul li{
 }
 
 .header__under-links li:not(:last-of-type) {
-  border-right: 1px solid #cad4c4;
+  border-right: 1px solid #637557;
+  color: #637557;
 }
 
 .info-links a {
@@ -319,51 +308,77 @@ ul li{
     border: 1px;
 } */
 
-.main__content1 {
-  flex: 1;
+
+.card {
+  width: 97%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  display: flex;
+  /* Размещаем контейнеры в строку */
+  vertical-align: top;
+  /* Выравнивание по верхнему краю */
+  justify-content: space-between;
+  background-color: #E5E9E2;
+  min-width: 1200px;
+  min-height: 156px;
+  padding: 20px 28px 20px 28px;
+  border-radius: 10px;
+  outline: none;
 }
 
-.cards__items {
-  min-height: 368px;
+.card__left {
+    display: flex;
+  /* Размещаем контейнеры в строку */
+  vertical-align: top;
+  /* Выравнивание по верхнему краю */
+  justify-content: space-between;
+}
+
+.card__img {
+  min-width: 95px;
+  min-height: 93px;
+  border-radius: 4px;
+  border: 1px;
+}
+
+.card__content-title {
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 12px;
+  margin: 20px;
+}
+
+.card__content-title p {
+  font-family: Geist;
+  font-size: 18px;
+  font-weight: 84;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #637557;
+}
+
+.card__content-title p:nth-child(2) {
+  font-family: Geist;
+  font-size: 14px;
+  font-weight: 84;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #637557;
+}
+
+.card__content-price {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  align-items: stretch;
-  row-gap: 34px;
-  /* margin: 0 -10px; */
-  /* margin-right: -6px; */
-  margin-left: -16px;
-  margin-top: 30px;
-  border-radius: 40px;
-}
-
-.card1 {
-  min-width: 21.5%;
-  padding: 0 10px;
-  margin-left: 10px;
-  margin-top: 5px;
-  border: 1px solid #e5e9e2;
-  border-radius: 13px;
-}
-
-.card__inner-name {
-}
-
-.card__inner {
-  display: flex;
-  justify-content: space-start;
-}
-
-.card_img {
-  width: 100%;
-}
-
-.card1 .card__img {
-  width: 100%;
-}
-
-.card__inner-pic {
-  margin: 1px 10px 1px 1px;
+  align-self: center;
+  min-width: 112px;
+  min-height: 22px;
+  gap: 4px;
 }
 
 /* styles for footer */
