@@ -374,7 +374,6 @@
 
 .card__left {
   display: flex;
-  flex-grow: 1;
   /* Размещаем контейнеры в строку */
   vertical-align: top;
   /* Выравнивание по верхнему краю */
@@ -382,19 +381,19 @@
 }
 
 .card__img-elixir {
-  min-width: 95px;
-  min-height: 93px;
+  min-width: 9.5 vw;
+  min-height: 9.3 vh;
   border-radius: 4px;
   border: 1px;
-  flex-grow: 1;
+  flex-shrink: 2;
 }
 
 .card__content-title {
-  flex-grow: 1;
-  height: 44px;
+  flex-shrink: 3;
+  height: 4vh;
   display: flex;
   flex-direction: column;
-  align-self: center;
+  align-self: flex-start;
   gap: 12px;
   margin: 20px;
 }
@@ -421,23 +420,24 @@
 
 
 .content__iterrator {
+  flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 116px;
-  min-height: 40px;
+  min-width: 16vw;
+  min-height: 4vh;
   padding: 4px 8px 4px 8px;
   border-radius: 72px;
   border: 1px;
   gap: 8px;
   border: 1px solid #4a5841;
-  flex-shrink: 1;
+  flex-shrink: 3;
 }
 
 .iter-minus,
 .iter-plus {
-  min-width: 28px;
-  min-height: 28px;
+  min-width: 2vw;
+  min-height: 2vh;
   padding: 3px;
   border-radius: 44px;
   gap: 10px;
@@ -450,14 +450,17 @@
 }
 
 
-.card__content-price {
-  display: flex;
-  justify-content: center;
+.card__content-price₼ {
+  width: 8.5vw;
+  height: 2.2vh;
+  display: flex !important;
+  justify-content: center !important;
   align-self: center;
   min-width: 112px;
   min-height: 22px;
   gap: 4px;
-} */
+  color: #637557;
+} 
 
 
 

@@ -673,6 +673,8 @@ ul li{
 .dropdown__menu-list {
   width: 100%;
   min-height: 325px;
+  display: flex;
+  justify-content: center;
   padding: 16px;
   border-radius: 10px;
   gap: 18px;
@@ -745,7 +747,7 @@ ul li{
 
 .menu-reviews {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .content__title-text2 {
