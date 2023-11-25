@@ -226,6 +226,7 @@ a:hover {
   display: flex;
   justify-content: end;
   flex-direction: row;
+  width: 100%;
   margin: 10px 0px 10px 0px;
   gap: 10px;
   list-style-type: none;
@@ -239,7 +240,7 @@ a:hover {
 }
 
 .header__under-links li:not(:last-of-type) {
-  border-right: 1px solid #cad4c4;
+  border-right: 1px solid #637557;
 }
 
 .info-links {
@@ -256,7 +257,7 @@ a:hover {
 }
 
 .header__under-links:hover a {
-  color: #a8b79e;
+  color: #637557;
 }
 
 
