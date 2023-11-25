@@ -555,17 +555,16 @@ ul Ol li {
   grid-template-rows: 24px;
   justify-content: end;
   align-content: normal;
-  align-items: end;
-  justify-items: end;
+  align-items: start;
+  justify-items: start;
   min-width: 532px;
   min-height: 246px;
-  grid-template-rows: 24px;
 }
 
 .footer__inner-button {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .footer__form-input {
@@ -625,7 +624,7 @@ input {
   text-align: right;
   width: 532px;
   height: 36px;
-  margin: 10px 0px 0px 48px;
+  margin: 0px 0px 0px 48px;
 }
 
 /* style for text in right block in upper footer */

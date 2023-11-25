@@ -47,11 +47,10 @@
 
       <section class="header__navigate">
         <div class="navigate__label">
-          <a href="./index.html">
+      
             <div class="label">
               <img src="../assets/img/logo-1637743798 1.png" alt="logo" />
             </div>
-          </a>
         </div>
         <div class="navigate__search">
           <form>
@@ -194,6 +193,7 @@
                             placeholder="e-mail address"
                             id="exampleInputEmail1"
                             aria-describedby="emailHelp"
+                            required
                           />
                         </div>
                         <div class="container mt-5">
@@ -207,6 +207,7 @@
                                 id="password1"
                                 name="password"
                                 class="form-control"
+                                required
                               />
                             </div>
                             <button
@@ -273,6 +274,7 @@
                             id="username"
                             placeholder="full name"
                             aria-label="Username"
+                            required
                           />
                         </div>
 
@@ -288,6 +290,7 @@
                             placeholder="e-mail address"
                             id="exampleInputEmail1"
                             aria-describedby="emailHelp"
+                            required
                           />
                         </div>
                         <div class="container mt-5">
@@ -301,6 +304,7 @@
                                 id="password2"
                                 name="password"
                                 class="form-control"
+                                required
                               />
                             </div>
                             <button
@@ -421,13 +425,13 @@
                         <div>
                           <h2 class="Sign-color"></h2>
                           <section class="forget-text mb-5">Enter your e-mail and we will send you instructions to reset your password</section>
-                          <div class="mb-3">
+                          <form class="mb-3">
                             <label for="exampleInputEmail1" class="form-label color">Email address</label>
-                            <input type="email" class="form-control" placeholder="e-mail address" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" required placeholder="e-mail address" id="exampleInputEmail1" aria-describedby="emailHelp">
                             <button class="form-check-label mt-5" for="exampleCheck1">
                               Send <i class="bi bi-arrow-right"></i>
                             </button>
-                          </div>
+                          </form>
                         </div>
 
                       </div>
