@@ -1009,7 +1009,7 @@ p {
 .footer__block-2 {
   background-color: #f2f3f2;
   min-height: 306px;
-  padding: 50px 28px 30px;
+  padding: 40px 28px 30px;
   border-radius: 8px;
   gap: 4px;
   margin-right: 25px;
@@ -1022,7 +1022,7 @@ p {
   grid-template-rows: 24px;
   justify-content: end;
   align-content: normal;
-  align-items: end;
+  align-items: normal;
   justify-items: end;
 }
 
@@ -1086,7 +1086,7 @@ input {
   text-align: right;
   width: 532px;
   height: 36px;
-  margin: 10px 0 0 48px;
+  margin: 0 0 0 48px;
 }
 
 .footer__form label:last-child {
@@ -1125,9 +1125,12 @@ input {
   text-decoration: none;
 }
 
+.send, .list {
+  margin-bottom: 0 !important;
+}
+
 .inner-privacy,
 .inner-privacy-ul li {
-  margin-right: 25px;
   font-family: Geist;
   font-size: 14px;
   font-weight: 84;

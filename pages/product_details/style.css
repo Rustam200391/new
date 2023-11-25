@@ -9,9 +9,6 @@
   src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
-body {
-  /* min-height: 4681px; */
-}
 
 a,
 a.hover,
@@ -20,8 +17,6 @@ a.active {
   color: #637557;
 }
 
-p {
-}
 
 .header__info-mobile {
   margin: 0 0 0 10px;
@@ -501,12 +496,7 @@ ul li{
   color: #f7f6ee;
 }
 
-.content__button {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center; */
-}
+
 
 .button-buy {
   font-size: 16px;
@@ -1138,7 +1128,7 @@ ul li{
 
 .send,
 .list {
-  margin-bottom: 1 !important;
+  margin-bottom: 0 !important;
 }
 
 /* placeholder in input for footer__block-1 */
