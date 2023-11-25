@@ -13,6 +13,13 @@ body {
   /* min-height: 4681px; */
 }
 
+a,.links-img,
+a:hover {
+  text-decoration: none;
+  color: #a8b79e;
+  cursor: pointer;
+}
+
 .header {
   min-height: 178px;
   padding: 25px;

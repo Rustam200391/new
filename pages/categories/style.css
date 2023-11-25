@@ -729,14 +729,14 @@ input[type="range"]:active::-webkit-slider-thumb {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
 }
 .range-price label {
   margin-right: 5px;
 }
 .range-price input {
-  width: 40px;
+  width: 60px;
   padding: 5px;
+  text-align: center;
 }
 .range-price input:first-of-type {
   margin-right: 15px;

@@ -215,7 +215,7 @@
                               onclick="togglePasswordVisibility('password1', 'togglePassword1')"
                             >
                               <img
-                                src="../../assets/img/slash.png"
+                                src="./assets/img/slash.png"
                                 alt="slash eyes"
                                 id="togglePassword1"
                                 style="cursor: pointer"
@@ -309,7 +309,7 @@
                               onclick="togglePasswordVisibility('password2', 'togglePassword2')"
                             >
                               <img
-                                src="../../assets/img/slash.png"
+                                src="./assets/img/slash.png"
                                 alt="slash eyes"
                                 id="togglePassword2"
                                 style="cursor: pointer"
@@ -335,19 +335,20 @@
                 <h5 id="offcanvasCart"></h5>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-              <div class="offcanvas-body">
-                <div class="offcanvas-body-title">
+              <div class="offcanvas-body offcanvas-content">
+
+                   <div class="offcanvas-body-title">
                   <div class="offcanvas__title-cart">
                     <p>Cart</p>
                     <p>2 products</p>
                   </div>
-                          <div class="container-fluid">
-                              <div class="row">
+                          <div class="container-fluid fluid-inline">
+                              <div class="row fluid-nowrap">
                                   <div class="card">
                                     <div class="card__left">
-                                      <div class="card__img">
+                                      <div class="card__img-elixir">
                                         <img
-                                          src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+                                          src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
                                           size="cover"
                                           alt="elixir"
                                         />
@@ -355,23 +356,32 @@
                                       <div class="card__content-title ml-2">
                                         <p>Olive Oil crem</p>
                                         <p>Olive crem will ship in 7-10 business days.</p>
+                                         <div class="content__iterrator">
+                                          <div class="iter-minus">-</div>
+                                          <div class="iter">1</div>
+                                          <div class="iter-plus">+</div>
+                                        </div>
                                       </div>
                                     </div>
 
                                     <div class="card__content-price₼">10.20 ₼</div>
                                   </div>
-                                  Hello
                                   <div class="card mr-2">
                                     <div class="card__left">
                                       <div class="card__img-elixir">
                                         <img
-                                          src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+                                          src="./assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
                                           alt="elixir"
                                         />
                                       </div>
                                       <div class="card__content-title ml-2">
                                         <p>Olive Oil crem</p>
                                         <p>Olive crem will ship in 7-10 business days.</p>
+                                        <div class="content__iterrator">
+                                          <div class="iter-minus">-</div>
+                                          <div class="iter">1</div>
+                                          <div class="iter-plus">+</div>
+                                        </div>
                                       </div>
                                     </div>
 
@@ -388,7 +398,8 @@
                               </div>
                            
                  
-              </div>
+                 </div>
+              
             </div>
           </div>
 

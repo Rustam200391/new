@@ -9,10 +9,11 @@
   src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
 }
 
-a,
+a,.links-img,
 a:hover {
   text-decoration: none;
   color: #a8b79e;
+  cursor: pointer;
 }
 
 .header {
@@ -192,7 +193,7 @@ a:hover {
   min-height: 20px;
 }
 
-.links-title {
+.links-title  {
   min-width: 233.6px;
   height: 20px;
   font-family: Geist;
@@ -205,6 +206,8 @@ a:hover {
 
 .links-img a,
 .links-title a {
+  font-size: 16px;
+  font-weight: 84;
   text-decoration: none;
   color: #637557;
 }
@@ -239,6 +242,15 @@ a:hover {
   border-right: 1px solid #cad4c4;
 }
 
+.info-links {
+    flex-shrink: 3;
+
+}
+
+.info-links a {
+  text-decoration: none;
+}
+
 .header__under-links a {
   color: #637557; /* Цвет текста по умолчанию */
 }
@@ -247,9 +259,7 @@ a:hover {
   color: #a8b79e;
 }
 
-.info-links a {
-  text-decoration: none;
-}
+
 
 .header__info-mobile a,.header__info-mobile a:hover,
 .info-links a:active, /* активная/посещенная ссылка */
@@ -742,6 +752,18 @@ input {
     min-height: 39px;
     min-width: 100%;
   }
+  
+   .header__under-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .header__under-links li:not(:last-of-type) {
+    border-right: none;
+    margin-bottom: 10px;
+  }
+
   .main__content-down {
     flex-direction: column;
   }
