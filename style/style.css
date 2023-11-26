@@ -73,6 +73,13 @@
   margin-left: 55px;
 }
 
+.label-heart {
+  background-size: contain;
+  min-width: 133px;
+  min-height: 50.28px;
+  margin-left: 55px;
+}
+
 .label img {
   display: none;
 }
@@ -305,6 +312,7 @@
   border: 2px solid #4a5841;
   background: #4a5841;
   color: #f2f3f2;
+  text-decoration: none;
 }
 
 
@@ -848,6 +856,10 @@ p {
   justify-content: space-start;
 }
 
+.card1__img-heart {
+  display: none;
+}
+
 .card_img {
   /* width: 100%; */
   flex-basis: auto;
@@ -856,6 +868,11 @@ p {
 .card1 .card__img {
   width: 100%;
 }
+              
+
+.card__heart-media img {
+    display: none;
+  }
 
 .card__inner-pic {
   margin: 1px 10px 1px 1px;
@@ -1185,6 +1202,10 @@ input {
 }
 
 @media screen and (max-width: 430px) {
+
+   body {
+    overflow: hidden;
+  }
   .header {
     min-height: 217px;
     min-width: 430px;
@@ -1214,16 +1235,16 @@ input {
 
   .label img {
   display: flex;
-  min-width: 382 px;
-  min-height: 37 px;
+  min-width: 382px;
+  min-height: 37px;
 }
 
   .header__info {
     display: none;
   }
 
-  .navigate__search {
-    width: 100%;
+.navigate__search {
+    width: 382px;
     min-height: 0;
     border: 0 1px 0 0;
     display: flex;
@@ -1231,12 +1252,17 @@ input {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    margin: 120px 0px 0px 167px;
-    padding: 44px 25px 33px 7px;
+    margin: 100px 152px -100px 224px;
   }
   
-.navigate__search input {
-  min-width: 300px;
+
+  .navigate__search form {
+    width: 100%;
+    height: 47px;
+    border: 0px 1px 0px 0px;
+ }  
+
+  .navigate__search input {
   border: 1px solid #e5e9e2;
   background-color:#F9F9F9;
 }
@@ -1249,7 +1275,7 @@ input {
   }
 
   .icons-bag {
-    background-image: url(../assets/img/homepage/bag-shopping.png);
+    background-image: url("../assets/img/homepage/bag-shopping.png");
     width: 21.33px;
     height: 24px;
     padding: 25px;
@@ -1257,7 +1283,7 @@ input {
   }
 
   .icons-heart {
-    background-image: url(../assets/img/homepage/menu.png);
+    background-image: url("../assets/img/homepage/menu.png");
     width: 21.33px;
     height: 24px;
     padding: 25px;
@@ -1279,9 +1305,9 @@ input {
     margin-top: 10px;
   }
 
-  .label img {
-    width: 103px;
-    height: 40px;
+  .label-heart img {
+    min-width: 103px;
+    min-height: 40px;
   }
 
   .main__content-down {
@@ -1312,7 +1338,49 @@ input {
     display: none;
   }
 
-  .green_child_container:hover {
+  .green_child_container {
     display: none;
+  }
+
+  .img_child_container {
+    width: 38.2vw;
+    height: 34.8vh;
+    padding: 28px;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 28px;
+  }
+ 
+
+  .img_child_container > a {
+    bottom: 22px;
+  } 
+
+  .img_child_container > button {
+    bottom: 22px;
+  }
+
+  .img_child_container > img {
+  width: 38.2vw;
+  height: 34.8vh;
+  }
+
+  .card1 {
+    min-width: 41.1%;
+    margin-right: 47px;
+    margin-left: 52px;
+  }
+
+  /* разберись с названиями классов label или heart */
+  .card__heart-media img {
+    float:left;
+    width: 25%;
+    height: 25%;
+  }
+
+  .card1__img-heart {
+    min-width: 28px;
+    min-height: 28px;
+    background-image:none;
   }
 }
