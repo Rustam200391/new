@@ -295,7 +295,7 @@
   text-decoration: none !important;
 }
 
-.form-check-label {
+.form-check-label, .form-check-label a  {
   width: 100%;
   min-height: 40px;
   padding: 8px 16px;
@@ -306,6 +306,8 @@
   background: #4a5841;
   color: #f2f3f2;
 }
+
+
 
 .form-check {
   padding-left: 0 !important;
@@ -442,7 +444,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 16vw;
+  width: 8.6vw;
   height: 5vh;
   padding: 4px 8px 4px 8px;
   border-radius: 72px;
