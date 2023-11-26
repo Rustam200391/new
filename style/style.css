@@ -19,10 +19,8 @@
   display: flex;
   justify-content: space-between;
   margin: 5px;
-  margin-right: 5px;
-  margin-left: -3px;
+  margin-left: 25px;
   min-height: 26px;
-  padding: 10px 0 21px;
 }
 
 .header__info-mobile {
@@ -58,15 +56,13 @@
 .header__navigate {
   display: flex;
   justify-content: space-between;
-  margin: 12.5px 49px 12.5px 44px;
-  margin-right: 5px;
-  margin-left: -3px;
+  margin: 12.5px 49px 12.5px 0;
 }
 
 .navigate__label {
   display: flex;
   align-items: center;
-  margin: 0 0 0 -50px;
+  margin: 0 0 0 -32px;
 }
 
 .label {
@@ -85,7 +81,6 @@
   min-width: 400px;
   min-height: 43px;
   border: 0 1px 0 0;
-  background-color: #f9f9f9;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -98,6 +93,7 @@
 .navigate__search input {
   min-width: 300px;
   border: 1px solid #e5e9e2;
+  background-color:#F9F9F9;
 }
 
 #search::-webkit-input-placeholder {
@@ -126,7 +122,6 @@
   display: flex;
   flex-direction: row;
   justify-content: end;
-  margin-right: 10px;
   cursor: pointer;
 }
 
@@ -162,15 +157,15 @@
 
 .header__links {
   min-height: 67px;
-  min-width: 1280px;
+  min-width: 1200px;
   border-radius: 7px;
   background-color: #f2f4f0;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  margin-right: 5px;
-  margin-left: -3px;
+  margin-right: 6px;
+  margin-left: 20px;
 }
 
 .links {
@@ -182,7 +177,7 @@
 
 .links > li {
   display: inline-block;
-  margin: 1px 1px 1px -6px;
+  margin: 1px 1px 1px -13px;
 }
 
 .links-img {
@@ -352,26 +347,43 @@
 }
 
 
-.card {
+/* .card {
   width: 97%;
   border: 1px solid #ddd;
   flex-grow: 1;
   padding: 10px;
-  margin: 20px;
+  margin: 7px;
   box-sizing: border-box;
   display: flex;
   /* Размещаем контейнеры в строку */
-  vertical-align: top;
+  /* vertical-align: top;
   /* Выравнивание по верхнему краю */
-  justify-content: space-between;
+  /* justify-content: space-between;
   background-color: #f2f4f0;
-  min-width: 697px;
+  min-width: 680px;
   min-height: 156px;
-  padding: 20px 28px 20px 28px;
+  padding: 60px 50px 50px 22px;
   border-radius: 10px;
   outline: none;
-}
+} */
 
+.card {
+    width: 97%;
+    border: 1px solid #ddd;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 7px;
+    box-sizing: border-box;
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+    /* background-color: #f2f4f0; */
+    min-width: 671px;
+    min-height: 156px;
+    padding: 63px 50px 53px 22px;
+    border-radius: 10px;
+    outline: none;
+}
 .card__left {
   display: flex;
   /* Размещаем контейнеры в строку */
@@ -381,21 +393,27 @@
 }
 
 .card__img-elixir {
-  min-width: 9.5 vw;
-  min-height: 9.3 vh;
-  border-radius: 4px;
+ 
+  border-radius: 2px;
   border: 1px;
   flex-shrink: 2;
+  border: 1px solid #96a88a;
+}
+
+
+.card__img-elixir img {
+  width: 95px;
+  height: 93px;
 }
 
 .card__content-title {
+  min-height: 0.8vh;
   flex-shrink: 3;
   height: 4vh;
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  gap: 12px;
-  margin: 20px;
+
 }
 
 .card__content-title p {
@@ -424,13 +442,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 16vw;
-  min-height: 4vh;
+  width: 16vw;
+  height: 5vh;
   padding: 4px 8px 4px 8px;
   border-radius: 72px;
   border: 1px;
   gap: 8px;
-  border: 1px solid #4a5841;
+  border: 1px solid #96a88a;
   flex-shrink: 3;
 }
 
@@ -446,7 +464,8 @@
   justify-content: center;
   align-items: center;
   align-self: center;
-  flex-shrink: 1;
+  flex-shrink: 1; 
+  color: #fff;
 }
 
 
@@ -1205,16 +1224,20 @@ input {
     width: 100%;
     min-height: 0;
     border: 0 1px 0 0;
-    background-color: #f9f9f9;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    margin: 118px 170px -40px 167px;
+    margin: 120px 0px 0px 167px;
     padding: 44px 25px 33px 7px;
   }
-
+  
+.navigate__search input {
+  min-width: 300px;
+  border: 1px solid #e5e9e2;
+  background-color:#F9F9F9;
+}
   .navigate__icons {
     min-width: 191px;
     padding: 25px;
