@@ -131,7 +131,7 @@
 }
 
 .icons-bag {
-  background-image: url(../assets/img/bag-shopping.png);
+  background-image: url("../assets/img/bag-shopping.png");
   background-size: cover;
   width: 18.67px;
   height: 21px;
@@ -141,7 +141,7 @@
 }
 
 .icons-heart {
-  background-image: url(../assets/img/heart.png);
+  background-image: url("../assets/img/heart.png");
   background-size: cover;
   width: 21px;
   height: 18.63px;
@@ -151,7 +151,7 @@
 }
 
 .icons-user {
-  background-image: url(../assets/img/user-alt-1.png);
+  background-image: url("../assets/img/user-alt-1.png");
   background-size: cover;
   width: 16.33px;
   height: 21px;
@@ -594,7 +594,7 @@
   min-height: 622px;
   margin-right: 10px;
   margin-left: 10px;
-  background-image: url(../assets/img/under__navigator.png);
+  background-image: url("../assets/img/under__navigator.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 10px;
@@ -1190,6 +1190,12 @@ input {
     min-width: 103.16px;
     min-height: 39px;
   }
+
+  .label img {
+  display: flex;
+  min-width: 382 px;
+  min-height: 37 px;
+}
 
   .header__info {
     display: none;
