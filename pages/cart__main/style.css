@@ -1,16 +1,13 @@
-* {
-  font-family: "Times New Roman", Times, serif;
-  margin: 0;
-  padding: 0;
-}
 
 @font-face {
-  font-family: Geist;
-  src: url("../../assets/fonts/Geist\ Mono/GeistMono-Light.otf");
+  font-family: "geist";
+  src: url("../../assets/fonts/Geist-Regular.otf");
 }
 
-body {
-  /* min-height: 4681px; */
+* {
+  font-family: "geist";
+  margin: 0;
+  padding: 0;
 }
 
 .header {
