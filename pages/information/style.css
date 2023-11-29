@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "geist";
+  src: url("../../assets/fonts/Geist-Regular.otf");
+}
+
+* {
+  font-family: "geist";
+  margin: 0;
+  padding: 0;
+}
+
+a,
+.links-img,
+a:hover {
+  text-decoration: none;
+  color: #a8b79e;
+  cursor: pointer;
+}
+
+.left-section {
+    background-color: #FBFBFB;
+}
+
+.right-section {
+    background-color: #E5E9E2;
+
+}
+
+.cards__container-information {
+  display: inline-flex;
+  max-height: 832px;
+  padding: 70px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 67px;
+  flex-shrink: 0;
+  
+}
+
+.cards__container-product {
+  display: flex;
+  width: 100%;
+  max-height: 837px;
+  padding: 70px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.wrapper-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Два столбца с равной шириной */
+  gap: 20px; /* Промежуток между контейнерами */
+  padding: 20px; /* Поля вокруг контейнера */
+}
+
+.cards__container-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex: 1 0 0;
+}
+
+.cards__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex: 1 0 0;
+}
+
+.cards__delivery-info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex: 1 0 0;
+}
+
+.block__delivery_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 83px;
+  gap: 4px;
+  width: 163px;
+}
+
+.block__delivery_info p {
+  color: #637557;
+  /* S/16 */
+  font-family: Geist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 84;
+  line-height: 20px; /* 125% */
+}
+
+.block__delivery_info:first-child {
+  display: flex;
+  width: 83px;
+  align-items: center;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.block__delivery_info:first-child p {
+  color: #a8b79e;
+  font-family: Geist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 84;
+  line-height: 20px; /* 125% */
+}
+
+.block__delivery_info:last-child {
+  flex: 1 0 0;
+}
+
+.block__delivery_info:last-child p {
+  color: #637557;
+  text-align: center;
+  font-family: Geist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 84;
+  line-height: 20px; /* 125% */
+}
+
+.product-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-height: 837px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.wrapper {
+  display: flex;
+  height: 111px;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+}
+
+.product {
+  color: #a8b79e;
+  display: flex;
+  align-items: center;
+  flex: 1 0 0;
+  gap: 16px;
+  border-bottom: 1px solid #e5e9e2;
+}
+
+.product div img {
+  width: 95px;
+  height: 93.316px;
+  flex-shrink: 0;
+  background: url("../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"),
+    lightgray 50% / cover no-repeat;
+  border: 1px solid #e5e9e2;
+}
+
+.product div {
+  display: block;
+  padding-bottom: 18px;
+}
+
+.product-title p {
+  color: #637557;
+  font-family: Geist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 84;
+  line-height: 22px; /* 122.222% */
+  align-self: stretch;
+}
+
+.product-title p:nth-child(2) {
+  color: #b0bea7;
+  font-family: Geist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 84;
+  line-height: 18px; /* 128.571% */
+  align-self: stretch;
+}
+
+.product-price p {
+  width: 85px;
+  color: #637557;
+  text-align: right;
+
+  font-family: Geist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+}
+
+.wrapper-delivery p {
+    display: flex;
+    height: 75px;
+    padding: 12px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 12px;
+    align-self: stretch;
+    color: #637557;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* Один столбец на узких экранах */
+  }
+}

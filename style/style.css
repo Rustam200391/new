@@ -192,57 +192,48 @@
   border: 2px;
 }
 
-.header__links {
-  background-color: #f2f4f0;
-  border-radius: 7px;
-  display: flex;
-  height: 67px;
-  padding: 20px 16px;
-  justify-content: center;
-  align-items: center;
-  /* width: ; */
+  .header__links {
+    background-color: #f2f4f0;
+    border-radius: 7px;
+    display: flex;
+    height: 67px;
+    padding: 20px 16px;
+    justify-content: center;
+    align-items: center;
+  }
 
-  /* padding: 20px 16px;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 67px;
-  border-radius: 7px;
-  background-color: #f2f4f0;  */
-}
+  .links {
+    margin: 2px;
+    padding: 4px;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+  }
 
-.links {
-  margin: 2px;
-  padding: 4px;
-  list-style-type: none;
-  display: flex;
-  width: 100%;
-}
+  .links > li {
+    display: inline-block;
+  }
 
-.links > li {
-  display: inline-block;
-}
+  .links-img {
+    background-image: url("../assets/img//header__links/Frame\ \(1\).png");
+    /* min-width: 20px;
+    min-height: 20px; */
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
 
-.links-img {
-  background-image: url("../assets/img//header__links/Frame\ \(1\).png");
-  /* min-width: 20px;
-  min-height: 20px; */
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-}
-
-.links-title {
-  /* width: 233.6px;
-  height: 20px; */
-  flex: 1 0 0;
-  font-family: Geist;
-  font-size: 16px;
-  font-weight: 84;
-  line-height: 20px;
-  letter-spacing: 0;
-  text-align: center;
-}
+  .links-title {
+    /* width: 233.6px;
+    height: 20px; */
+    flex: 1 0 0;
+    font-family: Geist;
+    font-size: 16px;
+    font-weight: 84;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+  }
 
 .product__containers-hover {
   display: none;
@@ -493,25 +484,6 @@
   line-height: 18px; /* 128.571% */
 }
 
-/* .card {
-  width: 97%;
-  border: 1px solid #ddd;
-  flex-grow: 1;
-  padding: 10px;
-  margin: 7px;
-  box-sizing: border-box;
-  display: flex;
-  /* Размещаем контейнеры в строку */
-/* vertical-align: top;
-  /* Выравнивание по верхнему краю */
-/* justify-content: space-between;
-  background-color: #f2f4f0;
-  min-width: 680px;
-  min-height: 156px;
-  padding: 60px 50px 50px 22px;
-  border-radius: 10px;
-  outline: none;
-} */
 
 .card {
   width: 97%;
@@ -1446,7 +1418,7 @@ ul {
   color: #637557;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 480px) {
   body {
     overflow: hidden;
   }
