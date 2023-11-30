@@ -9,6 +9,12 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 a,
 .links-img,
 a:hover {
@@ -23,6 +29,8 @@ a:hover {
 
 .right-section {
   background-color: #e5e9e2;
+  background-color: #fbfbfb;
+  /* height:  837px; */
 }
 
 .cards__container-information {
@@ -143,6 +151,7 @@ a:hover {
   height: 111px;
   align-items: flex-start;
   align-self: stretch;
+  gap: 4px;
   flex-direction: column;
 }
 
@@ -150,9 +159,11 @@ a:hover {
   color: #a8b79e;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex: 1 0 0;
   gap: 16px;
   border-bottom: 1px solid #e5e9e2;
+  width: 100%;
 }
 
 .product div img {
@@ -165,11 +176,18 @@ a:hover {
 }
 
 .product div {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   padding-bottom: 18px;
+  flex: 0 0 auto;
+}
+.product-title {
+  flex: 0 0 auto;
 }
 
-.product-title p {
+.product-title p,
+.product-title p:nth-child(2) {
   color: #637557;
   font-family: Geist;
   font-size: 18px;
@@ -181,24 +199,73 @@ a:hover {
 
 .product-title p:nth-child(2) {
   color: #b0bea7;
-  font-family: Geist;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 84;
   line-height: 18px; /* 128.571% */
-  align-self: stretch;
+}
+
+.product-price {
+  flex: 1;
 }
 
 .product-price p {
+  flex: 0 0 2;
   width: 85px;
   color: #637557;
   text-align: right;
-
   font-family: Geist;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 22px; /* 122.222% */
+}
+
+.wrapper__delivery {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0px 12px 0px;
+  border: 0 0 1px 0;
+  gap: 12px;
+  border-bottom: 1px solid #e5e9e2;
+}
+  
+
+.wrapper__delivery div:first-child {
+  width: 100%;
+  height: 20px;
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 84;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #637557;
+}
+
+.wrapper__delivery div:nth-child(2) {
+  width: 100%;
+  height: 20px;
+  font-family: Geist;
+  font-size: 16px;
+  font-weight: 106;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #4a5841;
+}
+
+.down {
+  border-bottom: none;
+
+}
+
+.wrapper__subtotal {
+  width: 100%;
+  height: 75px;
+  padding: 12px 0px 12px 0px;
+  border: 0px 0px 1px 0px;
+  gap: 12px;
 }
 
 @media (max-width: 768px) {
