@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "geist";
+    src: url("../../assets/fonts/Geist-Regular.otf");
+  }
+  
+  * {
+    font-family: "geist";
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+  }
+  
