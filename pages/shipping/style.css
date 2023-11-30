@@ -128,7 +128,7 @@ a:hover {
   flex: 1 0 0;
 }
 
-.block__delivery_info:first-child p {
+.block__delivery_info:first-child p,.block__delivery_info:nth-child(2) p{
   color: #a8b79e;
   font-family: Geist;
   font-size: 16px;
