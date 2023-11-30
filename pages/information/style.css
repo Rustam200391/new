@@ -18,12 +18,11 @@ a:hover {
 }
 
 .left-section {
-    background-color: #FBFBFB;
+  background-color: #fbfbfb;
 }
 
 .right-section {
-    background-color: #E5E9E2;
-
+  background-color: #e5e9e2;
 }
 
 .cards__container-information {
@@ -35,7 +34,6 @@ a:hover {
   align-items: center;
   gap: 67px;
   flex-shrink: 0;
-  
 }
 
 .cards__container-product {
@@ -201,18 +199,6 @@ a:hover {
   font-style: normal;
   font-weight: 500;
   line-height: 22px; /* 122.222% */
-}
-
-.wrapper-delivery p {
-    display: flex;
-    height: 75px;
-    padding: 12px 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 12px;
-    align-self: stretch;
-    color: #637557;
 }
 
 @media (max-width: 768px) {
