@@ -61,6 +61,9 @@ a:hover {
   align-items: flex-start;
   flex-shrink: 0;
 }
+.item {
+  padding: 70px;
+}
 
 .wrapper-container {
   height: 100vh;
@@ -68,6 +71,7 @@ a:hover {
 }
 
 .wrapper__inner {
+  padding: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,7 +132,11 @@ a:hover {
   flex: 1 0 0;
 }
 
-.block__delivery_info:first-child p {
+.block__delivery_info:first-child p,
+.block__delivery_info:nth-child(2) p,
+.block__delivery_info:nth-child(3) p
+
+{
   color: #a8b79e;
   font-family: Geist;
   font-size: 16px;
@@ -290,6 +298,108 @@ a:hover {
   align-items: center;
   gap: 24px;
   align-self: stretch;
+}
+
+
+.info-item {
+  display: flex;
+  justify-content: space-between; /* Распределение между элементами */
+  flex-direction: column;
+  display: flex;
+  height: 110px;
+  padding: 8px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 7px;
+  border: 1px solid #f2f4f0;
+  background: #fbfbfb;
+
+  /* gap: 24px; */
+}
+
+
+.contact__item,
+.adress__item {
+  display: flex;
+  flex-direction: row;
+  height: 49px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  color: #a8b79e;
+}
+
+
+.contact__item {
+  border-bottom: 1px #a8b79e;
+}
+
+.contact__item-mail {
+  /* width: 50%; */
+  display: flex;
+  /* height: 110px; */
+  padding: 8px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+/* .contact__item-mail:first-child, */
+.contact__item-mail:nth-child(3) {
+  flex-grow: 1;
+}
+
+.contact__item-mail:nth-child(2) {
+  flex-grow: 2;
+}
+
+.contact__item-mail:first-child p {
+  color: #637557;
+  font-family: Geist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 84;
+  line-height: 18px; /* 128.571% */
+}
+
+
+.contact__item-mail:first-child {
+  width: 70px;
+}
+
+.contact__item-mail:nth-child(2) {
+  align-items: start;
+}
+
+
+.contact__item-mail:nth-child(2) p {
+  color: #96a88a;
+  
+  font-family: Geist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 84;
+  line-height: 18px; /* 128.571% */
+}
+
+
+.contact__item-mail:nth-child(2) {
+  align-items: start;
+}
+
+
+.contact__item-mail:nth-child(3) p {
+  color: #96a88a;
+  
+  font-family: Geist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 84;
+  line-height: 18px; /* 128.571% */
 }
 
 

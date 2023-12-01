@@ -68,12 +68,18 @@ a:hover {
 }
 
 .wrapper__inner {
+  padding: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 40px;
   flex: 1 0 0;
+}
+
+.item {
+  padding: 70px;
+
 }
 
 .cards__container-inner {

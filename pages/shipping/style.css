@@ -37,6 +37,14 @@ a:hover {
   /* height:  837px; */
 }
 
+.item {
+  padding: 70px;
+}
+
+.wrapper__inner {
+ 
+}
+
 .cards__container-information {
   display: inline-flex;
   max-height: 832px;
@@ -64,6 +72,7 @@ a:hover {
 }
 
 .wrapper__inner {
+  padding: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -410,7 +419,7 @@ a:hover {
   flex-direction: column;
   display: flex;
   height: 110px;
-  padding: 8px 16px;
+  /* padding: 8px 16px; */
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -423,8 +432,6 @@ a:hover {
   /* gap: 24px; */
 }
 
-.info-item:first-child {
-}
 
 .contact__item,
 .adress__item {
