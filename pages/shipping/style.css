@@ -412,7 +412,8 @@ a:hover {
 
 .form-footer {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
   gap: 24px;
   align-self: stretch;
   padding-top: 40px;

@@ -422,7 +422,24 @@ ul li{
   min-width: 100%;
   min-height: 44px;
   gap: 10px;
+  
 }
+
+.block__green-button:focus,
+.block__green-button:hover {
+  outline: none;
+}
+
+.block-green a:hover {
+  text-decoration: none;
+}
+
+.block__green-button {
+cursor: pointer;
+}
+
+
+
 
 .block-green p:first-child {
   font-family: Geist;
