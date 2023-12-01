@@ -330,7 +330,6 @@ ul li{
 #my__accordion,
 .accordion-button:not(.collapsed):hover {
   background: #f2f4f0 !important;
-  padding: 0 !important;
   width: 100%;
   height: 91px;
   padding: 20px 28px 20px 28px;
@@ -617,16 +616,15 @@ ul li{
 }
 
 .empty {
-  background-color: #f2f4f0;
+  /* background-color: #f4f1f0; */
+  padding: 32px 0px 16px 0 !important;
 }
-
 .accordeon1 {
   display: flex;
   justify-content: space-around;
   width: 100%;
   min-height: 268px;
-  gap: 24px;
-  margin-left: 1px;
+  gap:  0 24px !important;
 }
 
 .accordeon1-inner {
@@ -635,6 +633,14 @@ ul li{
   border-radius: 8px;
   position: relative;
   display: inline-block;
+}
+
+.custome,.cutomer {
+  background-color: #f2f4f0  !important;
+}
+
+.customer {
+  padding: 32px 0px 16px 0 !important;
 }
 
 .filter {
@@ -651,8 +657,8 @@ ul li{
 }
 
 .filter {
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   z-index: 1;
   position: absolute;
 
@@ -663,7 +669,7 @@ ul li{
   width: 100%;
   min-height: 325px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   padding: 16px;
   border-radius: 10px;
   gap: 18px;
@@ -688,10 +694,10 @@ ul li{
   background: #f2f4f0;
 }
 
-/* .menu-reviews:last-child {
+.menu-reviews:last-child {
   display: flex;
   justify-content: flex-end;
-} */
+}
 
 .reviews-list {
   min-height: 36px;
@@ -721,7 +727,7 @@ ul li{
   border-bottom: 2px solid #e5e9e2;
 }
 
-.list-inner :last-child {
+.nobord {
   border-bottom: none;
 }
 
@@ -736,7 +742,7 @@ ul li{
 
 .menu-reviews {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .content__title-text2 {
