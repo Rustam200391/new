@@ -32,133 +32,143 @@
     <main class="container-fluid">
       <div class="row">
         <div class="col-6 left-section">
-
           <section class="wrapper-container">
             <div class="wrapper__inner">
               <div class="cards__container-information">
-               
-                  <div class="cards__logo">
-                  <a href="../../index.html"><img
+                <div class="cards__logo">
+                  <a href="../../index.html"
+                    ><img
                       src="../../assets/img/logo-1637743798 1.png"
-                     alt="logo"
+                      alt="logo"
                     />
-                  </a> 
+                  </a>
                 </div>
-                  <div class="cards__delivery-info">
-                    <div class="block__delivery_info">
-                      <p>Cart</p>
-                     <img
-                       src="../../assets/img/arrow-sm-left-card.svg"
-                       alt="arrow"
-                      />
-                    </div>
-                    <div class="block__delivery_info">
-                      <p>Information</p>
-                      <img
-                        src="../../assets/img/arrow-sm-left-card.svg"
-                       alt="arrow"
-                     />
-                    </div>
-                    <div class="block__delivery_info">
-                      <p>Shipping</p>
-                      <img
-                        src="../../assets/img/arrow-sm-left-card.svg"
-                        alt="arrow"
-                      />
-                    </div>
-                    <div class="block__delivery_info">
-                      <p>Payment</p>
-                    </div>
-                    <div class="block__delivery_info"></div>
+                <div class="cards__delivery-info">
+                  <div class="block__delivery_info">
+                    <p>Cart</p>
+                    <img
+                      src="../../assets/img/arrow-sm-left-card.svg"
+                      alt="arrow"
+                    />
                   </div>
-                  <form class="cards__container-form" action="POST">
-                    <div class="mail">
-                      <label for="mail">Email</label>
+                  <div class="block__delivery_info">
+                    <p>Information</p>
+                    <img
+                      src="../../assets/img/arrow-sm-left-card.svg"
+                      alt="arrow"
+                    />
+                  </div>
+                  <div class="block__delivery_info">
+                    <p>Shipping</p>
+                    <img
+                      src="../../assets/img/arrow-sm-left-card.svg"
+                      alt="arrow"
+                    />
+                  </div>
+                  <div class="block__delivery_info">
+                    <p>Payment</p>
+                  </div>
+                  <div class="block__delivery_info"></div>
+                </div>
+                <form class="cards__container-form" action="POST">
+                  <div class="mail">
+                    <label for="mail">Email</label>
+                    <input
+                      type="text"
+                      id="mail-input"
+                      placeholder="Placeholder_input"
+                    />
+                  </div>
+                  <div class="input__region">
+                    <label for="">Region</label>
+                    <input
+                      class="region"
+                      id="mail-input2"
+                      placeholder="select"
+                    />
+                  </div>
+
+                  <div class="input__name">
+                    <div class="input__name-first">
+                      <label for="name-first">First name</label>
                       <input
                         type="text"
-                        id="mail-input"
+                        class="first__name"
+                        id="name-first"
                         placeholder="Placeholder_input"
                       />
                     </div>
-                    <div class="input__region">
-                      <label for="">Region</label>
-                      <input  class="region" id="mail-input2"  placeholder="select" />
-                    </div>
-
-                    <div class="input__name">
-                      <div class="input__name-first">
-                        <label for="name-first">First name</label>
-                        <input
-                          type="text"
-                          class="first__name" id="name-first" placeholder="Placeholder_input" 
-                        />
-                      </div>
-                      <div class="input__name-second">
-                        <label for="name-second">Second name</label>
-                        <input
+                    <div class="input__name-second">
+                      <label for="name-second">Second name</label>
+                      <input
                         type="text"
-                        class="second__name" id="name-second" placeholder="Placeholder_input" 
+                        class="second__name"
+                        id="name-second"
+                        placeholder="Placeholder_input"
                       />
+                    </div>
+                  </div>
+
+                  <div class="input__region">
+                    <label for="">Address</label>
+                    <input
+                      type="text"
+                      class="first__name"
+                      id="name-first"
+                      placeholder="Placeholder_input"
+                    />
+                  </div>
+
+                  <div class="input__region">
+                    <label for="">Phone</label>
+                    <input
+                      type="text"
+                      class="first__name"
+                      id="name-first"
+                      placeholder="Placeholder_input"
+                    />
+                  </div>
+
+                  <div class="form-footer">
+                    <div class="footer__form-left">
+                      <img
+                        src="../../assets/img/button/return__arrow-sm-left (1).png"
+                        alt="return"
+                      />
+                      <p>Return cart</p>
+                    </div>
+                    <a href="../cart/index.html">
+                      <div class="footer__form-right">
+                        <p>Checkout</p>
+                        <img
+                          src="../../assets/img/button/arrow-sm-left.png"
+                          alt="arrow"
+                        />
                       </div>
-                    </div>
-
-                    <div class="input__region">
-                      <label for="">Address</label>
-                      <input
-                          type="text"
-                          class="first__name" id="name-first" placeholder="Placeholder_input" 
-                        />
-                    </div>
-
-                    <div class="input__region">
-                      <label for="">Phone</label>
-                      <input
-                          type="text"
-                          class="first__name" id="name-first" placeholder="Placeholder_input" 
-                        />
-                    </div>
-
-                   
-                   
-                    <div class="form-footer">
-                      <div class="footer__form-left">
-                        <img src="../../assets/img/button/return__arrow-sm-left (1).png" alt="return"/>
-                        <p>Return cart</p>
-                    </div>
-                      <a href="../cart/index.html">
-                        <div class="footer__form-right">
-                          <p>Checkout</p>
-                          <img src="../../assets/img/button/arrow-sm-left.png" alt="arrow" />
-                        </div>
-                      </a>
-                    </div>
-                  </form>
-               
+                    </a>
+                  </div>
+                </form>
               </div>
-             
-              
             </div>
           </section>
-         </div>  
-         
-         
+        </div>
 
-         <div class="col-6 right-section">
+        <div class="col-6 right-section">
           <div class="item">
-            <div class="cards__container-product ">
+            <div class="cards__container-product">
               <div class="product-wrapper">
                 <div class="wrapper">
                   <div class="product">
-                      <div>
+                    <div>
                       <img
                         src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
                         alt=""
                       />
-                      </div>
-                      <div class="product-title">
+                    </div>
+                    <div class="product-title">
                       <p>Olive Oil crem</p>
                       <p>Olive crem will ship in 7-10 business days.</p>
-                      </div>
+                    </div>
                     <div class="product-price">
                       <p>17.20 ₼</p>
                     </div>
@@ -180,39 +190,35 @@
                   </div>
                 </div>
               </div>
-  
-             
-              
             </div>
-            <div class="cards__container-product ">
+            <div class="cards__container-product">
               <div class="product-wrapper">
                 <div class="wrapper">
-                 <div class="wrapper__delivery">
-                  <div>Delivery </div>
-                  <div>10 ₼</div>
-                 </div>
-                 <div class="wrapper__subtotal">
-                  <div></div>
-                  <div></div>
-                 </div>
+                  <div class="wrapper__delivery">
+                    <div>Delivery</div>
+                    <div>10 ₼</div>
+                  </div>
+                  <div class="wrapper__subtotal">
+                    <div></div>
+                    <div></div>
+                  </div>
                 </div>
               </div>
               <div class="product-wrapper">
                 <div class="wrapper">
-                 <div class="wrapper__delivery down">
-                  <div>Subtotal</div>
-                  <div>27.20 ₼</div>
-                 </div>
-                 <div class="wrapper__subtotal">
-                  <div></div>
-                  <div></div>
-                 </div>
+                  <div class="wrapper__delivery down">
+                    <div>Subtotal</div>
+                    <div>27.20 ₼</div>
+                  </div>
+                  <div class="wrapper__subtotal">
+                    <div></div>
+                    <div></div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          </div>
-
+        </div>
       </div>
     </main>
     <script

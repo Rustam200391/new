@@ -16,6 +16,11 @@
   
 
 
+  :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 a,
 .links-img,
 a:hover {
@@ -428,6 +433,20 @@ a:hover {
   line-height: 20px; /* 125% */
 }
 
+input:focus,
+#mail-input::focus,
+#mail-input2::focus,
+.first__name::focus,
+.second__name::focus,
+#mail-input::active,
+#mail-input2::active,
+.first__name::active,
+.second__name::active
+ {
+  outline: none !important;
+  border-color: initial!important;
+  box-shadow: none!important;
+}
 
 #mail-input::placeholder,
 #mail-input2::placeholder,

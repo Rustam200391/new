@@ -322,6 +322,10 @@ a:hover {
   line-height: 18px; /* 128.571% */
 }
 
+input:focus {
+  border: none!important;
+}
+
 .input__region {
   display: flex;
   flex-direction: column;
@@ -399,6 +403,24 @@ a:hover {
   width: 100%;
 }
 
+
+/* .first__name:focus,
+.second__name:focus,
+#mail-input:focus,
+#mail-input2:focus,
+.first__name:active,
+.second__name:active,
+#mail-input:active,
+#mail-input2:active {
+  box-shadow: none!important;
+  outline: none !important;
+} */
+
+input:focus {
+  outline: none !important;
+  border-color: initial!important;
+  box-shadow: none!important;
+}
 
 .form-footer {
   display: flex;

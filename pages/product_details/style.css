@@ -31,7 +31,6 @@ a.active {
 
 .header {
   min-height: 178px;
-  padding: 25px;
 }
 
 .header__info {
@@ -39,7 +38,6 @@ a.active {
   justify-content: space-between;
   margin: 5px;
   min-height: 26px;
-  padding: 10px 40px 10px 40px;
   gap: 10px
 }
 
@@ -238,18 +236,25 @@ ul li{
 }
 
 .header__under {
-  min-height: 65px;
-  min-width: 128px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 12px;
+flex: 1 0 0;
+align-self: stretch;
+
 }
 
 .header__under-links {
   display: flex;
   justify-content: end;
-  flex-direction: row;
   margin: 10px 0px 10px 0px;
   gap: 10px;
   list-style-type: none;
   align-items: center;
+  
 }
 
 .header__under-links li {
@@ -269,6 +274,8 @@ ul li{
 .header__under-links:hover a {
   color: #a8b79e;
 }
+
+
 
 .info-links a {
   text-decoration: none;
@@ -302,10 +309,6 @@ ul li{
   background-color: #fbfbfb;
   display: flex;
   justify-content: space-between;
-  margin-right: 25px;
-  margin-left: 25px;
-  margin-top: 50px;
-  flex-direction: row;
   align-items: center;
   color: #637557;
   font-family: Geist;
@@ -384,8 +387,6 @@ ul li{
 }
 
 .title__heart img {
-  min-width: 40px;
-  min-height: 40px;
   top: 6.72px;
   left: 5px;
   border: 2px;
@@ -504,7 +505,7 @@ ul li{
 
 .content__iterrator {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   min-width: 116px;
   min-height: 40px;

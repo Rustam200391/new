@@ -290,25 +290,24 @@
 }
 
 .category__sellers {
-  min-width: 1032px;
-  min-height: 91px;
-  padding: 20px 28px 20px 28px;
-  border-radius: 7px;
-  background-color: #fbfbfb;
-  display: flex;
-  justify-content: space-between;
-  margin-right: 25px;
-  margin-left: 25px;
-  margin-top: 50px;
-  flex-direction: row;
-  align-items: center;
-  color: #a8b79e;
+ display: flex;
+width: 1200px;
+height: 91px;
+padding: 20px 16px;
+align-items: center;
+flex-shrink: 0;
+border-radius: 7px;
+background:  #FBFBFB;
+}
+
+.category__sellers div {
+  color: #637557;
+  flex: 1 0 0;
   font-family: Geist;
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0em;
-  text-align: left;
 }
 
 .category__sellers-arrow > img {
@@ -323,12 +322,12 @@
   min-height: 368px;
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   align-items: stretch;
   row-gap: 34px;
   /* margin: 0 -10px; */
   /* margin-right: -6px; */
-  margin-left: -16px;
+  /* margin-left: -16px; */
   margin-top: 30px;
   border-radius: 40px;
 }
@@ -345,6 +344,17 @@
 .card__inner-name p,
 .card__inner p {
   color: #637557;
+}
+
+.card__inner-name p:first-child {
+  color: #755757;
+  text-align: center;
+  /* S/16 */
+  font-family: Geist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 84;
+  line-height: 20px; /* 125% */
 }
 
 .card__inner {
