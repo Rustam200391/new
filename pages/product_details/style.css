@@ -828,6 +828,7 @@ align-self: stretch;
   border-radius: 38px;
   border: 2px solid #4a5841;
   gap: 8px;
+  background: rgba(0, 0, 0, 0);
 }
 
 .reviews {
