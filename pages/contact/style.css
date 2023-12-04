@@ -13,6 +13,11 @@ ul Ol li {
   margin-bottom: 0rem;
 }
 
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
 .header {
   min-height: 178px;
   padding: 25px;
@@ -407,13 +412,13 @@ ul Ol li {
 }
 
 .inner__container-rewies::placeholder {
+  color: #cad4c4;
   font-family: Geist;
   font-size: 16px;
-  font-weight: 84;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #b0bea7;
+  font-weight: 500;
+  position: relative;
+  left: 15px;
+  /* Другие стили по вашему выбору */
 }
 
 .main__inner-container:nth-child(3) {
