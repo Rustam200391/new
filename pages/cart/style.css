@@ -313,12 +313,21 @@ ul li{
 .cart_left_container {
   display: flex;
   justify-content: space-between;
-  width: 794px;
   height: 156px;
   padding: 20px 28px 20px 28px;
   border-radius: 10px;
   margin-top: 10px;
   background-color: #fbfbfb;
+}
+
+.cart_left_container > div {
+  flex: 0 0 auto; /* Элемент не растягивается и не сжимается */
+  margin-right: 10px; /* Промежуток между первым и вторым контейнерами */
+}
+
+.cart_left_container > div:last-child {
+  margin-right: 0; /* Убираем промежуток между вторым и третьим контейнерами */
+  margin-left: auto; /* Помещаем третий контейнер в конец строки */
 }
 
 .cart_left_container-img {
@@ -328,6 +337,11 @@ ul li{
   border: 1px;
   background-image: url("../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png");
   background-size: cover;
+  flex-shrink: 0;
+}
+
+.cart_left_container-content {
+  flex-shrink: 0;
 }
 
 .content__inner-title {
@@ -374,6 +388,7 @@ ul li{
   justify-content: center;
   align-items: center;
   align-self: center;
+  color: #f2f3f2;
 }
 
 .cart_left_container-price {
@@ -387,6 +402,7 @@ ul li{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 1;
 }
 
 .row__block {
