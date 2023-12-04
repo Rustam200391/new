@@ -246,7 +246,7 @@
   padding-right: 21px;
   margin-right: 12px;
   text-decoration: none;
-  color: #cad4c4;
+  /* color: #cad4c4; */
 }
 
 .header__under-links a:not(:last-of-type) {
@@ -256,6 +256,10 @@
 .header__under-links a {
   color: #637557;
   /* Цвет текста по умолчанию */
+}
+
+.header__under-links li:not(:last-of-type)  {
+  border-right: 1px solid #cad4c4;
 }
 
 .links-title a,
@@ -286,9 +290,8 @@
 }
 
 .category__sellers {
-  min-width: 1032px;
   min-height: 91px;
-  padding: 20px 28px 20px 28px;
+  padding: 20px 16px ;
   border-radius: 7px;
   background-color: #fbfbfb;
   display: flex;
