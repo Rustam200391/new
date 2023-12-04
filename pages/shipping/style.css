@@ -425,7 +425,7 @@ a:hover {
   flex-direction: column;
   display: flex;
   height: 110px;
-  /* padding: 8px 16px; */
+  padding: 8px 16px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
