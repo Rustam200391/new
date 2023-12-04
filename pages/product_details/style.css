@@ -319,9 +319,6 @@ align-self: stretch;
   color: #637557; /* Цвет текста по умолчанию */
 }
 
-.header__under-links:hover a {
-  color: #a8b79e;
-}
 
 
 
@@ -333,7 +330,7 @@ align-self: stretch;
 .info-links a:hover,  /* при наведении */
 .info-links a {
   text-decoration: none;
-  color: #637557;
+  /* color: #637557; */
 }
 
 .links-img a,

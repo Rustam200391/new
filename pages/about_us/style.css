@@ -299,7 +299,8 @@ a:hover {
 }
 
 .header__under-links a {
-  color: #637557; /* Цвет текста по умолчанию */
+  color: #637557;
+   /* Цвет текста по умолчанию */
 }
 
 .header__under-links:hover a {
@@ -311,7 +312,7 @@ a:hover {
 .info-links a:hover,  /* при наведении */
 .info-links:nth-child(2)  a.text {
   text-decoration: none;
-  color: #a8b79e;
+  /* color: #a8b79e; */
 }
 
 .links-img a,
