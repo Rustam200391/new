@@ -444,6 +444,10 @@ input:-internal-autofill-selected {
   height: 28.74px;
 }
 
+.row-block:nth-child(2) .block__four:first-child p{
+  text-wrap: wrap;
+}
+
 #password1,
 #password2 {
   margin: 0px 0px 27px -12px !important;

@@ -246,7 +246,7 @@ ul li{
   padding-right: 21px;
   margin-right: 12px;
   text-decoration: none;
-  color: #cad4c4;
+  color: #637557;
 }
 
 .header__under-links a:not(:last-of-type) {
@@ -283,7 +283,7 @@ ul li{
 }
 
 .category__sellers {
-  min-width: 1032px;
+  /* min-width: 1032px; */
   min-height: 91px;
   padding: 20px 28px 20px 28px;
   border-radius: 7px;
@@ -293,27 +293,23 @@ ul li{
   margin-right: 25px;
   margin-left: 25px;
   margin-top: 50px;
-  flex-direction: row;
   align-items: center;
-  color: #a8b79e;
+
+}
+
+.category__sellers div {
+  flex: 1 0 0;
+  flex-direction: row;
+  color: #637557;
   font-family: Geist;
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
+
 }
 
-.category__sellers-arrow > img {
-  margin: 1px 1px -3px 10px;
-}
-
-/* .card1 {
-    width: 282px;
-    height: 368px;
-    border-radius: 10px;
-    border: 1px;
-} */
 
 
 .column__img-inner_1,
@@ -322,6 +318,9 @@ ul li{
 .column__img-inner_4,
 .column__img-inner_5,
 .column__img-inner_6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   min-width: 588px;
   min-height: 544px;
   border-radius: 8px;
@@ -334,11 +333,6 @@ ul li{
 .column__img-inner_1 {
   background-image: url("../../assets/img/Rectangle\ 11.png");
   background-size: cover;
-}
-
-.content-pic {
-  height: 147px;
-  border-radius: 20px;
 }
 
 .content-pic:last-child {
@@ -378,8 +372,13 @@ ul li{
 }
 
 #my-image {
-  filter: invert(94%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%)
-    contrast(100%);
+  filter: invert(94%) sepia(1%) saturate(3%) hue-rotate(0deg) brightness(100%)
+    contrast(100%) hue-rotate(15deg);
+  filter: brightness(0) invert(1) sepia(1) saturate(3) ;
+}
+
+.gap-for-blocks {
+  margin-right: -35px !important;
 }
 
 .column__img-inner_2 {
