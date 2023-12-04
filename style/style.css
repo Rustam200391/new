@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .header {
   min-height: 178px;
   padding: 0 16px 0 16px;
@@ -1020,17 +1024,7 @@
   animation: pulse 1.5s infinite;
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+
 
 .card__inner-name {
   color: #637557;
