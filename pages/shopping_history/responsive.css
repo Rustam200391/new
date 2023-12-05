@@ -1,5 +1,6 @@
 @media screen and (max-width: 480px) {
   .category__sellers {
+    width: fit-content;
     display: flex;
     height: 47px;
     padding: 20px 16px;
@@ -8,6 +9,8 @@
     border-radius: 7px;
     border: 2px solid #fbfbfb;
     background: #fbfbfb;
+
+    
   }
 
   .card {
