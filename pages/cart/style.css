@@ -326,9 +326,10 @@ ul li{
 }
 
 .cart_left_container > div:last-child {
-  margin-right: 0; /* Убираем промежуток между вторым и третьим контейнерами */
-  margin-left: auto; /* Помещаем третий контейнер в конец строки */
+  flex:1 1 auto; /* Элемент не растягивается и не сжимается */
+  margin-right: 10px; /* Промежуток между первым и вторым контейнерами */
 }
+/*  */
 
 .cart_left_container-img {
   min-width: 95px;
@@ -341,7 +342,7 @@ ul li{
 }
 
 .cart_left_container-content {
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .content__inner-title {
@@ -401,7 +402,7 @@ ul li{
   color: #637557;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-shrink: 1;
 }
 
