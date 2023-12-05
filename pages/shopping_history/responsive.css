@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px) {
+  .category__sellers {
+    display: flex;
+    height: 47px;
+    padding: 20px 16px;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 7px;
+    border: 2px solid #fbfbfb;
+    background: #fbfbfb;
+  }
+
+  .card {
+    display: flex;
+    width: 382px;
+    height: 132px;
+    padding: 8px 16px;
+    align-items: center;
+  }
+
+  .card__left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+  }
+
+  .card__img {
+    width: 95px;
+    height: 93.316px;
+    background: lightgray 50% / cover no-repeat;
+  }
+}

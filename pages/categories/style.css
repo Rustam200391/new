@@ -580,6 +580,10 @@
   gap: 16px;
 }
 
+#my__accordion:last-child {
+  box-shadow: none !important;
+}
+
 .pagination:hover,.pagination:focus,.page-link:hover,.page-item:hover,
 .page-link a:hover,.page-link:focus,.page-item:focus,.page-link a:focus {
   background-color: #fff !important;
@@ -680,75 +684,106 @@ input[type="range"],
   gap: 16px;
 }
 
-/* нужно оключить этот стиль
---bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25); */
-/* 
+slider range
+.section {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 233px;
+}
+
+.middle {
+	position: relative;
+	width: 100%;
+}
+
 .slider {
-  -webkit-appearance: none;
-  width: 26%;
-  height: 3px;
-  position: absolute;
-  background: #96A88A;
-  outline: none;
+	position: relative;
+	z-index: 1;
+	height: 3.382px;
+	margin: 0 15px;
 }
 
-.slider input {
-  pointer-events: none;
-  position: absolute;
-  overflow: hidden;
-  left: 25%;
-  top: 15px;
-  width: 50%;
-  outline: none;
-  height: 18px;
-  margin: 0;
-  padding: 0;
-
+.slider>.track {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-radius: 5px;
+	background-color: #96A88A;
+	;
 }
 
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  background: #ffffff;
-  cursor: pointer;
-  border-radius: 45px;
-  border:3.33px solid #96A88A;
-  
-  pointer-events: all;
-  position: relative;
-  z-index: 1;
-  outline: 0;
+.slider>.range {
+	position: absolute;
+	z-index: 2;
+	left: 25%;
+	right: 25%;
+	top: 0;
+	bottom: 0;
+	border-radius: 5px;
+	background-color: #96A88A;
 }
 
-.slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  background: #ea4550;
-  cursor: pointer;
-
-  pointer-events: all;
-  position: relative;
-  z-index: 10;
-  -moz-appearance: none;
-  width: 9px;
+.slider>.thumb {
+	position: absolute;
+	z-index: 3;
+	background-color: #fff;
+	border: 1px solid #96A88A;
+	border-radius: 50%;
+	display: flex;
+	width: 16px;
+	height: 16px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	transition: box-shadow .3s ease-in-out;
 }
 
-.slider input::-moz-range-track {
-  position: relative;
-  z-index: -1;
-  border: 0;
+.slider>.thumb.left {
+	left: 25%;
+	transform: translate(-15px, -10px);
 }
-.slider input:last-of-type::-moz-range-track {
-  -moz-appearance: none;
-  background: none transparent;
-  border: 0;
 
+.slider>.thumb.right {
+	right: 25%;
+	transform: translate(15px, -10px);
 }
-.slider input[type=range]::-moz-focus-outer {
-border: 0;
-} */
+
+
+
+input[type=range] {
+	position: absolute;
+	pointer-events: none;
+	-webkit-appearance: none;
+	z-index: 2;
+	height: 10px;
+	width: 100%;
+	opacity: 0;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	pointer-events: all;
+	width: 30px;
+	height: 30px;
+	border-radius: 0;
+	border: 0 none;
+	background-color: red;
+	-webkit-appearance: none;
+}
+
+
+.youtube-link {
+	position: fixed;
+	left: 20px;
+	bottom: 20px;
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
+}
 /* styles for footer */
 
 .footer {
