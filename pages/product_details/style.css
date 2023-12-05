@@ -674,10 +674,11 @@ align-self: stretch;
   width: 100%;
   min-height: 268px;
   gap:  0 24px !important;
+  border-radius: 45px !important;
 }
 
 .accordeon1-inner {
-  width: 50%;
+  width: 25%;
   /* height: 268px; */
   border-radius: 8px;
   position: relative;
@@ -700,6 +701,7 @@ align-self: stretch;
   width: 100%;
   height: 100%;
   background-color: #96a88a important!;
+  border-radius: 8px;
 }
 
 .accordeon1-inner img {
