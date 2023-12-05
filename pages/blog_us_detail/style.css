@@ -329,14 +329,12 @@ a.active {
 }
 
 .row__block-upper {
-  height: 594px;
+  height: 559px;
   background-image: url("../../assets/img/about__us-main.png");
-  /* background-size: cover; */
-  top: -1836px;
-  left: 18497px;
-  object-position: 50% 50%;
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: cover;
+
+  background-size: 100% auto;
+
   background-repeat: no-repeat;
 }
 
