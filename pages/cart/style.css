@@ -318,6 +318,7 @@ ul li{
   border-radius: 10px;
   margin-top: 10px;
   background-color: #fbfbfb;
+  gap: 16px;
 }
 
 .cart_left_container > div {
@@ -370,9 +371,8 @@ ul li{
   align-items: center;
   max-width: min-content;
   min-height: 28px;
-  padding: 4px 8px 4px 8px;
+  padding: 4px 8px;
   border-radius: 15px;
-  border: 1px;
   gap: 8px;
   border: 1px solid #4a5841;
 }
