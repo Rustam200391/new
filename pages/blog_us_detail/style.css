@@ -169,7 +169,6 @@ a:hover {
   border: 2px;
 }
 
-
 .header__links {
   min-height: 67px;
   min-width: 1280px;
@@ -285,16 +284,13 @@ a.active {
 }
 
 .category__sellers {
-  min-width: 1032px;
   min-height: 91px;
   padding: 20px 28px 20px 28px;
   border-radius: 7px;
   background-color: #f2f4f0;
   display: flex;
   flex-direction: column;
-  margin-right: 25px;
-  margin-left: 25px;
-  margin-top: 50px;
+
   align-items: flex-start;
   color: #a8b79e;
   font-family: Geist;
@@ -329,13 +325,13 @@ a.active {
 }
 
 .row__block-upper {
-  height: 559px;
   background-image: url("../../assets/img/about__us-main.png");
-  background-size: cover;
-
-  background-size: 100% auto;
-
+  background-size: 100% 100%; /* Используйте 100% 100% для полного покрытия фона */
   background-repeat: no-repeat;
+  
+  border: 1px solid #cad4c4;
+  height: 594px;
+  flex-shrink: 0;
 }
 
 .row__block-down {
@@ -344,7 +340,6 @@ a.active {
   top: 973px;
   left: 40px;
   gap: 24px;
-
 }
 
 .col-left {
@@ -400,7 +395,7 @@ a.active {
 }
 
 .col__under-text .under-text p {
-  color:  #637557;
+  color: #637557;
   font-family: Geist;
   font-size: 18px;
   font-style: normal;
