@@ -670,15 +670,15 @@ align-self: stretch;
 }
 .accordeon1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   min-height: 268px;
   gap:  0 24px !important;
 }
 
 .accordeon1-inner {
-  width: 25%;
-  height: 268px;
+  width: 50%;
+  /* height: 268px; */
   border-radius: 8px;
   position: relative;
   display: inline-block;
