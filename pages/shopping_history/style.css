@@ -276,19 +276,19 @@
 }
 
 .category__sellers {
-  min-width: 1032px;
+  /* min-width: 1032px; */
   min-height: 91px;
   padding: 20px 28px 20px 28px;
   border-radius: 7px;
   background-color: #fbfbfb;
   display: flex;
   justify-content: space-between;
-  margin-right: 25px;
-  margin-left: 25px;
-  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
   flex-direction: row;
   align-items: center;
-  color: #a8b79e;
+  color: #637557;
   font-family: Geist;
   font-size: 24px;
   font-weight: 500;
@@ -310,20 +310,14 @@
 
 
 .card {
-  width: 97%;
-  border: 1px solid #ddd;
   padding: 10px;
   margin: 20px;
-  box-sizing: border-box;
   display: flex;
-  /* Размещаем контейнеры в строку */
   vertical-align: top;
-  /* Выравнивание по верхнему краю */
   justify-content: space-between;
   background-color: #E5E9E2;
-  min-width: 1200px;
   min-height: 156px;
-  padding: 20px 28px 20px 28px;
+  padding: 20px 28px ;
   border-radius: 10px;
   outline: none;
 }
@@ -379,6 +373,7 @@
   min-width: 112px;
   min-height: 22px;
   gap: 4px;
+  color: #637557;
 }
 
 /* styles for footer */
