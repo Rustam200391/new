@@ -228,6 +228,7 @@ a i,
 .header__under {
   min-height: 65px;
   min-width: 128px;
+  color:#637557;
 }
 
 .header__under-links {
@@ -285,14 +286,16 @@ a.active {
 
 .category__sellers {
   min-height: 91px;
-  padding: 20px 28px 20px 28px;
+  padding: 20px 28px;
   border-radius: 7px;
   background-color: #f2f4f0;
   display: flex;
   flex-direction: column;
-
-  align-items: flex-start;
-  color: #a8b79e;
+  align-items: space-between;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #637557;
   font-family: Geist;
   font-size: 24px;
   font-weight: 500;

@@ -1,3 +1,39 @@
 @media screen and (max-width: 480px) {
-    
+    .header__info {
+        display: none;
+    }
+
+    .header__under {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 2px ;
+        margin: 12px;
+        color: #637557;
+    }
+
+    .header__under-links li:first-child{
+        padding-right: 10px;
+        margin-right: 0;
+    }
+
+    .header__under-links li {
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .category__sellers {
+        height: 88px;
+        padding: 12px 24px;
+        line-height:15px;
+        margin-top: 0;
+        gap: 1px;
+    }
+
+    .category__sellers > div:first-child {
+        font-size: 18px;
+    }
+
+    .category__sellers > div:last-child {
+        font-size: 14px;
+    }
 }
