@@ -7,6 +7,7 @@
     padding: 12px 24px; /* Центрирование блока по горизонтали */
     /* width: 100%; */
     color: #637557;
+    font-size: 16px;
   }
 
   .card {
@@ -15,7 +16,6 @@
     padding: 8px 16px;
     align-items: center;
     border-radius: 10px;
-    background: #e5e9e2;
     border: none;
   }
 
@@ -24,11 +24,6 @@
     align-items: center;
     gap: 16px;
     flex: 1 0 0;
-  }
-
-  .card__img {
-    /* border-radius: 4px;
-    height: 23px; */
   }
 
   .card__img img {

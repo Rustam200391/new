@@ -291,17 +291,17 @@
 
 .category__sellers {
   min-height: 91px;
-  padding: 20px 16px ;
+  padding: 20px 28px ;
   border-radius: 7px;
-  background-color: #fbfbfb;
+  background-color:  #fbfbfb;
   display: flex;
   justify-content: space-between;
-  margin-right: 25px;
-  margin-left: 25px;
-  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
   flex-direction: row;
   align-items: center;
-  color: #a8b79e;
+  color: #637557;
   font-family: Geist;
   font-size: 24px;
   font-weight: 500;
@@ -314,31 +314,18 @@
   margin: 1px 1px -3px 10px;
 }
 
-/* .card1 {
-    width: 282px;
-    height: 368px;
-    border-radius: 10px;
-    border: 1px;
-} */
 
-.main__content1 {
-  flex: 1;
-}
+
 
 .card {
-  width: 97%;
   padding: 10px;
   margin: 20px;
-  box-sizing: border-box;
   display: flex;
-  /* Размещаем контейнеры в строку */
   vertical-align: top;
-  /* Выравнивание по верхнему краю */
   justify-content: space-between;
   background-color: #f2f4f0;
-  min-width: 1200px;
   min-height: 156px;
-  padding: 20px 28px 20px 28px;
+  padding: 20px 28px ;
   border-radius: 10px;
   outline: none;
 }
@@ -387,13 +374,14 @@
   color: #637557;
 }
 
-.card__content-price₼ {
+.card__content-price {
   display: flex;
   justify-content: center;
   align-self: center;
   min-width: 112px;
   min-height: 22px;
   gap: 4px;
+  color:#637557;
 }
 
 /* styles for footer */

@@ -276,9 +276,8 @@
 }
 
 .category__sellers {
-  /* min-width: 1032px; */
   min-height: 91px;
-  padding: 20px 28px 20px 28px;
+  padding: 20px 28px;
   border-radius: 7px;
   background-color: #fbfbfb;
   display: flex;
@@ -301,12 +300,7 @@
   margin: 1px 1px -3px 10px;
 }
 
-/* .card1 {
-    width: 282px;
-    height: 368px;
-    border-radius: 10px;
-    border: 1px;
-} */
+
 
 
 .card {
