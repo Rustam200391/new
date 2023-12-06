@@ -1,4 +1,7 @@
 @media screen and (max-width: 480px) {
+   .header {
+    width: 50%;
+   }
     .header__info {
         display: none;
     }
@@ -35,5 +38,9 @@
 
     .category__sellers > div:last-child {
         font-size: 14px;
+    }
+
+    .row__block-upper {
+        height: 266px;
     }
 }

@@ -23,14 +23,12 @@ a:hover {
 }
 
 .header__info {
-  min-width: 1200px;
+  min-width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 5px;
-  margin-right: 5px;
-  margin-left: -3px;
   min-height: 26px;
-  padding: 10px 0px 21px 0px;
+  padding: 10px 0px 20px 0px;
 }
 
 .header__info-mobile {
@@ -292,8 +290,7 @@ a.active {
   display: flex;
   flex-direction: column;
   align-items: space-between;
-  margin-right: 20px;
-  margin-left: 20px;
+
   margin-top: 20px;
   color: #637557;
   font-family: Geist;
@@ -343,6 +340,10 @@ a.active {
   top: 973px;
   left: 40px;
   gap: 24px;
+}
+
+.col-left img {
+  border-radius: 5px;
 }
 
 .col-left {
