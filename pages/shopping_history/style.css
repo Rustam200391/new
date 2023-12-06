@@ -235,15 +235,17 @@
 }
 
 .header__under-links li {
-  color: #cad4c4;
+  color: #A8B79E;
   padding-right: 21px;
   margin-right: 12px;
 }
 
 .header__under-links li:not(:last-of-type) {
-  border-right: 1px solid #637557;
+  border-right: 1px solid #A8B79E;
   color: #637557;
 }
+
+
 
 .info-links a {
   text-decoration: none;
