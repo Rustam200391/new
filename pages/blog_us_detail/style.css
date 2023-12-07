@@ -385,6 +385,7 @@ a.active {
   letter-spacing: 0em;
   /* text-align: center; */
   color: #637557;
+  overflow-wrap: break-word;
 }
 
 .col__under-text {

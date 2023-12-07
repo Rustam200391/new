@@ -66,7 +66,10 @@
   .upper__text-inner {
     width: 382px;
     height: 226px;
+    overflow-wrap:break-word;
   }
+
+  
 
   .col__under-text  {
     width: auto;
