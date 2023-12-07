@@ -19,7 +19,7 @@ a:hover {
 
 .header {
   min-height: 178px;
-  padding: 25px;
+  padding: 0 20px;
 }
 
 .header__info {
@@ -170,15 +170,13 @@ a:hover {
 .header__links {
   min-height: 67px;
   min-width: 1280px;
-  padding: 6px 1px 12px 0px;
+  padding: 20px 16px 12px 20px;
   border-radius: 7px;
   background-color: #f2f4f0;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  margin-right: 5px;
-  margin-left: -3px;
 }
 
 .links {
@@ -226,7 +224,7 @@ a i,
 .header__under {
   min-height: 65px;
   min-width: 128px;
-  color:#637557;
+  color: #637557;
 }
 
 .header__under-links {
@@ -324,15 +322,16 @@ a.active {
   line-height: 20px; /* 125% */
 }
 
+
+/* блок с изображением внутри */
 .row__block-upper {
-  background-image: url("../../assets/img/about__us-main.png");
-  background-size: 100% 100%; /* Используйте 100% 100% для полного покрытия фона */
-  background-repeat: no-repeat;
-  
   border: 1px solid #cad4c4;
-  height: 594px;
   flex-shrink: 0;
+  /* height: 594px; */
 }
+
+
+
 
 .row__block-down {
   min-width: 1200px;
@@ -342,21 +341,23 @@ a.active {
   gap: 24px;
 }
 
+
+
 .col-left img {
   border-radius: 5px;
 }
 
 .col-left {
-  background-color: #d9d9d9;
-  min-width: 384px;
+  /* min-width: 384px; */
   min-height: 310px;
   gap: 24px;
   border-radius: 15px;
 }
 
 .col-right {
-  min-width: 792px;
   min-height: 985px;
+  width: 100%;
+  margin: 0 auto;
   gap: 32px;
   display: flex;
   flex-direction: column;
@@ -364,18 +365,19 @@ a.active {
 }
 
 .col__upper-text {
-  min-width: 792px;
-  min-height: 628px;
+  display: flex;
+  flex-direction: column;
+  max-height: 985px;
   padding: 5px;
   border-radius: 10px;
   gap: 18px;
-  margin-bottom: 70px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .upper-text-inner {
-  min-height: 628px;
   /* min-width: 100%; */
-
+  min-height: 628px;
   font-family: Geist;
   font-size: 16px;
   font-weight: 500;
@@ -388,6 +390,7 @@ a.active {
 .col__under-text {
   min-width: 792px;
   min-height: 325px;
+
   padding: 16px;
   border-radius: 10px;
   gap: 18px;
