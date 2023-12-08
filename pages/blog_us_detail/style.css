@@ -323,14 +323,14 @@ a.active {
 }
 
 .out {
-
+  
 }
 
 /* блок с изображением внутри */
 .row__block-upper {
   /* border: 1px solid #cad4c4; */
   flex-shrink: 0;
-  height: 594px;
+  /* height: 594px; */
 }
 
 .row__block-upper  img {
@@ -414,7 +414,7 @@ a.active {
   font-family: Geist;
   font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 22px;
   gap: 18px;
 }
