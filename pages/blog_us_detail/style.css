@@ -322,12 +322,20 @@ a.active {
   line-height: 20px; /* 125% */
 }
 
+.out {
+  
+}
 
 /* блок с изображением внутри */
 .row__block-upper {
-  border: 1px solid #cad4c4;
+  /* border: 1px solid #cad4c4; */
   flex-shrink: 0;
   /* height: 594px; */
+}
+
+.row__block-upper  img {
+  border-radius: 10px;
+
 }
 
 
