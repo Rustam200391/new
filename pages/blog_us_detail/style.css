@@ -323,14 +323,14 @@ a.active {
 }
 
 .out {
-  
+
 }
 
 /* блок с изображением внутри */
 .row__block-upper {
   /* border: 1px solid #cad4c4; */
   flex-shrink: 0;
-  /* height: 594px; */
+  height: 594px;
 }
 
 .row__block-upper  img {
