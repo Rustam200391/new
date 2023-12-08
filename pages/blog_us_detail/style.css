@@ -355,13 +355,13 @@ a.active {
 }
 
 .col-right {
-  min-height: 985px;
   width: 100%;
   margin: 0 auto;
-  gap: 32px;
+  /* gap: 32px; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  flex-grow: 1
 }
 
 .col__upper-text {
@@ -391,7 +391,7 @@ a.active {
 .col__under-text {
   min-width: 792px;
   min-height: 325px;
-
+  
   padding: 16px;
   border-radius: 10px;
   gap: 18px;
@@ -409,6 +409,7 @@ a.active {
   font-style: normal;
   font-weight: 500;
   line-height: 22px;
+  gap: 18px;
   margin-bottom: 10px; /* Пример: добавление отступа снизу, если нужно */
 }
 
@@ -419,7 +420,17 @@ a.active {
   font-style: normal;
   font-weight: 84; /* Исправлено значение font-weight */
   line-height: 20px;
+  gap: 18px;
 }
+
+
+.under-text .under__text-apply {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
 
 /* styles for footer */
 

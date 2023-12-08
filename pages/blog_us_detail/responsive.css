@@ -79,6 +79,6 @@
     margin: none;
   }
   .col-right {
-    text-wrap: nowrap !important;
+    flex-wrap: nowrap ;
   }
 }
