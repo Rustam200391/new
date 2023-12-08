@@ -410,8 +410,8 @@ a.active {
   font-weight: 500;
   line-height: 22px;
   gap: 18px;
-  margin-bottom: 10px; /* Пример: добавление отступа снизу, если нужно */
 }
+
 
 .col__under-text .under-text li {
   color: #637557;
