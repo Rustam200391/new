@@ -323,14 +323,13 @@ a.active {
 }
 
 .out {
-  
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* блок с изображением внутри */
 .row__block-upper {
-  /* border: 1px solid #cad4c4; */
   flex-shrink: 0;
-  /* height: 594px; */
 }
 
 .row__block-upper  img {
@@ -353,11 +352,11 @@ a.active {
 
 .col-left img {
   border-radius: 5px;
+  width: 100%;
+  height: 310px;
 }
 
 .col-left {
-  /* min-width: 384px; */
-  min-height: 310px;
   gap: 24px;
   border-radius: 15px;
 }
@@ -383,7 +382,7 @@ a.active {
 }
 
 .upper-text-inner {
-  /* min-width: 100%; */
+  width: 100%; 
   min-height: 628px;
   font-family: Geist;
   font-size: 16px;
@@ -396,7 +395,7 @@ a.active {
 }
 
 .col__under-text {
-  min-width: 792px;
+  width: 100%;
   min-height: 325px;
   
   padding: 16px;

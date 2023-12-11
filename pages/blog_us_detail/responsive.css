@@ -1,17 +1,26 @@
 /* sizes 320;480;760;960;1200;1600. */
-@media screen and (max-width: 375px) {
- .col-left img {
-    width: 85%;
- }
+@media screen and (max-width: 1200px)
 
- .col-left {
-  padding: 10px;
-  width: 0;
-  height: 0;
-  }
+{
+ 
 
   .col__left-none {
     padding-left: 12px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: 90%; /* Пример: уменьшаем ширину контейнера для планшета */
+  }
+
+  .full-width-text {
+    width: 90%; /* Пример: уменьшаем ширину текста для планшета */
+    margin: 0 auto; /* Пример: центрируем текст внутри блока */
+  }
+
+  .col-left img {
+    height: 268px;
   }
 }
 
@@ -65,7 +74,7 @@
     padding: 0 24px 0 24px ;
   }
   .col-left {
-    min-width: 364px;
+    min-width: 300px;
     min-height: 300px;
     background-color: #ffff;
   }
@@ -80,7 +89,7 @@
   }
 
   .col__upper-text {
-    max-width: 600px;
+    /* max-width: 600px; */
     width: 100%;
     /* margin: 0 auto; */
   }
@@ -129,13 +138,4 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .container {
-    width: 90%; /* Пример: уменьшаем ширину контейнера для планшета */
-  }
 
-  .full-width-text {
-    width: 90%; /* Пример: уменьшаем ширину текста для планшета */
-    margin: 0 auto; /* Пример: центрируем текст внутри блока */
-  }
-}
