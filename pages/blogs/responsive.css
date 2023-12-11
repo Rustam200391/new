@@ -1,3 +1,13 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
+   
     
+    .category__sellers {
+        height: 88px;
+        padding: 12px 24px;
+        line-height: 15px;
+        margin-top: 0;
+        gap: 1px;
+    }
+
+ 
 }
