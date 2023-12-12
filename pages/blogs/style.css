@@ -71,11 +71,9 @@
   background-color: #f2f4f0;
   display: flex;
   justify-content: space-between;
-  margin-right: 25px;
-  margin-left: 25px;
+  margin: 20px 16px 20px 16px;
   margin-top: 50px;
   align-items: center;
-
 }
 
 .category__sellers div {
@@ -103,8 +101,7 @@
   flex-direction: column;
   justify-content: flex-end;
   width: 100%;
-  min-width: 25%;
-  min-height: 544px;
+  height: 544px;
   border-radius: 8px;
   border: 1px;
   background: linear-gradient(0deg, #cad4c4, #cad4c4),
@@ -129,18 +126,18 @@
 
 .content-pic-text {
   font-family: Geist;
-  font-size: 28px;
+  font-size: 1.75em;
   font-weight: 500;
   line-height: 32px;
   letter-spacing: 0em;
   text-align: left;
-  width: 400px;
+  width: 100%;
   color: #e6e5cc;
 }
 
 .view {
   margin: 127px 137px 0 21px;
-  min-width: 292px;
+  min-width: 100%;
   min-height: 35px;
   padding: 8px 0px 8px 0px;
   border-radius: 39px;

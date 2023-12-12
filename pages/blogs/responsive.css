@@ -1,3 +1,112 @@
+
+@media screen and (max-width: 480px) {
+  .column__img-inner_1,
+  .column__img-inner_2,
+  .column__img-inner_3,
+  .column__img-inner_4,
+  .column__img-inner_5,
+  .column__img-inner_6 {
+    height: 423px;
+    border: none;
+  }
+
+  .category__sellers {
+    display: flex;
+    height: 47px;
+    padding: 20px 16px;
+    align-items: center;
+  }
+
+  .view {
+    min-width: 0;
+    padding: 60px 0px 8px 0px;
+  }
+
+  .content-pic-text {
+    width: 285px;
+  }
+
+  .more {
+    min-width: 0;
+  }
+}
+
+
+
+@media screen and (min-width: 480) and (max-width: 540px) {
+  .view {
+    margin: 241px 137px 0 21px;
+  }
+}
+
+
+
+@media screen and (max-width: 602px) {
+  .content-pic-text {
+    font-size: 16px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .content-pic:last-child {
+    height: 140px;
+    background: linear-gradient(
+      180deg,
+      rgba(150, 168, 138, 0) 0%,
+      #96a88a 100%
+    );
+  }
+}
+
+
+
+@media screen and (min-width: 550) and (max-width: 820px) {
+  .column__img-inner_1,
+  .column__img-inner_2,
+  .column__img-inner_3,
+  .column__img-inner_4,
+  .column__img-inner_5,
+  .column__img-inner_6 {
+    height: 80%;
+  }
+
+  .view {
+    margin: 355px 137px 0 21px;
+  }
+  /*   
+  @media only screen and (min-width: 768px) { */
+  .content-pic:last-child {
+    height: auto;
+  }
+
+  .column__img-inner_1,
+  .column__img-inner_2,
+  .column__img-inner_3,
+  .column__img-inner_4,
+  .column__img-inner_5,
+  .column__img-inner_6 {
+    height: 346px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .column__img-inner_1,
+  .column__img-inner_2,
+  .column__img-inner_3,
+  .column__img-inner_4,
+  .column__img-inner_5,
+  .column__img-inner_6 {
+    height: 429px !important;
+  }
+
+  .view {
+    width: 246px;
+    margin: 90px 0px 0 21px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .category__sellers {
     height: 88px;
@@ -7,35 +116,7 @@
     gap: 1px;
   }
 }
-  /* .column__img-inner_1 {
-    background-image: none !important;
-  }
 
-  .main__content-left {
-    display: none;
-  }
-  .first__pic-content {
-    display: block;
-    height: 540px; 
-    
-    filter: linear-gradient(180deg, rgba(150, 168, 138, 0) 0%, #96a88a 100%);
-  } */
 
-  @media only screen and (min-width: 768px) {
-    
-   
-  
-    .content-pic:last-child {
-      height: auto; /* Отменяем фиксированную высоту на настольной версии */
-    }
-  }
-  
-  /* Медиа-запрос для мобильной версии */
-  @media only screen and (max-width: 767px) {
-  
-    .content-pic:last-child {
-      height: 140px;
-      background: linear-gradient(180deg, rgba(150, 168, 138, 0) 0%, #96a88a 100%);
-    }
-  }
+
 
