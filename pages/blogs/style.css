@@ -112,14 +112,19 @@
   border: 1px solid #cad4c4;
 }
 
+
+
 .column__img-inner_1 {
   background-image: url("../../assets/img/Rectangle\ 11.png");
   background-size: cover;
 }
 
+
+
 .content-pic:last-child {
   height: 140px;
   background: linear-gradient(180deg, rgba(150, 168, 138, 0) 0%, #96a88a 100%);
+  
 }
 
 .content-pic-text {
@@ -134,7 +139,7 @@
 }
 
 .view {
-  margin: 127px 137px 17px 21px;
+  margin: 127px 137px 0 21px;
   min-width: 292px;
   min-height: 35px;
   padding: 8px 0px 8px 0px;

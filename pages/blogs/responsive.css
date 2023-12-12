@@ -1,13 +1,41 @@
-@media screen and (max-width: 375px) {
-   
-    
-    .category__sellers {
-        height: 88px;
-        padding: 12px 24px;
-        line-height: 15px;
-        margin-top: 0;
-        gap: 1px;
-    }
-
- 
+@media screen and (max-width: 1200px) {
+  .category__sellers {
+    height: 88px;
+    padding: 12px 24px;
+    line-height: 15px;
+    margin-top: 0;
+    gap: 1px;
+  }
 }
+  /* .column__img-inner_1 {
+    background-image: none !important;
+  }
+
+  .main__content-left {
+    display: none;
+  }
+  .first__pic-content {
+    display: block;
+    height: 540px; 
+    
+    filter: linear-gradient(180deg, rgba(150, 168, 138, 0) 0%, #96a88a 100%);
+  } */
+
+  @media only screen and (min-width: 768px) {
+    
+   
+  
+    .content-pic:last-child {
+      height: auto; /* Отменяем фиксированную высоту на настольной версии */
+    }
+  }
+  
+  /* Медиа-запрос для мобильной версии */
+  @media only screen and (max-width: 767px) {
+  
+    .content-pic:last-child {
+      height: 140px;
+      background: linear-gradient(180deg, rgba(150, 168, 138, 0) 0%, #96a88a 100%);
+    }
+  }
+
