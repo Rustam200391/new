@@ -1,3 +1,134 @@
+@media screen and (max-width: 375px) {
+  .aside,
+  .upper__cards-item {
+    display: none !important;
+  }
+
+  
+  .sort-filter {
+    margin: auto;
+    width: 50%;
+    padding: 12px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    width: 12vw;
+  }
+
+  .sort {
+    display: flex;
+
+    height: 42px;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex: 2 0 0;
+    border-radius: 4px;
+    border: 0.6px solid #e5e9e2;
+    background: #fbfbfb;
+  }
+
+  .filter {
+    display: flex;
+    height: 42px;
+    padding: 6px 12px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px;
+    flex: 2 0 0;
+    border-radius: 4px;
+    border: 0.6px solid #e5e9e2;
+    background: #fbfbfb;
+  }
+
+  input, input:focus,input:hover {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .main__under-content1 {
+    display: none;
+  }
+  .card1 {
+    width: 35.5%;
+  }
+
+  .header__under {
+    display: inline;
+    gap: 8px;
+    flex: 1 0 0;
+  }
+
+  .header__under .header__under-links {
+    width: 100%; /* Занимать всю доступную ширину */
+    justify-content: flex-end; /* Выравнивание в конце строки */
+  }
+}
+
 @media screen and (max-width: 480px) {
-    
+  .aside,
+  .upper__cards-item {
+    display: none !important;
+  }
+  .sort-filter {
+    display: flex;
+    width: 430px;
+    padding: 12px 24px;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .main__under-content1 {
+    display: none;
+  }
+  .card1 {
+    width: 35.5%;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .aside,
+  .upper__cards-item {
+    display: none !important;
+  }
+  .sort-filter {
+    display: flex;
+    width: 430px;
+    padding: 12px 24px;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .main__under-content1 {
+    display: none;
+  }
+  .card1 {
+    width: 35.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aside,
+  .upper__cards-item {
+    display: none !important;
+  }
+  .sort-filter {
+    display: flex;
+    width: 430px;
+    padding: 12px 24px;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .main__under-content1 {
+    display: none;
+  }
+  .card1 {
+    width: 35.5%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
 }
