@@ -235,16 +235,12 @@ a:hover {
 
 .links-img {
   background-image: url("../../assets/img//header__links/Frame\ \(1\).png");
-  /* min-width: 20px;
-  min-height: 20px; */
   width: 20px;
   height: 20px;
   flex-shrink: 0;
 }
 
 .links-title {
-  /* width: 233.6px;
-  height: 20px; */
   flex: 1 0 0;
   font-family: Geist;
   font-size: 16px;
@@ -300,7 +296,7 @@ a:hover {
 
 .header__under-links a {
   color: #637557;
-   /* Цвет текста по умолчанию */
+  /* Цвет текста по умолчанию */
 }
 
 .header__under-links:hover a {
@@ -371,29 +367,24 @@ a:hover {
   margin: 1px 1px -3px 10px;
 }
 
-/* .card1 {
-    width: 282px;
-    height: 368px;
-    border-radius: 10px;
-    border: 1px;
-} */
-
 .main__content1 {
   flex: 1;
 }
 
 .main__img {
   border: 1px solid transparent;
-  /* min-width: 1200px; */
+  /* width: 100%; */
   min-height: 559px;
-  top: 243px;
-  left: 40px;
   border-radius: 10px;
   background-image: url("../../assets/img/about__us-main.png");
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 10px;
+  overflow: auto;
+  overflow-y: hidden;
 }
 
 .main__img-btn {
@@ -402,6 +393,7 @@ a:hover {
 }
 
 .main__img-btn p {
+  max-width: 676px;
   width: 338px;
   height: 148px;
   top: 289px;
@@ -418,19 +410,24 @@ a:hover {
 
 .main__img-btn button {
   color: #4a5841;
-  width: 182px;
-  height: 40px;
-  top: 466px;
-  left: 28px;
-  padding: 8px, 16px, 8px, 16px;
   border-radius: 34px;
+  background-color: #e6e5cc;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  flex-direction: row;
   gap: 10px;
+  font-family: Geist;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
   outline: none;
+  border: none;
+  box-shadow: none;
 }
 
-.main__img-btn button:hover {
-  outline: none;
-}
+/*  */
 
 .font-weight-bold {
   color: #637557;
@@ -454,6 +451,11 @@ a:hover {
   align-items: flex-start;
   gap: 18px;
   flex-shrink: 0;
+  font-family: geist;
+  font-weight: 84;
+  size: 14px;
+  line-height: 18px;
+  text-align: Justified;
 }
 
 .col__text-up:first-child {
@@ -489,28 +491,23 @@ a:hover {
   color: #637557;
 }
 
-
-
 .blocks-parent {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
- justify-content: space-between;
- 
+  justify-content: space-between;
 }
-
 
 .block1 img,
 .block2 img {
   border-radius: 7px;
   background-size: cover;
+  width: 100%;
 }
 
 .block2 img {
   margin-bottom: 20px;
 }
-
-
 
 /* styles for footer */
 

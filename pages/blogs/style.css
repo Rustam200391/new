@@ -7,7 +7,9 @@
   font-family: "geist";
   margin: 0;
   padding: 0;
-}.header__under {
+}
+
+.header__under {
    min-height: 65px;
   min-width: 128px;
 }
