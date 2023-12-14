@@ -574,7 +574,6 @@
 .cards__number {
   display: flex;
   justify-content: center;
-  min-width: 274px;
   min-height: 42px;
   gap: 16px;
 }
@@ -583,15 +582,13 @@
   box-shadow: none !important;
 }
 
-.pagination:hover,
-.pagination:focus,
+.page-item,
 .page-link:hover,
 .page-item:hover,
-.page-link a:hover,
 .page-link:focus,
 .page-item:focus,
 .page-link a:focus {
-  background-color: #fff !important;
+  background-color:#F2F4F0  !important;
   box-shadow: #fff !important;
 }
 
@@ -600,8 +597,13 @@
 .page-item a:focus,
 .page-item a:hover {
   box-shadow: none !important;
-  background-color: none !important;
 }
+
+.page-item,.page-link {
+  background-color: #F2F4F0 !important;
+  border-radius: 4px;
+}
+
 
 .cards__number-inner {
   display: flex;
@@ -688,6 +690,8 @@ input[type="range"],
   box-shadow: none !important;
   border-color: transparent !important;
   gap: 16px;
+  margin-top: 20px;
+  border-radius: 4px;
 }
 
 slider range .section {
