@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <link
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
       rel="stylesheet"
@@ -38,6 +38,7 @@
     />
 
     <link rel="stylesheet" href="./style.css" />
+
     <link rel="stylesheet" href="./responsive.css" />
 
 
@@ -50,127 +51,40 @@
 
   <body>
 
-     <!-- <div class="container-fluid ">
-      <div class="row">
-        <div class="col-12">
-          <header class="header">
-            <section class="header__info">
-              <div class="header__info-mobile">
-                <a href="#">(+994) 00 000 00 00</a>
-              </div>
-              <ul class="header__info-lang">
-                <li class="info-lang">AZ</li>
-                <li class="info-lang">EN</li>
-                <li class="info-lang">RU</li>
-              </ul>
-            </section>
-            <section class="header__navigate">
-              <div class="navigate__label">
-                  <div class="label">
-                    <img src="./assets/img/logo-1637743798 1.png" alt="logo" />
-                  </div>
-              </div>
-              <form class="navigate__search">
-             
-                  <i class="abc fa fa-search"></i>
-                  <input
-                    type="text"
-                    id="search"
-                    class="navigate__search-input"
-                    placeholder="Axtar..."
-                  />
-                
-              </form>
-              <div class="navigate__icons">
-                  <div 
-                    class="icons-bag"
-                    data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasCart"
-                    aria-controls="offcanvasCart"  
-                  ></div>
-          
-                  <div 
-                    class="icons-heart"
-                    data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasCart"
-                    aria-controls="offcanvasCart"  
-                  ></div>
-                <div
-                  class="icons-user"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvasRight"
-                  aria-controls="offcanvasRight"
-                ></div>
-              </div>
-            </section>
-            <nav class="header__links">
-              <ul class="links">
-                <li class="links-img">
-                  <a href="#"></a>
-                </li>
-                <li class="links-title">
-                  <a href="../../pages/products/index.html" >All products</a>
-                  
-                </li>
-                <li class="links-img">
-                  <a href="#"></a>
-                </li>
-                <li class="links-title">
-                  <a href="../../pages/categories/index.html">Categories</a>
-                  
-                </li>
-                <li class="links-img">
-                  <a href="#"></a>
-                </li>
-                <li class="links-title">
-                  <a href="../../pages/about_us/index.html">About Us</a>
-                </li>
-                <li class="links-img"></li>
-                <li class="links-title">
-                  <a href="../../pages/blogs/index.html">Blogs</a>
-                </li>
-                <li class="links-img">
-                  <a href="#"></a>
-                </li>
-                <li class="links-title">
-                  <a href="../../pages/contact/index.html">Contact</a>
-                </li>
-                <li class="links-img">
-                  <a href="#"></a>
-                </li>
-              </ul>
-            </nav>
-          </header>
-        </div>
-      </div>
-    </div> -->
+    
 
-    <div class="header__under">
-      <ul class="header__under-links">
-        <li class="info-links"><a href="../../index.html">Home</a></li>
-        <li class="info-links"><a href="../product_details/index.html">Product detail</a></li>
-      </ul>
-    </div>
-    <!-- Wishlist block -->
+  
 
-    <form class="sort-filter">
-      <div class="sort">
-        <input type="text" name="sort" placeholder="sort"/>
-      </div>
-      <div class="filter">
-        <input type="text" name="filter" placeholder="filter"/>
-      </div>
-    </form>
-    <!-- Olif Oil crem cards-->
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          
-
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="header__under">
+            <ul class="header__under-links">
+              <li class="info-links"><a href="../../index.html">Home</a></li>
+              <li class="info-links"><a href="../product_details/index.html">Product detail</a></li>
+            </ul>
           </div>
+          
+          <form class="sort-filter">
+            <div class="sort">
+              <i class="bi bi-arrow-down-up"></i>
+              <input type="text" name="sort" placeholder="Sort" class="inside__text" />
+            </div>
+            <div class="filter">
+              <i class="bi bi-funnel gr"></i>
+              <i class="bi bi-filter gr"></i>
+              <input type="text" name="filter" placeholder="Filter" class="inside__text"/>
+            </div>
+          </form>
+      
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3">
           <div class="main__content1">
  
-            <div class="aside">
+             <div class="aside">
               <section class="aside__section-filter">
                 <p>Filter</p>
                 <p>reset</p>
@@ -340,296 +254,222 @@
                   
                 </div>
                 
-              </section>
-
-
-              
+              </section> 
             </div>
-
           
+          </div>     
 
-
-            <div class="cards__items ml-2 ">
-              <div class="upper__cards-item">
-                <div class="btn-group">
-                  <button type="button" class="upper__cards-button dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                    Sort By
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-                    <li><button class="dropdown-item" type="button">Price</button></li>
-                    <li><button class="dropdown-item" type="button">Date</button></li>
-                    <li><button class="dropdown-item" type="button">Generator</button></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card1">
-                <img
-                  src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
-                  alt="elixir"
-                  class="card__img"
-                />
-                <div class="card__inner">
-                  <div class="card__inner-pic ml-2">
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img
-                      src="../../assets/img/free star.png"
-                      alt="free__star"
-                    />
-                  </div>
-                  <div class="card__inner-rank"><p>(4.0)</p></div>
-                </div>
-                <div class="card__inner-name mb-3 ml-2">
-                  <p class="card__inner-p">Olif Oil crem</p>
-                  <p class="card__inner-p">17.20 ₼</p>
-                </div>
-              </div>
-              <div class="card1">
-                <img
-                  src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
-                  alt="elixir"
-                  class="card__img"
-                />
-                <div class="card__inner">
-                  <div class="card__inner-pic ml-2">
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img
-                      src="../../assets/img/free star.png"
-                      alt="free__star"
-                    />
-                  </div>
-                  <div class="card__inner-rank"><p>(4.0)</p></div>
-                </div>
-                <div class="card__inner-name mb-3 ml-2">
-                  <p class="card__inner-p">Olif Oil crem</p>
-                  <p class="card__inner-p">17.20 ₼</p>
-                </div>
-              </div>
-              <div class="card1">
-                <img
-                  src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
-                  alt="elixir"
-                  class="card__img"
-                />
-                <div class="card__inner">
-                  <div class="card__inner-pic ml-2">
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img
-                      src="../../assets/img/free star.png"
-                      alt="free__star"
-                    />
-                  </div>
-                  <div class="card__inner-rank"><p>(4.0)</p></div>
-                </div>
-                <div class="card__inner-name mb-3 ml-2">
-                  <p class="card__inner-p">Olif Oil crem</p>
-                  <p class="card__inner-p">17.20 ₼</p>
-                </div>
-              </div>
-              <div class="card1">
-                <img
-                  src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
-                  alt="elixir"
-                  class="card__img"
-                />
-                <div class="card__inner">
-                  <div class="card__inner-pic ml-2">
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img
-                      src="../../assets/img/free star.png"
-                      alt="free__star"
-                    />
-                  </div>
-                  <div class="card__inner-rank"><p>(4.0)</p></div>
-                </div>
-                <div class="card__inner-name mb-3 ml-2">
-                  <p class="card__inner-p">Olif Oil crem</p>
-                  <p class="card__inner-p">17.20 ₼</p>
-                </div>
-              </div>
-              <div class="card1">
-                <img
-                  src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
-                  alt="elixir"
-                  class="card__img"
-                />
-                <div class="card__inner">
-                  <div class="card__inner-pic ml-2">
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img
-                      src="../../assets/img/free star.png"
-                      alt="free__star"
-                    />
-                  </div>
-                  <div class="card__inner-rank"><p>(4.0)</p></div>
-                </div>
-                <div class="card__inner-name mb-3 ml-2">
-                  <p class="card__inner-p">Olif Oil crem</p>
-                  <p class="card__inner-p">17.20 ₼</p>
-                </div>
-              </div>
-              <div class="card1">
-                <img
-                  src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
-                  alt="elixir"
-                  class="card__img"
-                />
-                <div class="card__inner">
-                  <div class="card__inner-pic ml-2">
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img src="../../assets/img/empty star.png" alt="star" />
-                    <img
-                      src="../../assets/img/free star.png"
-                      alt="free__star"
-                    />
-                  </div>
-                  <div class="card__inner-rank"><p>(4.0)</p></div>
-                </div>
-                <div class="card__inner-name mb-3 ml-2">
-                  <p class="card__inner-p">Olif Oil crem</p>
-                  <p class="card__inner-p">17.20 ₼</p>
-                </div>
-              </div>
-            <div class="main__under-content1">
-            <section class="cards__number">
-              <nav aria-label="Example">
-                <ul class=" pagination d-flex justify-content-between box">
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Предыдущая">
-                      <span aria-hidden="true" style="color:#A8B79E;">&laquo;</span>
-                    </a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#" style="color:#A8B79E;" >1</a></li>
-                  <li class="page-item"><a class="page-link" href="#" style="color:#A8B79E;">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#" style="color:#A8B79E;">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Следующая">
-                      <span aria-hidden="true" style="color:#A8B79E;">&raquo;</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
-            </section>
-          </div>
-        </div>
-      </div>
-            </div>
             
+
           </div>
-        </div>
-        
-      </div>
-    </div>
-
-    <!-- <div class="footer">
-      <div class="footer__block-1">
-        <div class="block_1">
-          Contact
-          <ul class="block__1-title">
-            <li>a: Azerbaijan, Baku street 123</li>
-            <li>t: (+994) 00 000 00</li>
-            <li>e:aphrodite<a>@</a>gmail.com.com</li>
-          </ul>
-        </div>
-        <div class="block_2">
-          Social media
-          <ul class="block__2-title">
-            <li>instagram</li>
-            <li>Facebook</li>
-            <li>Youtube</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer__block-2">
-        <form method="Get" class="footer__form">
-          <label for="Name">Send an E-mail Us</label>
-          <div class="footer__inner-button">
-            <div>
-              <input
-                type="email"
-                name="email"
-                id="datepicker"
-                class="footer__form-input"
-                placeholder="yourname@email.com"
-              />
-              <button type="button" class="footer__form-button">
-                <p class="send">send an e-mail</p>
-              </button>
-            </div>
-          </div>
-          <label for="email"
-            >It is a long established fact that a reader will be distracted by
-            the readable content of a page when</label
-          >
-        </form>
-      </div>
-      <div class="footer__block-3">
-        <div class="block__3-inner">
-          <div class="inner-privacy">Privacy</div>
-
-          <div class="inner-privacy-ul">
-            <ul class="list">
-              <li><a href="#">Terms</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="flegri-label">
-          <a href="#">Flegri web studio. All rights reserved</a>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightF" aria-labelledby="offcanvasRightF">
-      <div class="offcanvas-header canvas-header">
-        <h5 id="offcanvasRightF"></h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body canvas-body content-position">
-        <div class="accordion border" id="accordionExample">
-          <div class="accordion-item down-color">
-            <h2 class="accordion-header forgetLink" id="headingOne" style="text-align: center;">Forget password
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <p class="accordion-title" > </p>
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-                <div>
-                  <h2 class="Sign-color"></h2>
-                  <section class="forget-text mb-5">Enter your e-mail and we will send you instructions to reset your password</section>
-                  <form class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label color">Email address</label>
-                    <input type="email" class="form-control" required placeholder="e-mail address" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                    <button class="form-check-label mt-5" for="exampleCheck1">
-                      Send <i class="bi bi-arrow-right"></i>
+        <div class="col-lg-9 col-md-9 col-sm-9">
+            <div class="row">     
+                <div class="upper__cards-item">
+                 <div class="btn-group">
+                   <button type="button" class="upper__cards-button dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                      Sort By
                     </button>
-                  </form>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                      <li><button class="dropdown-item" type="button">Price</button></li>
+                      <li><button class="dropdown-item" type="button">Date</button></li>
+                      <li><button class="dropdown-item" type="button">Generator</button></li>
+                    </ul>
+                  </div>
                 </div>
-
+            </div>
+            <div class="row">
+              <div class="col-6 col-md-6 col-lg-4  p-1">
+                <div class="card1">
+                  <img
+                    src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+                    alt="elixir"
+                    class="card__img"
+                  />
+                  <div class="card__inner">
+                    <div class="card__inner-pic ml-2">
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img
+                        src="../../assets/img/free star.png"
+                        alt="free__star"
+                      />
+                    </div>
+                    <div class="card__inner-rank"><p>(4.0)</p></div>
+                  </div>
+                  <div class="card__inner-name mb-3 ml-2">
+                    <p class="card__inner-p">Olif Oil crem</p>
+                    <p class="card__inner-p">17.20 ₼</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 col-lg-4  p-1">
+                <div class="card1">
+                  <img
+                    src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+                    alt="elixir"
+                    class="card__img"
+                  />
+                  <div class="card__inner">
+                    <div class="card__inner-pic ml-2">
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img
+                        src="../../assets/img/free star.png"
+                        alt="free__star"
+                      />
+                    </div>
+                    <div class="card__inner-rank"><p>(4.0)</p></div>
+                  </div>
+                  <div class="card__inner-name mb-3 ml-2">
+                    <p class="card__inner-p">Olif Oil crem</p>
+                    <p class="card__inner-p">17.20 ₼</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 col-lg-4  p-1">
+                <div class="card1">
+                  <img
+                    src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+                    alt="elixir"
+                    class="card__img"
+                  />
+                  <div class="card__inner">
+                    <div class="card__inner-pic ml-2">
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img
+                        src="../../assets/img/free star.png"
+                        alt="free__star"
+                      />
+                    </div>
+                    <div class="card__inner-rank"><p>(4.0)</p></div>
+                  </div>
+                  <div class="card__inner-name mb-3 ml-2">
+                    <p class="card__inner-p">Olif Oil crem</p>
+                    <p class="card__inner-p">17.20 ₼</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 col-lg-4  p-1">
+                <div class="card1">
+                  <img
+                    src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+                    alt="elixir"
+                    class="card__img"
+                  />
+                  <div class="card__inner">
+                    <div class="card__inner-pic ml-2">
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img
+                        src="../../assets/img/free star.png"
+                        alt="free__star"
+                      />
+                    </div>
+                    <div class="card__inner-rank"><p>(4.0)</p></div>
+                  </div>
+                  <div class="card__inner-name mb-3 ml-2">
+                    <p class="card__inner-p">Olif Oil crem</p>
+                    <p class="card__inner-p">17.20 ₼</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 col-lg-4  p-1">
+                <div class="card1">
+                  <img
+                    src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+                    alt="elixir"
+                    class="card__img"
+                  />
+                  <div class="card__inner">
+                    <div class="card__inner-pic ml-2">
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img
+                        src="../../assets/img/free star.png"
+                        alt="free__star"
+                      />
+                    </div>
+                    <div class="card__inner-rank"><p>(4.0)</p></div>
+                  </div>
+                  <div class="card__inner-name mb-3 ml-2">
+                    <p class="card__inner-p">Olif Oil crem</p>
+                    <p class="card__inner-p">17.20 ₼</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-6 col-lg-4  p-1">
+                <div class="card1">
+                  <img
+                    src="../../assets/img/the-youth-elixir-hand-cream-with-donkey-milk.png"
+                    alt="elixir"
+                    class="card__img"
+                  />
+                  <div class="card__inner">
+                    <div class="card__inner-pic ml-2">
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img src="../../assets/img/empty star.png" alt="star" />
+                      <img
+                        src="../../assets/img/free star.png"
+                        alt="free__star"
+                      />
+                    </div>
+                    <div class="card__inner-rank"><p>(4.0)</p></div>
+                  </div>
+                  <div class="card__inner-name mb-3 ml-2">
+                    <p class="card__inner-p">Olif Oil crem</p>
+                    <p class="card__inner-p">17.20 ₼</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="cards__items">
+                    <div class="main__under-content1">
+                      <section class="cards__number">
+                        <nav aria-label="Example">
+                          <ul class=" pagination d-flex justify-content-between box">
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Предыдущая">
+                                <span aria-hidden="true" style="color:#A8B79E;">&laquo;</span>
+                              </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#" style="color:#A8B79E;" >1</a></li>
+                            <li class="page-item"><a class="page-link" href="#" style="color:#A8B79E;">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#" style="color:#A8B79E;">3</a></li>
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Следующая">
+                                <span aria-hidden="true" style="color:#A8B79E;">&raquo;</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </nav>
+                      </section>
+                    </div>
+      
+                  </div> 
               </div>
             </div>
-          </div>
-        </div>
+        </div>  
       </div>
-  </div> -->
+      
 
+    </div>
+        
+ 
+
+    
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -640,21 +480,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
-<!-- 
-    <script>
-      function togglePasswordVisibility(passwordId, toggleId) {
-        var passwordInput = document.getElementById(passwordId);
-        var eyeIcon = document.getElementById(toggleId);
-
-        if (passwordInput.type === "password") {
-          passwordInput.type = "text";
-          eyeIcon.src = "../../assets/img/slash.png"; // Assuming this is the path to the eye icon
-        } else {
-          passwordInput.type = "password";
-          eyeIcon.src = "../../assets/img/slash.png";
-        }
-      }
-    </script> -->
 
     <script src="../../js/slider_work/index.js"></script>
 
