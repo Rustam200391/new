@@ -77,6 +77,10 @@
     color: #637557;
   }
 
+  button.btn-close.text-reset {
+    margin-right: 5px !important;
+  }
+
   .offcanvas,
   .offcanvas-lg,
   .offcanvas-md,
@@ -190,6 +194,40 @@
     font-style: normal;
     font-weight: 84;
     line-height: 16px;
+  }
+  .form-down {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-check-down[type="checkbox"] {
+    appearance: none; /* Сброс стилей по умолчанию */
+    -webkit-appearance: none; /* Для WebKit браузеров (Chrome, Safari) */
+    -moz-appearance: none; /* Для Firefox */
+    outline: none; /* Убираем обводку вокруг элемента в фокусе */
+    border: 2px solid #637557; /* Цвет границы чекбокса (зеленый) */
+    width: 20px; /* Ширина чекбокса */
+    height: 20px; /* Высота чекбокса */
+    position: relative; /* Позиционирование */
+    background-color: transparent; /* Прозрачный фон чекбокса */
+  }
+
+  /* Стили для чекбокса в состоянии "checked" */
+  .form-check-down[type="checkbox"]:checked {
+    background-color: transparent; /* Прозрачный фон в состоянии "checked" */
+    border: none; /* Убираем границы в состоянии "checked" */
+  }
+
+  /* Стили для стрелочки внутри чекбокса в состоянии "checked" */
+  .form-check-down[type="checkbox"]:checked::before {
+    content: "\2714"; /* Юникод символ "✓", который может использоваться для стрелочки в круге */
+    color: #637557; /* Зеленый цвет для стрелочки в состоянии "checked" */
+    font-size: 16px; /* Размер шрифта стрелочки */
+    position: absolute; /* Позиционирование относительно родительского элемента */
+    top: 50%; /* Положение относительно верхней части чекбокса */
+    left: 50%; /* Положение относительно левой части чекбокса */
+    transform: translate(-50%, -50%); /* Центрирование стрелочки */
+    pointer-events: none; /* Стрелочка не будет перехватывать события мыши, чтобы чекбокс оставался активным */
   }
 
   /* aside */
@@ -359,16 +397,16 @@
     position: relative; /* Позиционирование */
     background-color: transparent; /* Прозрачный фон чекбокса */
   }
-  
+
   /* Стили для чекбокса в состоянии "checked" */
   .form-check-down[type="checkbox"]:checked {
     background-color: transparent; /* Прозрачный фон в состоянии "checked" */
     border: none; /* Убираем границы в состоянии "checked" */
   }
-  
+
   /* Стили для стрелочки внутри чекбокса в состоянии "checked" */
   .form-check-down[type="checkbox"]:checked::before {
-    content: '\2714'; /* Юникод символ "✓", который может использоваться для стрелочки в круге */
+    content: "\2714"; /* Юникод символ "✓", который может использоваться для стрелочки в круге */
     color: #637557; /* Зеленый цвет для стрелочки в состоянии "checked" */
     font-size: 16px; /* Размер шрифта стрелочки */
     position: absolute; /* Позиционирование относительно родительского элемента */
@@ -498,6 +536,41 @@
     color: #637557;
   }
 
+  .form-down {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-check-down[type="checkbox"] {
+    appearance: none; /* Сброс стилей по умолчанию */
+    -webkit-appearance: none; /* Для WebKit браузеров (Chrome, Safari) */
+    -moz-appearance: none; /* Для Firefox */
+    outline: none; /* Убираем обводку вокруг элемента в фокусе */
+    border: 2px solid #637557; /* Цвет границы чекбокса (зеленый) */
+    width: 20px; /* Ширина чекбокса */
+    height: 20px; /* Высота чекбокса */
+    position: relative; /* Позиционирование */
+    background-color: transparent; /* Прозрачный фон чекбокса */
+  }
+
+  /* Стили для чекбокса в состоянии "checked" */
+  .form-check-down[type="checkbox"]:checked {
+    background-color: transparent; /* Прозрачный фон в состоянии "checked" */
+    border: none; /* Убираем границы в состоянии "checked" */
+  }
+
+  /* Стили для стрелочки внутри чекбокса в состоянии "checked" */
+  .form-check-down[type="checkbox"]:checked::before {
+    content: "\2714"; /* Юникод символ "✓", который может использоваться для стрелочки в круге */
+    color: #637557; /* Зеленый цвет для стрелочки в состоянии "checked" */
+    font-size: 16px; /* Размер шрифта стрелочки */
+    position: absolute; /* Позиционирование относительно родительского элемента */
+    top: 50%; /* Положение относительно верхней части чекбокса */
+    left: 50%; /* Положение относительно левой части чекбокса */
+    transform: translate(-50%, -50%); /* Центрирование стрелочки */
+    pointer-events: none; /* Стрелочка не будет перехватывать события мыши, чтобы чекбокс оставался активным */
+  }
+
   .offcanvas-top .show {
     height: 100% !important;
     width: 100% !important;
@@ -614,6 +687,41 @@
     color: #637557;
   }
 
+  .form-down {
+    display: flex;
+    justify-content: space-between !important;
+  }
+
+  .form-check-down[type="checkbox"] {
+    appearance: none; /* Сброс стилей по умолчанию */
+    -webkit-appearance: none; /* Для WebKit браузеров (Chrome, Safari) */
+    -moz-appearance: none; /* Для Firefox */
+    outline: none; /* Убираем обводку вокруг элемента в фокусе */
+    border: 2px solid #637557; /* Цвет границы чекбокса (зеленый) */
+    width: 20px; /* Ширина чекбокса */
+    height: 20px; /* Высота чекбокса */
+    position: relative; /* Позиционирование */
+    background-color: transparent; /* Прозрачный фон чекбокса */
+  }
+
+  /* Стили для чекбокса в состоянии "checked" */
+  .form-check-down[type="checkbox"]:checked {
+    background-color: transparent; /* Прозрачный фон в состоянии "checked" */
+    border: none; /* Убираем границы в состоянии "checked" */
+  }
+
+  /* Стили для стрелочки внутри чекбокса в состоянии "checked" */
+  .form-check-down[type="checkbox"]:checked::before {
+    content: "\2714"; /* Юникод символ "✓", который может использоваться для стрелочки в круге */
+    color: #637557; /* Зеленый цвет для стрелочки в состоянии "checked" */
+    font-size: 16px; /* Размер шрифта стрелочки */
+    position: absolute; /* Позиционирование относительно родительского элемента */
+    top: 50%; /* Положение относительно верхней части чекбокса */
+    left: 50%; /* Положение относительно левой части чекбокса */
+    transform: translate(-50%, -50%); /* Центрирование стрелочки */
+    pointer-events: none; /* Стрелочка не будет перехватывать события мыши, чтобы чекбокс оставался активным */
+  }
+
   .accordion-button {
     background-color: #ffffff !important;
   }
@@ -661,9 +769,6 @@
     font-weight: 84 !important;
     line-height: 20px !important; /* 125% */
   }
-
-
-
 
   a.active.focus,
   a.active:focus,
@@ -746,6 +851,40 @@
     font-weight: 84;
     line-height: 16px;
   }
+  .form-down {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-check-down[type="checkbox"] {
+    appearance: none; /* Сброс стилей по умолчанию */
+    -webkit-appearance: none; /* Для WebKit браузеров (Chrome, Safari) */
+    -moz-appearance: none; /* Для Firefox */
+    outline: none; /* Убираем обводку вокруг элемента в фокусе */
+    border: 2px solid #637557; /* Цвет границы чекбокса (зеленый) */
+    width: 20px; /* Ширина чекбокса */
+    height: 20px; /* Высота чекбокса */
+    position: relative; /* Позиционирование */
+    background-color: transparent; /* Прозрачный фон чекбокса */
+  }
+
+  /* Стили для чекбокса в состоянии "checked" */
+  .form-check-down[type="checkbox"]:checked {
+    background-color: transparent; /* Прозрачный фон в состоянии "checked" */
+    border: none; /* Убираем границы в состоянии "checked" */
+  }
+
+  /* Стили для стрелочки внутри чекбокса в состоянии "checked" */
+  .form-check-down[type="checkbox"]:checked::before {
+    content: "\2714"; /* Юникод символ "✓", который может использоваться для стрелочки в круге */
+    color: #637557; /* Зеленый цвет для стрелочки в состоянии "checked" */
+    font-size: 16px; /* Размер шрифта стрелочки */
+    position: absolute; /* Позиционирование относительно родительского элемента */
+    top: 50%; /* Положение относительно верхней части чекбокса */
+    left: 50%; /* Положение относительно левой части чекбокса */
+    transform: translate(-50%, -50%); /* Центрирование стрелочки */
+    pointer-events: none; /* Стрелочка не будет перехватывать события мыши, чтобы чекбокс оставался активным */
+  }
 
   .gr {
     color: #637557;
@@ -756,6 +895,10 @@
 
   .accordion-button {
     background-color: #ffffff !important;
+  }
+
+  button.btn-close.text-reset {
+    margin-right: 5px !important;
   }
 
   .offcanvas,
@@ -876,6 +1019,14 @@
     color: #637557;
   }
 
+  .form-down {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button.btn-close.text-reset {
+    margin-right: 5px !important;
+  }
 
   .offcanvas,
   .offcanvas-lg,
