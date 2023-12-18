@@ -78,7 +78,7 @@
   }
 
   button.btn-close.text-reset {
-    margin-right: 5px !important;
+    margin-right: 15px !important;
   }
 
   .offcanvas,
@@ -571,6 +571,10 @@
     pointer-events: none; /* Стрелочка не будет перехватывать события мыши, чтобы чекбокс оставался активным */
   }
 
+  button.btn-close.text-reset {
+    margin-right: 15px !important;
+  }
+
   .offcanvas-top .show {
     height: 100% !important;
     width: 100% !important;
@@ -724,6 +728,10 @@
 
   .accordion-button {
     background-color: #ffffff !important;
+  }
+
+  button.btn-close.text-reset {
+    margin-right: 15px !important;
   }
 
   .offcanvas,
@@ -898,7 +906,7 @@
   }
 
   button.btn-close.text-reset {
-    margin-right: 5px !important;
+    margin-right: 15px !important;
   }
 
   .offcanvas,
@@ -1025,7 +1033,7 @@
   }
 
   button.btn-close.text-reset {
-    margin-right: 5px !important;
+    margin-right: 15px !important;
   }
 
   .offcanvas,
