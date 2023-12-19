@@ -3,6 +3,7 @@ figma link :  https://www.figma.com/file/y44SiDJzPubMho58x2UQCp/aphrodite-web?ty
 
 
 Рассмотрим некоторые распространенные точки останова:</br>
+<ol></ol>
 <p>320px — 480px: мобильные устройства;</p>
 <p>481px — 768px: планшеты;</p>
 <p>769px — 1024px: маленькие экраны, ноутбуки;</p>
