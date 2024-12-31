@@ -2,7 +2,7 @@
 figma </i>link :  https://www.figma.com/file/y44SiDJzPubMho58x2UQCp/aphrodite-web?type=design&node-id=53%3A2136&mode=design&t=rgjo9OsSKk0tWfuY-1
 
 
-Рассмотрим некоторые  распространенные<i> точки</i> останова:
+Рассмотрим некоторые  распространенные<i> точки</iостанова:
 <ol>
 <p>320px — 480px: мобильные устройства;</p>
 <p>481px — 768px: планшеты;</p>
